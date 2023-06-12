@@ -5,8 +5,8 @@ Group Name: DnD Enterprise
 Members: 
 Ronie M. Daza,
 Jezell C. Domer,
-Yliza Nicole Salazar,
-Sebastian Santos
+Yliza Nicole R. Salazar,
+Sebastian O. Santos
 
 Project Name: Dietar
 
