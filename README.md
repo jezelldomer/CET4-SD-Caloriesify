@@ -3,7 +3,7 @@
 Group Name: DnD Enterprise
 
 Members: 
-Ronie M. Daza,
+Ronnie M. Daza,
 Jezell C. Domer,
 Yliza Nicole R. Salazar,
 Sebastian O. Santos
