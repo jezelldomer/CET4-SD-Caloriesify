@@ -17,3 +17,5 @@ Dietar is a mobile application designed to help users maintain a healthy lifesty
 Github link: https://github.com/jezelldomer/CET4-SD-Dietar
 
 Trello link: https://trello.com/invite/b/UPojIKq6/ATTI994a847db3373b3a6ea23a3d0d65547eCE0C4B52/dnd-enterprise-dietar
+
+Gantt Chart link: https://pupedu-my.sharepoint.com/:x:/g/personal/jezellcdomer_iskolarngbayan_pup_edu_ph/EdLJG5kEX85KorR1xW2JT5sBilI1dFcxaHdL5j48O5gUfA?e=YPq3y4
