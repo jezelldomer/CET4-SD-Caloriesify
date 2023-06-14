@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">front</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_email">Email</string>
+<string name="lbl_microsoft">Microsoft</string>
+<string name="lbl_back">Back</string>
+<string name="lbl_next">Next</string>
+<string name="lbl_age">age</string>
+<string name="lbl4"> _ _ _</string>
+<string name="lbl5"> _ _</string>
+<string name="lbl2">_</string>
+<string name="lbl3"> _ _ _ _</string>
+<string name="msg_by_pressing_su2">By Pressing \u201cSubmit\u201d you agree to our</string>
+<string name="lbl_google">Google</string>
+<string name="lbl_signup">SIGNUP</string>
+<string name="lbl_kilo">kilo</string>
+<string name="lbl_login">LOGIN</string>
+<string name="lbl_ft">ft</string>
+<string name="lbl_welcome">Welcome,
+</string>
+<string name="msg_how_tall_are_yo">How Tall are you ?</string>
+<string name="lbl_get_started">Get Started</string>
+<string name="lbl_inch">inch</string>
+<string name="msg_what_s_your_tar">What\u2019s your Target Weight ?</string>
+<string name="lbl_password">Password</string>
+<string name="lbl_killo">killo</string>
+<string name="lbl_facebook">Facebook</string>
+<string name="lbl_name">Name</string>
+<string name="msg_forgot_password">Forgot Password ?</string>
+<string name="msg_eat_well_as_you">Eat well as your body deserves it</string>
+<string name="msg_login_to_contin">Login to Continue</string>
+<string name="lbl_or_signup_with">Or SignUp with</string>
+<string name="msg_signup_to_conti">SignUp to Continue</string>
+<string name="lbl6">_ _</string>
+<string name="msg_by_pressing_su">By Pressing \u201cSubmit\u201d you agree to our terms &amp; conditions.</string>
+<string name="lbl7"> _</string>
+<string name="msg_processing_an">Processing &amp; Analysing Data</string>
+<string name="lbl">_ _ _ _ _</string>
+<string name="msg_we_use_this_dat">We use this data to track your health data more efficiently and correctly.</string>
+<string name="msg_terms_conditi">terms &amp; conditions.</string>
+<string name="msg_welcome_login">Welcome,
+Login to Continue</string>
+<string name="msg_what_s_your_cur">What\u2019s your Current Weight ?</string>
+<string name="msg_what_s_your_age">What\u2019s your age ?</string>
+<string name="lbl_remember_me">Remember Me</string>
+<string name="msg_welcome_signup">Welcome,
+SignUp to Continue</string>
+<string name="msg_please_enter_valid_nu">Please enter valid number</string>
+<string name="msg_please_enter_valid_pa">Please enter valid password</string>
+<string name="msg_please_enter_valid_email">Please enter valid email</string>
+<string name="msg_please_enter_valid_text">Please enter valid text</string>
+</resources>
