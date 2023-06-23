@@ -35,17 +35,9 @@ data class TallModel(
   /**
    * TODO Replace with dynamic value
    */
-<<<<<<< HEAD
   var etColumnrectangletwentyfiveValue: String? = null,
   /**
    * TODO Replace with dynamic value
    */
   var etColumnrectangletwentysixValue: String? = null
-=======
-  var etRectangleTwentyOneValue: String? = null,
-  /**
-   * TODO Replace with dynamic value
-   */
-  var etRectangleTwentyFourValue: String? = null
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
 )

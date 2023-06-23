@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-<<<<<<< HEAD
     <style name="txtRobotobold18">
         <item name="android:textSize">@dimen/_18pxh</item>
         <item name="android:textColor">@color/black_900</item>
@@ -207,8 +206,6 @@
         <item name="android:fontFamily">@font/roboto</item>
         <item name="android:textFontWeight" tools:targetApi="p">700</item>
     </style>
-=======
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
     <style name="etSolidRounded">
         <item name="android:textSize">@dimen/_16pxh</item>
         <item name="android:textColor">@color/gray_700</item>
@@ -223,7 +220,6 @@
         <item name="android:textFontWeight" tools:targetApi="p">600</item>
         <item name="android:background">@drawable/rectangle_bg_teal_a700_radius_41_5</item>
     </style>
-<<<<<<< HEAD
     <style name="txtSFCompactDisplaysemibold16_1">
         <item name="android:textSize">@dimen/_16pxh</item>
         <item name="android:textColor">@color/gray_703</item>
@@ -247,13 +243,6 @@
         <item name="android:textColor">@color/black_900</item>
         <item name="android:fontFamily">@font/roboto</item>
         <item name="android:textFontWeight" tools:targetApi="p">500</item>
-=======
-    <style name="txtPoppinsbold24">
-        <item name="android:textSize">@dimen/_24pxh</item>
-        <item name="android:textColor">@color/white_A700</item>
-        <item name="android:fontFamily">@font/poppins</item>
-        <item name="android:textFontWeight" tools:targetApi="p">700</item>
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
     </style>
     <style name="txtPoppinsbold24_1">
         <item name="android:textSize">@dimen/_24pxh</item>
@@ -261,7 +250,6 @@
         <item name="android:fontFamily">@font/poppins</item>
         <item name="android:textFontWeight" tools:targetApi="p">700</item>
     </style>
-<<<<<<< HEAD
     <style name="txtSFCompactDisplaysemibold16">
         <item name="android:textSize">@dimen/_16pxh</item>
         <item name="android:textColor">@color/black_900</item>
@@ -327,85 +315,12 @@
         <item name="android:background">@drawable/rectangle_dhi_0</item>
     </style>
     <style name="txt_1">
-=======
-    <style name="groupStylegray_200">
-        <item name="android:background">@drawable/rectangle_bg_gray_200</item>
-    </style>
-    <style name="txtSolidOutline">
-        <item name="android:textSize">@dimen/_10pxh</item>
-        <item name="android:textColor">@color/gray_600</item>
-        <item name="android:fontFamily">@font/poppins</item>
-        <item name="android:textFontWeight" tools:targetApi="p">400</item>
-        <item name="android:background">@drawable/rectangle_bg_white_a700_border_gray_600</item>
-    </style>
-    <style name="etSolidRounded_2">
-        <item name="android:textSize">@dimen/_8pxh</item>
-        <item name="android:textColor">@color/black_900</item>
-        <item name="android:background">@drawable/rectangle_bg_bluegray_100_radius_19_5</item>
-    </style>
-    <style name="etSolidRounded_3">
-        <item name="android:textSize">@dimen/_8pxh</item>
-        <item name="android:textColor">@color/black_900</item>
-        <item name="android:background">@drawable/rectangle_bg_bluegray_100_radius_19_6</item>
-    </style>
-    <style name="txtPoppinsbold16">
-        <item name="android:textSize">@dimen/_16pxh</item>
-        <item name="android:textColor">@color/black_900</item>
-        <item name="android:fontFamily">@font/poppins</item>
-        <item name="android:textFontWeight" tools:targetApi="p">700</item>
-    </style>
-    <style name="groupStylewhite_A700cornerRadius">
-        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_30</item>
-    </style>
-    <style name="txtPoppinsbold15">
-        <item name="android:textSize">@dimen/_15pxh</item>
-        <item name="android:textColor">@color/white_A700</item>
-        <item name="android:fontFamily">@font/poppins</item>
-        <item name="android:textFontWeight" tools:targetApi="p">700</item>
-    </style>
-    <style name="etSolidRounded_1">
-        <item name="android:textSize">@dimen/_8pxh</item>
-        <item name="android:textColor">@color/black_900</item>
-        <item name="android:background">@drawable/rectangle_bg_bluegray_100_radius_9</item>
-    </style>
-    <style name="txt">
-        <item name="android:textSize">@dimen/_16pxh</item>
-        <item name="android:textColor">@color/green_600</item>
-        <item name="android:fontFamily">@font/poppins</item>
-        <item name="android:textFontWeight" tools:targetApi="p">700</item>
-        <item name="android:background">@drawable/rectangle_dhi_0</item>
-    </style>
-    <style name="txtPoppinsregular16_1">
-        <item name="android:textSize">@dimen/_16pxh</item>
-        <item name="android:textColor">@color/gray_700</item>
-        <item name="android:fontFamily">@font/poppins</item>
-        <item name="android:textFontWeight" tools:targetApi="p">400</item>
-    </style>
-    <style name="txtregular0">
-        <item name="android:textColor">@color/black_900</item>
-    </style>
-    <style name="txtPoppinsregular16">
-        <item name="android:textSize">@dimen/_16pxh</item>
-        <item name="android:textColor">@color/black_900</item>
-        <item name="android:fontFamily">@font/poppins</item>
-        <item name="android:textFontWeight" tools:targetApi="p">400</item>
-    </style>
-    <style name="txt_1">
-        <item name="android:textSize">@dimen/_10pxh</item>
-        <item name="android:textColor">@color/gray_600</item>
-        <item name="android:fontFamily">@font/poppins</item>
-        <item name="android:textFontWeight" tools:targetApi="p">400</item>
-        <item name="android:background">@drawable/rectangle_dhi_0</item>
-    </style>
-    <style name="txt_2">
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
         <item name="android:textSize">@dimen/_11pxh</item>
         <item name="android:textColor">@color/black_900</item>
         <item name="android:fontFamily">@font/poppins</item>
         <item name="android:textFontWeight" tools:targetApi="p">400</item>
         <item name="android:background">@drawable/rectangle_dhi_0</item>
     </style>
-<<<<<<< HEAD
     <style name="txtRobotomedium14">
         <item name="android:textSize">@dimen/_14pxh</item>
         <item name="android:textColor">@color/black_900</item>
@@ -431,8 +346,6 @@
     <style name="groupStyle">
         <item name="android:background">@drawable/rectangle_dhi_0</item>
     </style>
-=======
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
     <style name="txt_5">
         <item name="android:textSize">@dimen/_30pxh</item>
         <item name="android:textColor">@color/black_900</item>
@@ -440,7 +353,6 @@
         <item name="android:textFontWeight" tools:targetApi="p">700</item>
         <item name="android:background">@drawable/rectangle_dhi_0</item>
     </style>
-<<<<<<< HEAD
     <style name="txt_6">
         <item name="android:textSize">@dimen/_31pxh</item>
         <item name="android:textColor">@color/green_A700</item>
@@ -459,13 +371,6 @@
         <item name="android:textColor">@color/black_900</item>
         <item name="android:fontFamily">@font/poppins</item>
         <item name="android:textFontWeight" tools:targetApi="p">600</item>
-=======
-    <style name="txtPoppinsregular29">
-        <item name="android:textSize">@dimen/_29pxh</item>
-        <item name="android:textColor">@color/black_900</item>
-        <item name="android:fontFamily">@font/poppins</item>
-        <item name="android:textFontWeight" tools:targetApi="p">400</item>
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
     </style>
     <style name="txt_3">
         <item name="android:textSize">@dimen/_30pxh</item>
@@ -481,7 +386,6 @@
         <item name="android:textFontWeight" tools:targetApi="p">700</item>
         <item name="android:background">@drawable/rectangle_dhi_0</item>
     </style>
-<<<<<<< HEAD
     <style name="groupStylebluegray_1">
         <item name="android:background">@drawable/rectangle_bg_bluegray_100_radius_22_5</item>
     </style>
@@ -623,6 +527,4 @@
         <item name="android:textColorPrimary">@color/black_900</item>
         <item name="android:textColorHint">@color/black_900</item>
     </style>
-=======
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
 </resources>

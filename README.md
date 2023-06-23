@@ -1,21 +1,81 @@
-# CET4-SD-Dietar
 
-Group Name: DnD Enterprise
+# front
 
-Members: 
-Ronnie M. Daza,
-Jezell C. Domer,
-Yliza Nicole R. Salazar,
-Sebastian O. Santos
+Built with AndroidX Support
 
-Project Name: Dietar
+Requires Android Studio Arctic Fox | 2020.3.1 or higher.
 
-Project Description:
-Dietar is a mobile application designed to help users maintain a healthy lifestyle by tracking their diet and exercise plans. The app uses the user's BMI to generate personalized exercise and diet plans, and includes a journal feature where users can take notes on their daily activities, food intake, and progress.
+Current Kotlin Version 1.7.20
 
 
-Github link: https://github.com/jezelldomer/CET4-SD-Dietar
+### SDK Versions
 
-Trello link: https://trello.com/invite/b/UPojIKq6/ATTI994a847db3373b3a6ea23a3d0d65547eCE0C4B52/dnd-enterprise-dietar
+compileSdkVersion 33
 
-Gantt Chart link: https://pupedu-my.sharepoint.com/:x:/g/personal/jezellcdomer_iskolarngbayan_pup_edu_ph/EdLJG5kEX85KorR1xW2JT5sBilI1dFcxaHdL5j48O5gUfA?e=YPq3y4
+buildToolsVersion "30.0.3"
+
+minSdkVersion 23
+
+targetSdkVersion 33
+
+
+### Libraries
+
+1. Retrofit- REST API Call
+https://square.github.io/retrofit/
+2. Glide - Image Loading and caching.
+https://github.com/bumptech/glide
+3. Material Design Components - Google's latest Material Components.
+https://material.io/develop/android
+4. koin - Dependency Injection
+https://insert-koin.io/
+
+### Figma design guideline for better accuracy
+
+Read our guidelines to increase the accuracy of design conversion to code by optimizing Figma designs. 
+https://docs.dhiwise.com/docs/Designguidelines/intro .
+
+### App Navigation
+
+Check your app\'s UI from the AppNavigation screens of your app.
+
+### Package Structure
+
+
+```
+├── appcomponents       
+│ ├── di                 - Dependency Injection Components 
+│ │ └── MyApp.kt
+│ ├── network            - REST API Call setup
+│ │ ├── ResponseCode.kt
+│ │ └── RetrofitProvider.kt
+│ └── ui                 - Data Binding Utilities
+│     └── CustomBindingAdapter.kt
+├── constants            - Constant Files
+│ ├── IntegerConstants.kt
+│ └── StringConstants.kt
+├── extensions           - Kotlin Extension Function Files
+│ └── Strings.kt
+├── modules              - Application Specific code
+│ └── example            - A module of Application 
+│  ├── ui                - UI handling classes
+│  └── data              - Data Handling classes
+│    ├── viewmodel       - ViewModels for the UI
+│    └── model           - Model for the UI
+└── network              - REST API setup
+  ├── models             - Request/Response Models
+  ├── repository         - Network repository
+  ├── resources          - Common classes for API
+  └── RetrofitService.kt
+```
+### Fonts
+We were unable to find following Fonts, Please add manually to ```app/src/main/res/font``` and uncomment code in respective font family XML files.
+
+```
+sfcompactdisplayregular
+sfcompactdisplaybold
+sfcompactdisplaylight
+sfcompactdisplayultralight
+sfcompactdisplaymedium
+sfcompactdisplaysemibold
+```

@@ -16,11 +16,7 @@ class WelcomeScreenActivity :
     BaseActivity<ActivityWelcomeScreenBinding>(R.layout.activity_welcome_screen) {
   private val viewModel: WelcomeScreenVM by viewModels<WelcomeScreenVM>()
 
-<<<<<<< HEAD
   private val REQUEST_CODE_LOGIN_ACTIVITY: Int = 676
-=======
-  private val REQUEST_CODE_LOGIN_ACTIVITY: Int = 879
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
 
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")

@@ -17,11 +17,7 @@ import kotlin.Unit
 class TallActivity : BaseActivity<ActivityTallBinding>(R.layout.activity_tall) {
   private val viewModel: TallVM by viewModels<TallVM>()
 
-<<<<<<< HEAD
   private val REQUEST_CODE_WEIGHT_ACTIVITY: Int = 590
-=======
-  private val REQUEST_CODE_WEIGHT_ACTIVITY: Int = 414
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
 
 
   override fun onInitialized(): Unit {

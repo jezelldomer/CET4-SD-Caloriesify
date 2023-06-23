@@ -41,11 +41,7 @@
                 android:text="@{tallVM.tallModel.txtHowTallareyo}"
                 style="@style/txt_3" tools:text="@string/msg_how_tall_are_yo"/>
             <LinearLayout android:gravity="end"
-<<<<<<< HEAD
                 android:id="@+id/linearRowrectangletwentyfive"
-=======
-                android:id="@+id/linearRowrectangletwentyone"
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_21pxh"
                 android:layout_marginStart="@dimen/_21pxh"
@@ -55,41 +51,25 @@
                     android:background="@android:color/transparent"
                     android:ellipsize="end"
                     android:hint="@string/lbl_ft"
-<<<<<<< HEAD
                     android:id="@+id/etColumnrectangletwentyfive"
-=======
-                    android:id="@+id/etRectangleTwentyOne"
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                     android:inputType="number"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
                     android:layout_width="0dp" android:singleLine="true"
-<<<<<<< HEAD
                     android:text="@={tallVM.tallModel.etColumnrectangletwentyfiveValue}"
-=======
-                    android:text="@={tallVM.tallModel.etRectangleTwentyOneValue}"
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                     android:textColorHint="@color/black_900"
                     style="@style/etSolidRounded_3" tools:ignore="Autofill"/>
                 <EditText
                     android:background="@android:color/transparent"
                     android:ellipsize="end"
                     android:hint="@string/lbl_inch"
-<<<<<<< HEAD
                     android:id="@+id/etColumnrectangletwentysix"
-=======
-                    android:id="@+id/etRectangleTwentyFour"
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                     android:inputType="number"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_16pxh"
                     android:layout_weight="0.5"
                     android:layout_width="0dp" android:singleLine="true"
-<<<<<<< HEAD
                     android:text="@={tallVM.tallModel.etColumnrectangletwentysixValue}"
-=======
-                    android:text="@={tallVM.tallModel.etRectangleTwentyFourValue}"
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                     android:textColorHint="@color/black_900"
                     style="@style/etSolidRounded_3" tools:ignore="Autofill"/>
             </LinearLayout>

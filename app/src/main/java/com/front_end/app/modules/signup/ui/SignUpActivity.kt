@@ -10,27 +10,21 @@ import com.front_end.app.databinding.ActivitySignUpBinding
 import com.front_end.app.modules.age.ui.AgeActivity
 import com.front_end.app.modules.login.ui.LoginActivity
 import com.front_end.app.modules.signup.`data`.viewmodel.SignUpVM
-<<<<<<< HEAD
 import com.front_end.app.modules.signupm.ui.SignUpmActivity
 import com.front_end.app.modules.signupu.ui.SignUpuActivity
 import kotlin.Int
-=======
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
 import kotlin.String
 import kotlin.Unit
 
 class SignUpActivity : BaseActivity<ActivitySignUpBinding>(R.layout.activity_sign_up) {
   private val viewModel: SignUpVM by viewModels<SignUpVM>()
 
-<<<<<<< HEAD
   private val REQUEST_CODE_SIGN_UPM_ACTIVITY: Int = 184
 
 
   private val REQUEST_CODE_SIGN_UPU_ACTIVITY: Int = 183
 
 
-=======
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     binding.signUpVM = viewModel
@@ -45,7 +39,6 @@ class SignUpActivity : BaseActivity<ActivitySignUpBinding>(R.layout.activity_sig
       val destIntent = LoginActivity.getIntent(this, null)
       startActivity(destIntent)
     }
-<<<<<<< HEAD
     binding.imageVectorOne.setOnClickListener {
       val destIntent = SignUpmActivity.getIntent(this, null)
       startActivityForResult(destIntent, REQUEST_CODE_SIGN_UPM_ACTIVITY)
@@ -54,8 +47,6 @@ class SignUpActivity : BaseActivity<ActivitySignUpBinding>(R.layout.activity_sig
       val destIntent = SignUpuActivity.getIntent(this, null)
       startActivityForResult(destIntent, REQUEST_CODE_SIGN_UPU_ACTIVITY)
     }
-=======
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
   }
 
   companion object {

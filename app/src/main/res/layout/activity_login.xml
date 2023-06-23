@@ -30,11 +30,7 @@
                     android:scaleType="fitXY"
                     android:src="@drawable/img_rectangle1"
                     tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle1"/>
-<<<<<<< HEAD
                 <LinearLayout android:id="@+id/linearColumnorloginwith"
-=======
-                <LinearLayout android:id="@+id/linearColumnorsignupwith"
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                     android:layout_gravity="bottom|center"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_151pxv"
@@ -42,18 +38,12 @@
                     android:layout_marginStart="@dimen/_49pxh"
                     android:layout_marginTop="@dimen/_151pxv"
                     android:layout_width="match_parent" android:orientation="vertical">
-<<<<<<< HEAD
                     <FrameLayout android:id="@+id/frameStackorloginwith"
-=======
-                    <FrameLayout
-                        android:id="@+id/frameStackorsignupwith"
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                         android:layout_gravity="center_horizontal"
                         android:layout_height="@dimen/_186pxv"
                         android:layout_marginEnd="@dimen/_16pxh"
                         android:layout_marginStart="@dimen/_16pxh" android:layout_width="@dimen/_291pxh">
                         <TextView android:ellipsize="end"
-<<<<<<< HEAD
                             android:id="@+id/txtOrLoginwith"
                             android:layout_gravity="bottom|center"
                             android:layout_height="wrap_content"
@@ -64,18 +54,6 @@
                             android:singleLine="true"
                             android:text="@{loginVM.loginModel.txtOrLoginwith}"
                             style="@style/txtPoppinsregular16" tools:text="@string/lbl_or_login_with"/>
-=======
-                            android:id="@+id/txtOrSignUpwith"
-                            android:layout_gravity="bottom|center"
-                            android:layout_height="wrap_content"
-                            android:layout_marginEnd="@dimen/_86pxh"
-                            android:layout_marginStart="@dimen/_86pxh"
-                            android:layout_marginTop="@dimen/_10pxv"
-                            android:layout_width="wrap_content"
-                            android:singleLine="true"
-                            android:text="@{loginVM.loginModel.txtOrSignUpwith}"
-                            style="@style/txtPoppinsregular16" tools:text="@string/lbl_or_signup_with"/>
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                         <ImageView android:id="@+id/imageHealthydietea"
                             android:layout_gravity="top|start"
                             android:layout_height="@dimen/_167pxv"
@@ -89,11 +67,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_16pxv"
                         android:layout_width="match_parent" android:orientation="horizontal">
-<<<<<<< HEAD
                         <EditText
-=======
-                        <TextView
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                             android:background="@drawable/rectangle_bg_bluegray_100_radius_17"
                             android:drawablePadding="@dimen/_17pxh"
                             android:drawableStart="@drawable/img_facebook"
@@ -112,11 +86,7 @@
                             android:text="@={loginVM.loginModel.etGroupFourValue}"
                             android:textColorHint="@color/gray_700"
                             style="@style/etSolidRounded" tools:ignore="Autofill"/>
-<<<<<<< HEAD
                         <EditText
-=======
-                        <TextView
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                             android:background="@drawable/rectangle_bg_bluegray_100_radius_17"
                             android:drawablePadding="@dimen/_16pxh"
                             android:drawableStart="@drawable/img_fingerprint"
@@ -137,7 +107,6 @@
                             android:textColorHint="@color/gray_700"
                             style="@style/etSolidRounded" tools:ignore="Autofill"/>
                     </LinearLayout>
-<<<<<<< HEAD
                     <EditText
                         android:background="@drawable/rectangle_bg_bluegray_100_radius_17"
                         android:drawablePadding="@dimen/_10pxh"
@@ -159,33 +128,6 @@
                         android:text="@={loginVM.loginModel.etGroupFiveValue}"
                         android:textColorHint="@color/gray_700"
                         style="@style/etSolidRounded" tools:ignore="Autofill"/>
-=======
-
-                    <TextView
-
-                        android:id="@+id/etGroupFive"
-                        style="@style/etSolidRounded"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="@dimen/_16pxh"
-                        android:layout_marginTop="@dimen/_18pxv"
-                        android:layout_marginEnd="@dimen/_16pxh"
-                        android:background="@drawable/rectangle_bg_bluegray_100_radius_17"
-                        android:drawableStart="@drawable/img_grid"
-                        android:drawablePadding="@dimen/_10pxh"
-                        android:ellipsize="end"
-                        android:hint="@string/lbl_microsoft"
-                        android:layout_gravity="center"
-                        android:inputType="text"
-                        android:paddingStart="@dimen/_20pxh"
-                        android:paddingTop="@dimen/_4pxv"
-                        android:paddingEnd="@dimen/_22pxh"
-                        android:paddingBottom="@dimen/_6pxv"
-                        android:singleLine="true"
-                        android:text="@={loginVM.loginModel.etGroupFiveValue}"
-                        android:textColorHint="@color/gray_700"
-
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                 </LinearLayout>
             </FrameLayout>
             <LinearLayout android:id="@+id/linearColumnwelcomelogin"
@@ -210,11 +152,7 @@
                         android:layout_marginTop="@dimen/_10pxv"
                         android:layout_width="match_parent"
                         android:text="@{loginVM.loginModel.txtWelcomeLogin}"
-<<<<<<< HEAD
                         style="@style/txtPoppinsregular29" tools:text="@string/msg_welcome_login"/>
-=======
-                        style="@style/txtPoppinsregular20" tools:text="@string/msg_welcome_login"/>
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                     <ImageView android:id="@+id/imageRectangleTwelve"
                         android:layout_gravity="top|start"
                         android:layout_height="@dimen/_70pxh"
@@ -252,11 +190,7 @@
                         android:text="@{loginVM.loginModel.txtSIGNUP}"
                         style="@style/txtPoppinsbold16" tools:text="@string/lbl_signup"/>
                     <TextView android:ellipsize="end"
-<<<<<<< HEAD
                         android:gravity="center"
-=======
-                        android:gravity="left"
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                         android:id="@+id/txtLOGIN"
                         android:layout_gravity="start"
                         android:layout_height="wrap_content"
@@ -310,11 +244,7 @@
                     android:layout_marginTop="@dimen/_25pxv"
                     android:layout_width="match_parent" android:orientation="horizontal">
                     <androidx.appcompat.widget.AppCompatCheckBox
-<<<<<<< HEAD
                         android:buttonTint="@color/gray_603"
-=======
-                        android:buttonTint="@color/gray_600"
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                         android:ellipsize="end"
                         android:fontFamily="@font/poppins"
                         android:id="@+id/checkBoxRememberMe"
@@ -324,11 +254,7 @@
                         android:paddingStart="@dimen/_4pxh"
                         android:singleLine="true"
                         android:text="@string/lbl_remember_me"
-<<<<<<< HEAD
                         android:textColor="@color/gray_603"
-=======
-                        android:textColor="@color/gray_600"
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                         android:textFontWeight="400"
                         android:textSize="@dimen/_10pxh"
                         android:textStyle="normal" tools:text="@string/lbl_remember_me"/>
@@ -342,11 +268,7 @@
                         android:layout_width="0dp"
                         android:singleLine="true"
                         android:text="@{loginVM.loginModel.txtForgotPassword}"
-<<<<<<< HEAD
                         style="@style/txt_2" tools:text="@string/msg_forgot_password"/>
-=======
-                        style="@style/txt_1" tools:text="@string/msg_forgot_password"/>
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                 </LinearLayout>
             </LinearLayout>
             <ImageView android:id="@+id/imageArrowright"

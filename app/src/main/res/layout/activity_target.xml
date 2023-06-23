@@ -37,11 +37,7 @@
                 style="@style/txt_3" tools:text="@string/msg_what_s_your_tar"/>
             <EditText android:background="@android:color/transparent"
                 android:ellipsize="end" android:hint="@string/lbl_killo"
-<<<<<<< HEAD
                 android:id="@+id/etColumnrectangletwentyfive"
-=======
-                android:id="@+id/etRectangleTwentyOne"
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                 android:inputType="number"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_15pxh"
@@ -49,11 +45,7 @@
                 android:layout_marginTop="@dimen/_20pxv"
                 android:layout_width="match_parent"
                 android:singleLine="true"
-<<<<<<< HEAD
                 android:text="@={targetVM.targetModel.etColumnrectangletwentyfiveValue}"
-=======
-                android:text="@={targetVM.targetModel.etRectangleTwentyOneValue}"
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                 android:textColorHint="@color/black_900"
                 style="@style/etSolidRounded_2" tools:ignore="Autofill"/>
             <TextView android:gravity="start"
@@ -80,11 +72,7 @@
                     android:layout_weight="0.52"
                     android:layout_width="0dp" android:singleLine="true"
                     android:text="@{targetVM.targetModel.txtBack}"
-<<<<<<< HEAD
                     style="@style/txtPoppinsbold24_1" tools:text="@string/lbl_back"/>
-=======
-                    style="@style/txtPoppinsbold24" tools:text="@string/lbl_back"/>
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtNext"
                     android:layout_height="wrap_content"
@@ -95,11 +83,7 @@
                     android:layout_weight="0.48"
                     android:layout_width="0dp" android:singleLine="true"
                     android:text="@{targetVM.targetModel.txtNext}"
-<<<<<<< HEAD
                     style="@style/txtPoppinsbold24_1" tools:text="@string/lbl_next"/>
-=======
-                    style="@style/txtPoppinsbold24" tools:text="@string/lbl_next"/>
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
             </LinearLayout>
         </LinearLayout>
     </FrameLayout>

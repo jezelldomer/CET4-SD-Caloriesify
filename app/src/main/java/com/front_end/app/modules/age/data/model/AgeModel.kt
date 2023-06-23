@@ -35,9 +35,5 @@ data class AgeModel(
   /**
    * TODO Replace with dynamic value
    */
-<<<<<<< HEAD
   var etColumnrectangletwentyoneValue: String? = null
-=======
-  var etRectangleTwentyOneValue: String? = null
->>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
 )
