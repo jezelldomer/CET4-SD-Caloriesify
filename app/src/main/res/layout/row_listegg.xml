@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listeggRowModel" type="com.front_end.app.modules.breakfast.data.model.ListeggRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowegg"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnegg"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.73" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end" android:id="@+id/txtEgg"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_3pxh"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{listeggRowModel.txtEgg}"
+                style="@style/txt_15" tools:text="@string/lbl_egg"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtLargeCounter"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_2pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{listeggRowModel.txtLargeCounter}"
+                style="@style/txt_15" tools:text="@string/lbl_2_large"/>
+        </LinearLayout>
+        <TextView android:id="@+id/txtOneHundredFortyThree"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_weight="0.27" android:layout_width="0dp"
+            android:text="@{listeggRowModel.txtOneHundredFortyThree}"
+            style="@style/txt_15" tools:text="@string/lbl_143"/>
+    </LinearLayout>
+</layout>

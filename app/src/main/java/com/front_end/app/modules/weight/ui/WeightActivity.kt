@@ -16,7 +16,11 @@ import kotlin.Unit
 class WeightActivity : BaseActivity<ActivityWeightBinding>(R.layout.activity_weight) {
   private val viewModel: WeightVM by viewModels<WeightVM>()
 
+<<<<<<< HEAD
+  private val REQUEST_CODE_TARGET_ACTIVITY: Int = 536
+=======
   private val REQUEST_CODE_TARGET_ACTIVITY: Int = 313
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
 
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
@@ -25,7 +29,10 @@ class WeightActivity : BaseActivity<ActivityWeightBinding>(R.layout.activity_wei
 
   override fun setUpClicks(): Unit {
     binding.txtBack.setOnClickListener {
+<<<<<<< HEAD
+=======
       // TODO please, add your navigation code here
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
       finish()
     }
     binding.txtNext.setOnClickListener {

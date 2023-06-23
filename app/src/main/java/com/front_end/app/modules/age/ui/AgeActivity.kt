@@ -16,7 +16,11 @@ import kotlin.Unit
 class AgeActivity : BaseActivity<ActivityAgeBinding>(R.layout.activity_age) {
   private val viewModel: AgeVM by viewModels<AgeVM>()
 
+<<<<<<< HEAD
+  private val REQUEST_CODE_TALL_ACTIVITY: Int = 546
+=======
   private val REQUEST_CODE_TALL_ACTIVITY: Int = 406
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
 
 
   override fun onInitialized(): Unit {
@@ -26,7 +30,10 @@ class AgeActivity : BaseActivity<ActivityAgeBinding>(R.layout.activity_age) {
 
   override fun setUpClicks(): Unit {
     binding.txtBack.setOnClickListener {
+<<<<<<< HEAD
+=======
       // TODO please, add your navigation code here
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
       finish()
     }
     binding.txtNext.setOnClickListener {

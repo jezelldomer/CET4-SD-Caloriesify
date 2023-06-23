@@ -286,7 +286,11 @@
                     android:layout_marginTop="@dimen/_16pxv"
                     android:layout_width="match_parent"
                     android:text="@{signUpVM.signUpModel.txtTermAndCondition}"
+<<<<<<< HEAD
+                    style="@style/txt_1" tools:text="@string/msg_by_pressing_su"/>
+=======
                     style="@style/txt_2" tools:text="@string/msg_by_pressing_su"/>
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
             </LinearLayout>
             <ImageView android:id="@+id/imageArrowright"
                 android:layout_gravity="bottom|center"

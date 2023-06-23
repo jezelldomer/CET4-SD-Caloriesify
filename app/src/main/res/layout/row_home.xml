@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="homeRowModel" type="com.front_end.app.modules.home.data.model.HomeRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowvector"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearColumn"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylebluegray_100cornerRadius">
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearColumnvector"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_28pxv"
+                android:layout_marginEnd="@dimen/_30pxh"
+                android:layout_marginStart="@dimen/_30pxh"
+                android:layout_marginTop="@dimen/_28pxv"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStyle">
+                <ImageView android:id="@+id/imageVector"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_20pxh"
+                    android:layout_marginEnd="@dimen/_22pxh"
+                    android:layout_marginStart="@dimen/_22pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="@dimen/_33pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_vector_black_900"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_vector_black_900"/>
+                <TextView android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/txtJournal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_marginEnd="@dimen/_22pxh"
+                    android:layout_marginStart="@dimen/_22pxh"
+                    android:layout_marginTop="@dimen/_12pxv"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{homeRowModel.txtJournal}"
+                    style="@style/txtPoppinsbold20" tools:text="@string/lbl_journal"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearColumnvolume"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_29pxh"
+            android:layout_weight="0.5" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylebluegray_100cornerRadius">
+            <ImageView android:id="@+id/imageVolume"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_33pxh"
+                android:layout_marginEnd="@dimen/_72pxh"
+                android:layout_marginStart="@dimen/_72pxh"
+                android:layout_marginTop="@dimen/_31pxv"
+                android:layout_width="@dimen/_26pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_volume"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_volume"/>
+            <TextView android:ellipsize="end" android:id="@+id/txtDiet"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_28pxv"
+                android:layout_marginEnd="@dimen/_72pxh"
+                android:layout_marginStart="@dimen/_72pxh"
+                android:layout_marginTop="@dimen/_6pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{homeRowModel.txtDiet}"
+                style="@style/txt_8" tools:text="@string/lbl_diet"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

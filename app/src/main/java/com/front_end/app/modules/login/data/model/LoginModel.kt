@@ -8,8 +8,12 @@ data class LoginModel(
   /**
    * TODO Replace with dynamic value
    */
+<<<<<<< HEAD
+  var txtOrLoginwith: String? = MyApp.getInstance().resources.getString(R.string.lbl_or_login_with)
+=======
   var txtOrSignUpwith: String? =
       MyApp.getInstance().resources.getString(R.string.lbl_or_signup_with)
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
   ,
   /**
    * TODO Replace with dynamic value

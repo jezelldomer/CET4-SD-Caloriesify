@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="homeWorkVM" type="com.front_end.app.modules.homework.data.viewmodel.HomeWorkVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnrectangletwentyfive"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_1pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_200">
+        <FrameLayout android:gravity="start"
+            android:id="@+id/frameStackrectangletwentyfive"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" style="@style/groupStylegray_200">
+            <ImageView android:id="@+id/imageRectangleTwentyFive"
+                android:layout_gravity="start"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                imageRes="@{@drawable/img_rectangle25}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle25"/>
+            <LinearLayout android:id="@+id/linearColumnuser"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_40pxv"
+                android:layout_marginEnd="@dimen/_1pxh"
+                android:layout_marginTop="@dimen/_22pxv"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <ImageButton
+                    android:background="@drawable/rectangle_bg_bluegray_100_radius_28_5"
+                    android:id="@+id/btnUser"
+                    android:layout_gravity="end"
+                    android:layout_height="@dimen/_57pxh"
+                    android:layout_marginEnd="@dimen/_13pxh"
+                    android:layout_marginStart="@dimen/_13pxh"
+                    android:layout_width="@dimen/_57pxh"
+                    android:paddingHorizontal="@dimen/_12pxh"
+                    android:paddingVertical="@dimen/_12pxv"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_user_black_900" tools:ignore="ContentDescription"/>
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearColumngoodmorningus"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_30pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStylewhite_1">
+                    <TextView android:gravity="center_horizontal"
+                        android:id="@+id/txtGoodMorningUS"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_14pxh"
+                        android:layout_marginStart="@dimen/_14pxh"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_width="match_parent"
+                        android:text="@{homeWorkVM.homeWorkModel.txtGoodMorningUS}"
+                        style="@style/txt_6" tools:text="@string/msg_good_morning_us"/>
+                    <TextView android:gravity="center_horizontal"
+                        android:id="@+id/txtLetsstartwit"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_14pxh"
+                        android:layout_marginStart="@dimen/_14pxh"
+                        android:layout_width="match_parent"
+                        android:text="@{homeWorkVM.homeWorkModel.txtLetsstartwit}"
+                        style="@style/txt_7" tools:text="@string/msg_let_s_start_wit"/>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:gravity="center_horizontal"
+                        android:id="@+id/recyclerHomework"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_12pxh"
+                        android:layout_marginStart="@dimen/_14pxh"
+                        android:layout_marginTop="@dimen/_31pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        itemSpace="@{@dimen/_18pxh}" tools:itemCount="2" tools:listitem="@layout/row_home_work"/>
+                    <LinearLayout android:gravity="center_horizontal"
+                        android:id="@+id/linearColumnairplane"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_12pxh"
+                        android:layout_marginStart="@dimen/_14pxh"
+                        android:layout_marginTop="@dimen/_31pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical" style="@style/groupStylebluegray_100cornerRadius">
+                        <ImageView android:id="@+id/imageAirplane"
+                            android:layout_gravity="end"
+                            android:layout_height="@dimen/_41pxh"
+                            android:layout_marginEnd="@dimen/_169pxh"
+                            android:layout_marginStart="@dimen/_169pxh"
+                            android:layout_marginTop="@dimen/_19pxv"
+                            android:layout_width="@dimen/_41pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_airplane"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_airplane"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="end"
+                            android:id="@+id/txtCreateyourCus"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_25pxv"
+                            android:layout_marginEnd="@dimen/_46pxh"
+                            android:layout_marginStart="@dimen/_46pxh"
+                            android:layout_marginTop="@dimen/_13pxv"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text="@{homeWorkVM.homeWorkModel.txtCreateyourCus}"
+                            style="@style/txt_11" tools:text="@string/msg_create_your_cus"/>
+                    </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnProceed"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="@dimen/_60pxv"
+                        android:layout_marginBottom="@dimen/_36pxv"
+                        android:layout_marginEnd="@dimen/_14pxh"
+                        android:layout_marginStart="@dimen/_14pxh"
+                        android:layout_marginTop="@dimen/_69pxv"
+                        android:layout_width="@dimen/_346pxh"
+                        android:paddingBottom="@dimen/_12pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_12pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_proceed"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded_1" tools:text="@string/lbl_proceed"/>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

@@ -8,6 +8,21 @@
         android:name="com.front_end.app.appcomponents.di.MyApp"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+<<<<<<< HEAD
+        <activity
+            android:name="com.front_end.app.modules.new.ui.NewActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.bmicalc.ui.BmiCaLcActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.work.ui.WorkActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.excer.ui.ExcerActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.breakfast.ui.BreakfastActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.old.ui.OldActivity" android:screenOrientation="portrait"/>
+=======
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
         <activity android:exported="true"
             android:name="com.front_end.app.modules.welcomescreen.ui.WelcomeScreenActivity" android:screenOrientation="portrait">
             <intent-filter>
@@ -16,18 +31,70 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
+            android:name="com.front_end.app.modules.signupu.ui.SignUpuActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.homemacros.ui.HomeMacrosActivity" android:screenOrientation="portrait"/>
+        <activity
+=======
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
             android:name="com.front_end.app.modules.tall.ui.TallActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.front_end.app.modules.target.ui.TargetActivity" android:screenOrientation="portrait"/>
         <activity
+<<<<<<< HEAD
+            android:name="com.front_end.app.modules.dinner.ui.DinnerActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.signupm.ui.SignUpmActivity" android:screenOrientation="portrait"/>
+        <activity
             android:name="com.front_end.app.modules.age.ui.AgeActivity" android:screenOrientation="portrait"/>
         <activity
+            android:name="com.front_end.app.modules.homebmi.ui.HomeBmiActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.homediet.ui.HomeDietActivity" android:screenOrientation="portrait"/>
+        <activity
+=======
+            android:name="com.front_end.app.modules.age.ui.AgeActivity" android:screenOrientation="portrait"/>
+        <activity
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
             android:name="com.front_end.app.modules.weight.ui.WeightActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.front_end.app.modules.signup.ui.SignUpActivity" android:screenOrientation="portrait"/>
         <activity
+<<<<<<< HEAD
+            android:name="com.front_end.app.modules.water.ui.WaterActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.homejournal.ui.HomeJournalActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.details.ui.DetailsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.notes.ui.NotesActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.homework.ui.HomeWorkActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.home.ui.HomeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.diet.ui.DietActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.login.ui.LoginActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.macrosone.ui.MacrosoneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.lunch.ui.LunchActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.setting.ui.SettingActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.loadingpage.ui.LoadingPageActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.newwork.ui.NewworkActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.macrostwo.ui.MacrostwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.snacks.ui.SnacksActivity" android:screenOrientation="portrait"/>
+=======
             android:name="com.front_end.app.modules.login.ui.LoginActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.front_end.app.modules.loadingpage.ui.LoadingPageActivity" android:screenOrientation="portrait"/>
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
     </application>
 </manifest>

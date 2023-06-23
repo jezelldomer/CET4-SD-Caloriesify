@@ -10,15 +10,21 @@ import com.front_end.app.databinding.ActivityLoginBinding
 import com.front_end.app.modules.loadingpage.ui.LoadingPageActivity
 import com.front_end.app.modules.login.`data`.viewmodel.LoginVM
 import com.front_end.app.modules.signup.ui.SignUpActivity
+<<<<<<< HEAD
+=======
 import kotlin.Int
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
 import kotlin.String
 import kotlin.Unit
 
 class LoginActivity : BaseActivity<ActivityLoginBinding>(R.layout.activity_login) {
   private val viewModel: LoginVM by viewModels<LoginVM>()
 
+<<<<<<< HEAD
+=======
   private val REQUEST_CODE_SIGN_UP_ACTIVITY: Int = 833
 
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     binding.loginVM = viewModel
@@ -27,10 +33,13 @@ class LoginActivity : BaseActivity<ActivityLoginBinding>(R.layout.activity_login
   override fun setUpClicks(): Unit {
     binding.txtSIGNUP.setOnClickListener {
       val destIntent = SignUpActivity.getIntent(this, null)
+<<<<<<< HEAD
+=======
       startActivityForResult(destIntent, REQUEST_CODE_SIGN_UP_ACTIVITY)
     }
     binding.txtSIGNUP.setOnClickListener {
       val destIntent = SignUpActivity.getIntent(this, null)
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
       startActivity(destIntent)
     }
     binding.imageArrowright.setOnClickListener {

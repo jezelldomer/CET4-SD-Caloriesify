@@ -7,6 +7,8 @@ import com.front_end.app.appcomponents.di.MyApp
 import kotlin.Boolean
 import kotlin.String
 
+<<<<<<< HEAD
+=======
 public fun String?.isNumeric(isMandatory: Boolean = false): Boolean {
   if (isNullOrEmpty()) {
     if (isMandatory) {
@@ -31,6 +33,7 @@ public fun String?.isNumeric(isMandatory: Boolean = false): Boolean {
   return result
 }
 
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
 /**
  * Password should have, 
  * - at least a upper case letter
@@ -111,3 +114,30 @@ public fun String?.isText(isMandatory: Boolean = false): Boolean {
   }
   return result
 }
+<<<<<<< HEAD
+
+public fun String?.isNumeric(isMandatory: Boolean = false): Boolean {
+  if (isNullOrEmpty()) {
+    if (isMandatory) {
+      Toast.makeText(
+              MyApp.getInstance(),
+              R.string.msg_please_enter_valid_nu,
+              Toast.LENGTH_SHORT
+          ).show()
+    }
+    return !isMandatory
+  }
+  val numberRegex = "^[0-9]*${'$'}".toRegex()
+  val result = 
+  numberRegex.matches(this)
+  if (!result) {
+    Toast.makeText(
+            MyApp.getInstance(),
+            R.string.msg_please_enter_valid_nu,
+            Toast.LENGTH_SHORT
+        ).show()
+  }
+  return result
+}
+=======
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b

@@ -26,7 +26,10 @@ class TargetActivity : BaseActivity<ActivityTargetBinding>(R.layout.activity_tar
       startActivity(destIntent)
     }
     binding.txtBack.setOnClickListener {
+<<<<<<< HEAD
+=======
       // TODO please, add your navigation code here
+>>>>>>> 2c33a75c6a824ae5f2a16e7fce6b719586bfcf9b
       finish()
     }
   }
