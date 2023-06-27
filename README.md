@@ -1,4 +1,4 @@
-# CET4-SD-Dietar
+# CET4-SD-Caloriesify
 
 Group Name: DnD Enterprise
 # front
