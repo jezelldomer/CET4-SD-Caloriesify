@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">front</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_back">Back</string>
+<string name="msg_less_than_18_5">Less than 18.5              Underweight
+
+
+18.5 to 24.9                                 Healthy
+
+
+25 to 29.9                            Overweight
+
+
+30 or above                                   Obese</string>
+<string name="lbl_next">Next</string>
+<string name="msg_recommended_5lt">Recommended 5Ltrs.</string>
+<string name="lbl_diet">Diet</string>
+<string name="lbl4"> _ _ _</string>
+<string name="lbl_obese2">                               Obese</string>
+<string name="lbl_hines_drive">Hines Drive</string>
+<string name="lbl5"> _ _</string>
+<string name="lbl_lose_weight">Lose Weight</string>
+<string name="lbl2">_</string>
+<string name="lbl3"> _ _ _ _</string>
+<string name="lbl_bmi">BMI</string>
+<string name="lbl_or_login_with">Or Login with</string>
+<string name="lbl_subject">Subject</string>
+<string name="lbl_signup">SIGNUP</string>
+<string name="lbl_ft">ft</string>
+<string name="msg_create_your_own">Create your Own Ratio of Macros</string>
+<string name="lbl_2_116_4_000">2,116/4,000 </string>
+<string name="lbl_lunch">Lunch</string>
+<string name="lbl_25_to_29_9">25 to 29.9</string>
+<string name="lbl_143">143</string>
+<string name="lbl_save_results">Save Results</string>
+<string name="lbl_goal">Goal</string>
+<string name="lbl_dinner">Dinner</string>
+<string name="lbl_less_than_18_5">Less than 18.5</string>
+<string name="msg_forgot_password">Forgot Password ?</string>
+<string name="lbl_exercise">Exercise</string>
+<string name="lbl_or_signup_with">Or SignUp with</string>
+<string name="lbl_eaten">Eaten</string>
+<string name="msg_welcome_signup">Welcome,
+SignUp to Continue</string>
+<string name="lbl_adjust_calories">Adjust Calories</string>
+<string name="lbl_notes_name">Notes name</string>
+<string name="lbl_you_katie_4">You, Katie + 4</string>
+<string name="lbl_80_kg">80 kg</string>
+<string name="lbl_date">Date</string>
+<string name="lbl_33_3">33.3</string>
+<string name="lbl_water">Water</string>
+<string name="lbl_59_89g">59 / 89g</string>
+<string name="msg_group_run_wedne">Group Run Wednesday</string>
+<string name="lbl_18_5_to_24_9">18.5 to 24.9          </string>
+<string name="lbl_distance">Distance</string>
+<string name="lbl_content">Content</string>
+<string name="lbl_avocado">Avocado</string>
+<string name="lbl_summary">SUMMARY</string>
+<string name="lbl_google">Google</string>
+<string name="lbl_activity">Activity</string>
+<string name="msg_recommended_30">Recommended 30 mins</string>
+<string name="lbl_35_mins">35 mins</string>
+<string name="lbl_details">Details</string>
+<string name="lbl_240">240</string>
+<string name="lbl_welcome">Welcome,
+</string>
+<string name="msg_good_morning_us">Good Morning USER!</string>
+<string name="lbl_2_large">2 Large</string>
+<string name="lbl_obese">Obese</string>
+<string name="lbl_notes_name2">Notes Name</string>
+<string name="lbl_protein">Protein</string>
+<string name="lbl_healthy">                       Healthy
+
+
+</string>
+<string name="msg_recommended_535">Recommended 535 - 731 Kcal</string>
+<string name="lbl_time">Time</string>
+<string name="msg_carbs_protein">Carbs, Protein &amp; Fats</string>
+<string name="lbl_km">KM</string>
+<string name="lbl_notes">Notes</string>
+<string name="lbl_current_weight">Current weight</string>
+<string name="lbl_fat">Fat</string>
+<string name="msg_whole_grain_toa">Whole Grain Toast</string>
+<string name="lbl_password">Password</string>
+<string name="lbl_killo">killo</string>
+<string name="lbl_overweight">                            Overweight
+
+
+</string>
+<string name="lbl_saved">SAVED!</string>
+<string name="lbl8">+</string>
+<string name="lbl9">-</string>
+<string name="lbl6">_ _</string>
+<string name="msg_by_pressing_su">By Pressing \u201cSubmit\u201d you agree to our terms &amp; conditions.</string>
+<string name="lbl7"> _</string>
+<string name="lbl10">!</string>
+<string name="msg_we_use_this_dat">We use this data to track your health data more efficiently and correctly.</string>
+<string name="msg_what_s_your_cur">What\u2019s your Current Weight ?</string>
+<string name="lbl_breakfast">Breakfast</string>
+<string name="lbl_person">Person</string>
+<string name="lbl_1728_kcal_day">1728 Kcal/day</string>
+<string name="lbl_back2">back</string>
+<string name="lbl_steps">Steps</string>
+<string name="lbl_4_000">/4,000</string>
+<string name="lbl_egg">Egg</string>
+<string name="msg_adjust_macronut">Adjust MacroNutrients</string>
+<string name="lbl_108">108</string>
+<string name="msg_recommended_89">Recommended 89 - 178 Kcal</string>
+<string name="lbl_1_medium">1 Medium</string>
+<string name="lbl_age">age</string>
+<string name="lbl_100">100</string>
+<string name="lbl_toast_1_slice">Toast, 1 slice</string>
+<string name="lbl_kilo">kilo</string>
+<string name="lbl_14_59g">14 / 59g</string>
+<string name="lbl_today_s_plan">Today\u2019s plan</string>
+<string name="lbl_snacks">Snacks</string>
+<string name="lbl_1_62km">1.62KM</string>
+<string name="msg_recommended_356">Recommended 356 - 535 Kcal</string>
+<string name="lbl_0_0">0.0</string>
+<string name="lbl_target_weight">Target Weight</string>
+<string name="lbl_add_items">Add Items</string>
+<string name="lbl_get_started">Get Started</string>
+<string name="lbl_carbs">Carbs</string>
+<string name="msg_account_setting">Account Settings</string>
+<string name="lbl_facebook">Facebook</string>
+<string name="lbl_name">Name</string>
+<string name="msg_login_to_contin">Login to Continue</string>
+<string name="lbl_proceed">PROCEED</string>
+<string name="lbl_fats">Fats</string>
+<string name="lbl_profile">Profile</string>
+<string name="lbl">_ _ _ _ _</string>
+<string name="msg_terms_conditi">terms &amp; conditions.</string>
+<string name="lbl_108_220_kcal">108/220 KCAL</string>
+<string name="msg_what_s_your_age">What\u2019s your age ?</string>
+<string name="msg_email_data_pir">Email: data.pirates@group5.com</string>
+<string name="msg_personal_detail">Personal Details</string>
+<string name="lbl_email">Email</string>
+<string name="lbl_you_have">You have </string>
+<string name="lbl_microsoft">Microsoft</string>
+<string name="lbl_journal">Journal</string>
+<string name="lbl_1_62">1.62</string>
+<string name="lbl_name_pirate">Name: Pirate</string>
+<string name="msg_you_have_obese">You have Obese body weight!</string>
+<string name="msg_by_pressing_su2">By Pressing \u201cSubmit\u201d you agree to our</string>
+<string name="msg_create_your_cus">Create your Custom Macros</string>
+<string name="lbl_login">LOGIN</string>
+<string name="msg_let_s_start_wit">Let\u2019s start with some basic details about You</string>
+<string name="lbl_body_weight"> body weight</string>
+<string name="lbl_age_20">Age: 20</string>
+<string name="lbl_today_18_nov">Today, 18 Nov</string>
+<string name="lbl_find_your_notes">Find your notes</string>
+<string name="lbl_your_bmi">Your BMI</string>
+<string name="msg_how_tall_are_yo">How Tall are you ?</string>
+<string name="msg_net_carbs_16">Net Carbs: 16%  Fat 66%  Protein 23%</string>
+<string name="lbl_untitled">Untitled</string>
+<string name="lbl_inch">inch</string>
+<string name="msg_what_s_your_tar">What\u2019s your Target Weight ?</string>
+<string name="lbl_69_kg">69 kg</string>
+<string name="lbl_underweight">              Underweight
+
+
+</string>
+<string name="msg_eat_well_as_you">Eat well as your body deserves it</string>
+<string name="msg_signup_to_conti">SignUp to Continue</string>
+<string name="lbl_30_or_above">30 or above    </string>
+<string name="lbl_explore">Explore</string>
+<string name="msg_processing_an">Processing &amp; Analysing Data</string>
+<string name="msg_welcome_login">Welcome,
+Login to Continue</string>
+<string name="lbl_workout">Workout</string>
+<string name="lbl_2_116">2,116</string>
+<string name="lbl_36_223g">36 / 223g</string>
+<string name="lbl_remember_me">Remember Me</string>
+<string name="lbl_220_kcal">/220 KCAL</string>
+<string name="lbl_customization">Customization</string>
+<string name="msg_please_enter_valid_pa">Please enter valid password</string>
+<string name="msg_please_enter_valid_email">Please enter valid email</string>
+<string name="msg_please_enter_valid_text">Please enter valid text</string>
+<string name="msg_please_enter_valid_nu">Please enter valid number</string>
+<string name="lbl_try_again">TRY AGAIN</string>
+</resources>

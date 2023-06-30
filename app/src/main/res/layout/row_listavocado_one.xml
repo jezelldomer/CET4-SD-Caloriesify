@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listavocadoOneRowModel" type="com.front_end.app.modules.excer.data.model.ListavocadoOneRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowavocado"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnavocado"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.88" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtAvocadoOne"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_1pxh"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{listavocadoOneRowModel.txtAvocadoOne}"
+                style="@style/txtSFCompactDisplaylight11" tools:text="@string/lbl_avocado"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtMediumCounterOne"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{listavocadoOneRowModel.txtMediumCounterOne}"
+                style="@style/txtSFCompactDisplaylight11" tools:text="@string/lbl_1_medium"/>
+        </LinearLayout>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtTwoHundredFortyOne"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8pxv"
+            android:layout_marginTop="@dimen/_7pxv"
+            android:layout_weight="0.12" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{listavocadoOneRowModel.txtTwoHundredFortyOne}"
+            style="@style/txtSFCompactDisplaylight11" tools:text="@string/lbl_240"/>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="workVM" type="com.front_end.app.modules.work.data.viewmodel.WorkVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnarrowfive"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_200">
+        <androidx.appcompat.widget.Toolbar
+            android:gravity="center_horizontal"
+            android:id="@+id/toolbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_11pxh"
+            android:layout_marginStart="@dimen/_12pxh"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <LinearLayout android:id="@+id/linearRowarrowfive"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout android:id="@+id/frameStackarrowfive"
+                    android:layout_height="@dimen/_39pxv"
+                    android:layout_marginBottom="@dimen/_18pxv"
+                    android:layout_marginTop="@dimen/_18pxv"
+                    android:layout_width="@dimen/_41pxh" style="@style/groupStylegreen_A700cornerRadius">
+                    <ImageView android:id="@+id/imageArrowFive"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="@dimen/_3pxh"
+                        android:layout_marginBottom="@dimen/_17pxv"
+                        android:layout_marginEnd="@dimen/_15pxh"
+                        android:layout_marginStart="@dimen/_15pxh"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_width="@dimen/_1pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_arrow5"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_arrow5"/>
+                </FrameLayout>
+                <ImageView android:id="@+id/imageWOAHLogoTwo"
+                    android:layout_height="@dimen/_75pxh"
+                    android:layout_marginStart="@dimen/_289pxh"
+                    android:layout_width="@dimen/_75pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_woahlogo2}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_woahlogo2"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.core.widget.NestedScrollView
+            android:clipToPadding="false" android:fillViewport="true"
+            android:gravity="start"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:id="@+id/linearColumnexplore"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_38pxv"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtExplore"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_15pxh"
+                    android:layout_marginStart="@dimen/_15pxh"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{workVM.workModel.txtExplore}"
+                    style="@style/txtRobotoregular22" tools:text="@string/lbl_explore"/>
+                <HorizontalScrollView android:fillViewport="true"
+                    android:gravity="start"
+                    android:id="@+id/horizontalScrollHorizontalscrollrectangletwo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_width="match_parent" android:scrollbars="none">
+                    <LinearLayout
+                        android:id="@+id/linearRowrectangletwo"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content" android:orientation="horizontal">
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangletwo"
+                            android:layout_height="@dimen/_122pxv" android:layout_width="@dimen/_406pxh">
+                            <View
+                                android:background="@drawable/rectangle_bg_green_a700_radius_22"
+                                android:id="@+id/viewRectangleTwo"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_120pxh"
+                                android:layout_marginEnd="@dimen/_10pxh"
+                                android:layout_marginTop="@dimen/_2pxv" android:layout_width="@dimen/_122pxh"/>
+                            <View
+                                android:background="@drawable/rectangle_bg_green_a700_radius_22"
+                                android:id="@+id/viewRectangleTwoOne"
+                                android:layout_gravity="center"
+                                android:layout_height="@dimen/_120pxh"
+                                android:layout_marginEnd="@dimen/_40pxh"
+                                android:layout_marginStart="@dimen/_40pxh"
+                                android:layout_marginTop="@dimen/_2pxv" android:layout_width="@dimen/_122pxh"/>
+                            <View
+                                android:background="@drawable/rectangle_bg_green_a700_radius_22"
+                                android:id="@+id/viewRectangleTwoTwo"
+                                android:layout_gravity="end"
+                                android:layout_height="@dimen/_120pxh"
+                                android:layout_marginStart="@dimen/_10pxh"
+                                android:layout_marginTop="@dimen/_2pxv" android:layout_width="@dimen/_122pxh"/>
+                            <ImageView android:id="@+id/imageImageSeven"
+                                android:layout_gravity="center"
+                                android:layout_height="@dimen/_122pxh"
+                                android:layout_marginEnd="@dimen/_16pxh"
+                                android:layout_marginStart="@dimen/_26pxh"
+                                android:layout_width="@dimen/_364pxh"
+                                android:scaleType="fitXY"
+                                imageRes="@{@drawable/img_image7}"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_image7"/>
+                        </FrameLayout>
+                        <ImageView
+                            android:id="@+id/imageRectangleTwoThree"
+                            android:layout_height="@dimen/_120pxh"
+                            android:layout_marginStart="@dimen/_20pxh"
+                            android:layout_marginTop="@dimen/_2pxv"
+                            android:layout_width="@dimen/_122pxh"
+                            android:scaleType="fitXY"
+                            cornerRadius="@{@dimen/_22pxh}"
+                            imageRes="@{@drawable/img_rectangle2}"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle2"/>
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtTodaysplan"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_42pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{workVM.workModel.txtTodaysplan}"
+                    style="@style/txtRobotoregular22" tools:text="@string/lbl_today_s_plan"/>
+                <LinearLayout android:gravity="end"
+                    android:id="@+id/linearRowlineone"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginStart="@dimen/_72pxh"
+                    android:layout_marginTop="@dimen/_45pxv"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerListlineone"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_42pxv"
+                        android:layout_weight="0.09"
+                        android:layout_width="0dp"
+                        android:nestedScrollingEnabled="false"
+                        android:orientation="vertical"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        itemSpace="@{@dimen/_66pxh}" tools:itemCount="2" tools:listitem="@layout/row_listlineone"/>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerListweekday"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_72pxh"
+                        android:layout_weight="0.91"
+                        android:layout_width="0dp"
+                        android:nestedScrollingEnabled="false"
+                        android:orientation="vertical"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        itemSpace="@{@dimen/_40pxh}" tools:itemCount="6" tools:listitem="@layout/row_listweekday"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</layout>
