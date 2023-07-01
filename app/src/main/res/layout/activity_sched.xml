@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="schedVM" type="com.front_end.app.modules.sched.data.viewmodel.SchedVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStacktodaysplan"
+        android:layout_height="match_parent" android:layout_width="match_parent">
+        <FrameLayout android:id="@+id/frameSched"
+            android:layout_gravity="start"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" style="@style/groupStylegray_200">
+            <LinearLayout android:id="@+id/linearColumntodaysplan"
+                android:layout_gravity="top|end"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_93pxv"
+                android:layout_marginEnd="@dimen/_68pxh"
+                android:layout_marginStart="@dimen/_68pxh"
+                android:layout_marginTop="@dimen/_93pxv"
+                android:layout_width="wrap_content" android:orientation="vertical">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtTodaysplan"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_39pxh"
+                    android:layout_marginStart="@dimen/_39pxh"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{schedVM.schedModel.txtTodaysplan}"
+                    style="@style/txtRobotoregular22" tools:text="@string/lbl_today_s_plan"/>
+                <LinearLayout android:id="@+id/linearRowrectangleten"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_65pxv"
+                    android:layout_width="wrap_content" android:orientation="horizontal">
+                    <View
+                        android:background="@drawable/rectangle_bg_white_a700_border_gray_603"
+                        android:id="@+id/viewRectangleTen"
+                        android:layout_height="@dimen/_19pxh"
+                        android:layout_marginBottom="@dimen/_32pxv"
+                        android:layout_marginTop="@dimen/_32pxv" android:layout_width="@dimen/_20pxh"/>
+                    <FrameLayout
+                        android:id="@+id/frameStackrectanglesix"
+                        android:layout_height="@dimen/_83pxv"
+                        android:layout_marginStart="@dimen/_27pxh" android:layout_width="@dimen/_198pxh">
+                        <ImageView android:id="@+id/imageRectangleSix"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_83pxh"
+                            android:layout_width="@dimen/_198pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_rectangle6"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle6"/>
+                        <LinearLayout
+                            android:id="@+id/linearColumnweekday"
+                            android:layout_gravity="top|center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_10pxv"
+                            android:layout_marginEnd="@dimen/_18pxh"
+                            android:layout_marginStart="@dimen/_18pxh"
+                            android:layout_marginTop="@dimen/_9pxv"
+                            android:layout_width="match_parent" android:orientation="vertical">
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtWeekday"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@{schedVM.schedModel.txtWeekday}"
+                                style="@style/txtRobotomedium16" tools:text="@string/msg_group_run_wedne"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtTime"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_10pxh"
+                                android:layout_width="wrap_content"
+                                android:singleLine="true"
+                                android:text="@{schedVM.schedModel.txtTime}"
+                                style="@style/txtRobotoregular14" tools:text="@string/lbl_35_mins"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtHinesDrive"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_10pxh"
+                                android:layout_marginTop="@dimen/_1pxv"
+                                android:layout_width="wrap_content"
+                                android:singleLine="true"
+                                android:text="@{schedVM.schedModel.txtHinesDrive}"
+                                style="@style/txtRobotoregular14" tools:text="@string/lbl_hines_drive"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtYouKatieFour"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_10pxh"
+                                android:layout_marginTop="@dimen/_1pxv"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@{schedVM.schedModel.txtYouKatieFour}"
+                                style="@style/txtRobotoregular14" tools:text="@string/lbl_you_katie_4"/>
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@+id/frameStackarrowfive"
+                android:layout_gravity="top|start"
+                android:layout_height="@dimen/_39pxv"
+                android:layout_marginBottom="@dimen/_18pxv"
+                android:layout_marginEnd="@dimen/_12pxh"
+                android:layout_marginStart="@dimen/_12pxh"
+                android:layout_marginTop="@dimen/_18pxv"
+                android:layout_width="@dimen/_41pxh" style="@style/groupStylegreen_A700cornerRadius">
+                <ImageView android:id="@+id/imageArrowFive"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="@dimen/_3pxh"
+                    android:layout_marginBottom="@dimen/_17pxv"
+                    android:layout_marginEnd="@dimen/_15pxh"
+                    android:layout_marginStart="@dimen/_15pxh"
+                    android:layout_marginTop="@dimen/_17pxv"
+                    android:layout_width="@dimen/_1pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_arrow5"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_arrow5"/>
+            </FrameLayout>
+        </FrameLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:backgroundTint="@color/green_A700"
+            android:id="@+id/floatingBtnFloatingactionbutton"
+            android:layout_gravity="bottom|end"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_14pxv"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_marginStart="@dimen/_10pxh"
+            android:layout_marginTop="@dimen/_14pxv"
+            android:layout_width="wrap_content"
+            app:fabCustomSize="@dimen/_58pxh"
+            app:srcCompat="@drawable/img_ticket_bluegray_100" app:tint="@color/bluegray_100"/>
+    </FrameLayout>
+</layout>

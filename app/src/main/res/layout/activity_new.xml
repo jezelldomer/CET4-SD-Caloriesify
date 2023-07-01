@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="newVM" type="com.front_end.app.modules.new.data.viewmodel.NewVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearNew"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylegray_200">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnarrowleft"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_766pxv"
+            android:layout_marginStart="@dimen/_14pxh"
+            android:layout_marginTop="@dimen/_17pxv"
+            android:layout_weight="0.95" android:layout_width="0dp" android:orientation="vertical">
+            <ImageView android:id="@+id/imageArrowleft"
+                android:layout_height="@dimen/_20pxh"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_4pxh"
+                android:layout_width="@dimen/_11pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrowleft"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft"/>
+            <EditText android:background="@android:color/transparent"
+                android:ellipsize="end"
+                android:hint="@string/lbl_untitle"
+                android:id="@+id/etUntitled" android:inputType="text"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_32pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@={newVM.newModel.etUntitledValue}"
+                android:textColorHint="@color/black_900"
+                style="@style/etRobotobold24" tools:ignore="Autofill"/>
+            <EditText android:background="@android:color/transparent"
+                android:ellipsize="end"
+                android:hint="@string/lbl_content"
+                android:id="@+id/etContent" android:inputType="text"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_6pxh"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@={newVM.newModel.etContentValue}"
+                android:textColorHint="@color/black_900"
+                style="@style/etRobotomedium18" tools:ignore="Autofill"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/imageCheckmark"
+            android:layout_height="@dimen/_15pxh"
+            android:layout_marginBottom="@dimen/_852pxv"
+            android:layout_marginEnd="@dimen/_12pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_width="@dimen/_21pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_checkmark"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_checkmark"/>
+    </LinearLayout>
+</layout>

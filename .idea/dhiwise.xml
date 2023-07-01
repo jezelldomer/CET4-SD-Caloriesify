@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DhiWise">
-    <option name="directory" value="C:\Users\salaz\Documents" />
-    <option name="projectName" value="front" />
-    <option name="projectPath" value="C:\Users\salaz\Documents\front" />
-    <option name="token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjQ3YTQwOGNmNGE0MTgwMDE1NzEyMzc0IiwiX2lkIjoiNjQ3YTQwOGNmNGE0MTgwMDE1NzEyMzc0In0sImNvbXBhbnlJZCI6IjY0N2E0MDhjZjRhNDE4MDAxNTcxMjM3NiIsImFwcGxpY2F0aW9uSWQiOiI2NDg4ZDViZGUxNTM3MjAwMTU2ZTIyZDEiLCJpYXQiOjE2ODY2ODkyMTN9.4P0HS2TcPYyHqObGrn8DWWbEBu2Y3xyh6bhvD0d6B4w" />
-    <option name="updatedProjectName" value="front" />
+    <option name="directory" value="C:\Users\Public\Documents" />
+    <option name="projectName" value="caloriesify" />
+    <option name="projectPath" value="C:\Users\Public\Documents\caloriesify" />
+    <option name="token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjQ3YTQwOGNmNGE0MTgwMDE1NzEyMzc0IiwiX2lkIjoiNjQ3YTQwOGNmNGE0MTgwMDE1NzEyMzc0In0sImNvbXBhbnlJZCI6IjY0N2E0MDhjZjRhNDE4MDAxNTcxMjM3NiIsImFwcGxpY2F0aW9uSWQiOiI2NDllZjU5MGFlYTdkZTAwMTQ1YmExMjkiLCJpYXQiOjE2ODgyMzQ2NjN9.fFslsrXlLdp21GqY5PLZbmcxQmHUZW6WfQnvhG24WXw" />
+    <option name="updatedProjectName" value="caloriesify" />
   </component>
 </project>
