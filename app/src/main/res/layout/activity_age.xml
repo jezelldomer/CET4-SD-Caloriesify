@@ -51,8 +51,8 @@
                 android:layout_width="match_parent"
                 android:singleLine="true"
                 android:text="@={ageVM.ageModel.etRectangleTwentyOneValue}"
-                android:textColorHint="@color/black_900"
-                style="@style/etSolidRounded_1" tools:ignore="Autofill"/>
+                android:textColorHint="@color/black"
+                style="@style/ThemeOverlay.Material3.TextInputEditText.FilledBox.Dense"/>
             <TextView android:gravity="center_horizontal"
                 android:id="@+id/txtWeusethisdat"
                 android:layout_height="wrap_content"

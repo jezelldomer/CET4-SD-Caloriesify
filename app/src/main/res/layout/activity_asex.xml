@@ -144,12 +144,12 @@
                         android:id="@+id/txtWelcomeSignUp"
                         android:layout_gravity="bottom|start"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_marginTop="@dimen/_11pxv"
                         android:layout_width="match_parent"
                         android:text="@{asexVM.asexModel.txtWelcomeSignUp}"
                         style="@style/txtPoppinsregular29" tools:text="@string/msg_welcome_signup"/>
                 </FrameLayout>
-                <LinearLayout android:gravity="end"
+                <LinearLayout android:gravity="center"
                     android:id="@+id/linearRowlogin"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_54pxh"

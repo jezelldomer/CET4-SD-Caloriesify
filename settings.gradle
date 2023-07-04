@@ -1,6 +1,2 @@
 include ':app'
-<<<<<<< HEAD
 rootProject.name = "caloriesify"
-=======
-rootProject.name = "front"
->>>>>>> ab24b0cecbd73e9030bafd6713b89b72c151152a
