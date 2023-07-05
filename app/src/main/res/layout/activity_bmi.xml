@@ -153,6 +153,7 @@
                             android:id="@+id/linearColumnfire"
                             android:layout_height="wrap_content"
                             android:layout_weight="0.5"
+                            android:paddingVertical="@dimen/_2pxv"
                             android:layout_width="0dp"
                             android:orientation="vertical" style="@style/groupStylebluegray_1">
                             <ImageView android:id="@+id/imageFire"
@@ -177,36 +178,52 @@
                                 android:singleLine="true"
                                 style="@style/txt_8" tools:text="@string/lbl_workout"/>
                         </LinearLayout>
+                        <FrameLayout android:id="@+id/frameStackvector"
+                            android:layout_height="@dimen/_146pxv"
+                            android:layout_marginStart="@dimen/_29pxh"
+                            android:layout_width="@dimen/_192pxh"
+                            android:layout_marginTop="@dimen/_1pxv">
                         <LinearLayout
-                            android:gravity="center_horizontal"
                             android:id="@+id/linearColumnfavorite"
+                            android:layout_gravity="bottom|start"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/_25pxh"
-                            android:layout_weight="0.5"
-                            android:layout_width="0dp"
+                            android:paddingVertical="@dimen/_40pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="match_parent"
+                            android:layout_marginBottom="@dimen/_1pxv"
                             android:orientation="vertical" style="@style/groupStylebluegray_1">
                             <ImageView android:id="@+id/imageFavorite"
-                                android:layout_gravity="center_horizontal"
-                                android:layout_height="@dimen/_29pxh"
-                                android:layout_marginEnd="@dimen/_75pxh"
-                                android:layout_marginStart="@dimen/_75pxh"
-                                android:layout_marginTop="@dimen/_29pxv"
-                                android:layout_width="@dimen/_33pxh"
-                                android:scaleType="fitXY"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="@dimen/_2pxv"
+                                android:layout_marginEnd="@dimen/_30pxh"
+                                android:layout_marginStart="@dimen/_30pxh"
+                                android:layout_marginTop="@dimen/_2pxv"
+                                android:layout_width="match_parent"
                                 android:src="@drawable/img_favorite"
                                 tools:ignore="ContentDescription" tools:src="@drawable/img_favorite"/>
                             <TextView android:ellipsize="end"
                                 android:id="@+id/txtBMI"
-                                android:layout_gravity="center_horizontal"
+                                android:gravity="center_horizontal"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="@dimen/_30pxv"
-                                android:layout_marginEnd="@dimen/_75pxh"
-                                android:layout_marginStart="@dimen/_75pxh"
-                                android:layout_marginTop="@dimen/_13pxv"
-                                android:layout_width="wrap_content"
+                                android:layout_marginEnd="@dimen/_22pxh"
+                                android:layout_marginStart="@dimen/_22pxh"
+                                android:layout_width="match_parent"
                                 android:singleLine="true"
                                 style="@style/txt_9" tools:text="@string/lbl_bmi"/>
                         </LinearLayout>
+                            <ImageButton
+                                android:background="@drawable/rectangle_bg_white_a700_radius_16_5"
+                                android:id="@+id/btnCheckmark"
+                                android:layout_gravity="top|end"
+                                android:layout_height="@dimen/_33pxh"
+                                android:layout_marginBottom="@dimen/_10pxv"
+                                android:layout_marginStart="@dimen/_10pxh"
+                                android:layout_width="@dimen/_33pxh"
+                                android:paddingHorizontal="@dimen/_5pxh"
+                                android:paddingVertical="@dimen/_5pxv"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/img_checkmark" tools:ignore="ContentDescription"/>
+                        </FrameLayout>
                     </LinearLayout>
                     <LinearLayout android:gravity="center_horizontal"
                         android:id="@+id/linearColumnairplane"
