@@ -38,9 +38,10 @@
 <string name="lbl_25_to_29_9">25 to 29.9</string>
 <string name="lbl_143">143</string>
 <string name="lbl_save_results">Save Results</string>
-<string name="msg_what_is_the_nam3">What is the name of you bestfriend?</string>
+<string name="msg_what_is_the_nam3">Enter the name of your bestfriend here</string>
 <string name="lbl_goal">Goal</string>
-<string name="msg_what_is_the_nam2">What is the name of you First Pet</string>
+<string name="msg_what_is_the_nam2">Enter the name of your First Pet here</string>
+    <string name="msg_what_is_the_nam4">Enter the name of your International Favorite Artist?</string>
 <string name="lbl_dinner">Dinner</string>
 <string name="lbl_less_than_18_5">Less than 18.5</string>
 <string name="msg_forgot_password">Forgot Password ?</string>
@@ -54,7 +55,7 @@ SignUp to Continue</string>
 <string name="lbl_80_kg">80 kg</string>
 <string name="lbl_33_3">33.3</string>
 <string name="lbl_water">Water</string>
-<string name="msg_what_is_the_nam">What is the name of you First Pet?</string>
+<string name="msg_what_is_the_nam">What is the name of your First Pet?</string>
 <string name="lbl_59_89g">59 / 89g</string>
 <string name="msg_group_run_wedne">Group Run Wednesday</string>
 <string name="lbl_18_5_to_24_9">18.5 to 24.9          </string>

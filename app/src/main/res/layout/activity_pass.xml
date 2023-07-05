@@ -29,10 +29,11 @@
                 android:layout_width="wrap_content"
                 android:singleLine="true"
                 android:text="@{passVM.passModel.txtFive}"
-                style="@style/txtPoppinsbold24_2" tools:text="@string/lbl"/>
+                style="@style/txtPoppinsbold24_2" tools:text="@string/lbl2"/>
             <TextView android:ellipsize="end"
                 android:id="@+id/txtIncaseofForg"
                 android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
                 android:layout_marginEnd="@dimen/_44pxh"
                 android:layout_marginStart="@dimen/_44pxh"
                 android:layout_marginTop="@dimen/_20pxv"
@@ -50,41 +51,23 @@
                 android:layout_width="match_parent"
                 android:singleLine="true"
                 android:text="@{passVM.passModel.txtWhatisthenam}"
-                style="@style/txt_3" tools:text="@string/msg_what_is_the_nam"/>
-            <FrameLayout android:id="@+id/frameStackwhatisthenamOne"
-                android:layout_gravity="center_horizontal"
-                android:layout_height="@dimen/_33pxv"
-                android:layout_marginEnd="@dimen/_38pxh"
-                android:layout_marginStart="@dimen/_38pxh"
-                android:layout_marginTop="@dimen/_6pxv"
-                android:layout_width="@dimen/_253pxh" style="@style/groupStylebluegray_100cornerRadius">
-                <TextView android:ellipsize="end"
+                style="@style/txt_6" tools:text="@string/msg_what_is_the_nam"/>
+
+                <EditText android:ellipsize="end"
                     android:gravity="top|start"
                     android:id="@+id/txtWhatisthenamOne"
-                    android:layout_gravity="center"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/_7pxv"
-                    android:layout_marginEnd="@dimen/_25pxh"
-                    android:layout_marginStart="@dimen/_25pxh"
-                    android:layout_marginTop="@dimen/_7pxv"
+                    android:layout_marginEnd="@dimen/_38pxh"
+                    android:layout_marginStart="@dimen/_38pxh"
                     android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_1pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_18pxh"
+                    android:paddingTop="@dimen/_13pxv"
                     android:singleLine="true"
-                    android:text="@{passVM.passModel.txtWhatisthenamOne}"
-                    style="@style/txtPoppinsbold12" tools:text="@string/msg_what_is_the_nam2"/>
-                <TextView android:ellipsize="end"
-                    android:gravity="top|start"
-                    android:id="@+id/txtWhatisthenamTwo"
-                    android:layout_gravity="center"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/_7pxv"
-                    android:layout_marginEnd="@dimen/_25pxh"
-                    android:layout_marginStart="@dimen/_25pxh"
-                    android:layout_marginTop="@dimen/_7pxv"
-                    android:layout_width="match_parent"
-                    android:singleLine="true"
-                    android:text="@{passVM.passModel.txtWhatisthenamTwo}"
-                    style="@style/txtPoppinsbold12" tools:text="@string/msg_what_is_the_nam2"/>
-            </FrameLayout>
+                    style="@style/txtSolidRounded_1"
+                    android:text="@{passVM.passModel.txtWhatisthenamOne}"/>
+
             <TextView android:ellipsize="end"
                 android:gravity="center_horizontal"
                 android:id="@+id/txtWhatisthenamThree"
@@ -95,8 +78,8 @@
                 android:layout_width="match_parent"
                 android:singleLine="true"
                 android:text="@{passVM.passModel.txtWhatisthenamThree}"
-                style="@style/txt_3" tools:text="@string/msg_what_is_the_nam3"/>
-            <TextView android:ellipsize="end"
+                style="@style/txt_6" tools:text="@string/msg_what_is_the_nam3"/>
+            <EditText android:ellipsize="end"
                 android:gravity="center_horizontal"
                 android:id="@+id/txtGroup568"
                 android:layout_height="wrap_content"
@@ -109,7 +92,7 @@
                 android:paddingTop="@dimen/_13pxv"
                 android:singleLine="true"
                 android:text="@{passVM.passModel.txtGroup568}"
-                style="@style/txtSolidRounded_1" tools:text="@string/msg_what_is_the_nam2"/>
+                style="@style/txtSolidRounded_1" />
             <TextView android:ellipsize="end"
                 android:gravity="center_horizontal"
                 android:id="@+id/txtWhoisyourInt"
@@ -120,46 +103,53 @@
                 android:layout_width="match_parent"
                 android:singleLine="true"
                 android:text="@{passVM.passModel.txtWhoisyourInt}"
-                style="@style/txt_3" tools:text="@string/msg_who_is_your_int"/>
-            <TextView android:ellipsize="end"
+                style="@style/txt_6" tools:text="@string/msg_who_is_your_int"/>
+            <EditText android:ellipsize="end"
                 android:gravity="center_horizontal"
-                android:id="@+id/txtGroup567"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_38pxh"
                 android:layout_marginStart="@dimen/_38pxh"
-                android:layout_marginTop="@dimen/_4pxv"
                 android:layout_width="match_parent"
-                android:paddingBottom="@dimen/_7pxv"
-                android:paddingStart="@dimen/_12pxh"
-                android:paddingTop="@dimen/_7pxv"
+                android:paddingBottom="@dimen/_1pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_18pxh"
+                android:paddingTop="@dimen/_13pxv"
                 android:singleLine="true"
                 android:text="@{passVM.passModel.txtGroup567}"
-                style="@style/txtSolidRounded_1" tools:text="@string/msg_what_is_the_nam2"/>
+                style="@style/txtSolidRounded_1" />
             <LinearLayout android:id="@+id/linearRowback"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_84pxv"
+                android:layout_marginTop="@dimen/_63pxv"
                 android:layout_width="match_parent" android:orientation="horizontal">
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtBack"
+                    android:background="@drawable/rectangle_bg_gray_201_radius_17_5"
+                    android:gravity="center"
+                    android:paddingHorizontal="@dimen/_3pxh"
+                    android:paddingVertical="@dimen/_1pxv"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/_3pxv"
+                    android:layout_marginBottom="@dimen/_5pxv"
                     android:layout_marginStart="@dimen/_41pxh"
                     android:layout_marginTop="@dimen/_4pxv"
                     android:layout_weight="0.52"
-                    android:layout_width="0dp" android:singleLine="true"
-                    android:text="@{passVM.passModel.txtBack}"
-                    style="@style/txtPoppinsbold24" tools:text="@string/lbl_back"/>
+                    android:layout_width="10dp" android:singleLine="true"
+                    android:text="@{passVM.passModel.txtNext}"
+                    style="@style/txtPoppinsbold24_1" tools:text="@string/lbl_back"/>
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtNext"
+                    android:background="@drawable/rectangle_bg_gray_201_radius_17_5"
+                    android:gravity="center"
+                    android:paddingHorizontal="@dimen/_5pxh"
+                    android:paddingVertical="@dimen/_1pxv"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_2pxv"
                     android:layout_marginEnd="@dimen/_46pxh"
-                    android:layout_marginStart="@dimen/_133pxh"
+                    android:layout_marginStart="@dimen/_25pxh"
                     android:layout_marginTop="@dimen/_5pxv"
-                    android:layout_weight="0.48"
-                    android:layout_width="0dp" android:singleLine="true"
+                    android:layout_weight="0.52"
+                    android:layout_width="10dp" android:singleLine="true"
                     android:text="@{passVM.passModel.txtNext}"
-                    style="@style/txtPoppinsbold24" tools:text="@string/lbl_next"/>
+                    style="@style/txtPoppinsbold24_1" tools:text="@string/lbl_next"/>
             </LinearLayout>
         </LinearLayout>
     </FrameLayout>
