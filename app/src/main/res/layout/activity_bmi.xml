@@ -105,7 +105,7 @@
                                     android:layout_marginTop="@dimen/_12pxv"
                                     android:layout_width="match_parent"
                                     android:singleLine="true"
-                                    android:text="@{dietVM.dietModel.txtJournal}"
+
                                     style="@style/txtPoppinsbold20" tools:text="@string/lbl_journal"/>
                             </LinearLayout>
                         </LinearLayout>
@@ -136,7 +136,6 @@
                                 android:layout_marginTop="@dimen/_6pxv"
                                 android:layout_width="wrap_content"
                                 android:singleLine="true"
-                                android:text="@{dietVM.dietModel.txtDiet}"
                                 style="@style/txt_7" tools:text="@string/lbl_diet"/>
                         </LinearLayout>
 
@@ -176,7 +175,6 @@
                                 android:layout_marginTop="@dimen/_9pxv"
                                 android:layout_width="wrap_content"
                                 android:singleLine="true"
-                                android:text="@{dietVM.dietModel.txtWorkout}"
                                 style="@style/txt_8" tools:text="@string/lbl_workout"/>
                         </LinearLayout>
                         <LinearLayout
@@ -207,7 +205,6 @@
                                 android:layout_marginTop="@dimen/_13pxv"
                                 android:layout_width="wrap_content"
                                 android:singleLine="true"
-                                android:text="@{dietVM.dietModel.txtBMI}"
                                 style="@style/txt_9" tools:text="@string/lbl_bmi"/>
                         </LinearLayout>
                     </LinearLayout>

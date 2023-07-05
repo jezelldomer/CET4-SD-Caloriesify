@@ -68,12 +68,14 @@
                         android:layout_marginTop="@dimen/_14pxv"
                         android:layout_width="match_parent" android:orientation="horizontal">
                         <FrameLayout android:id="@+id/frameStackvector"
-                            android:layout_height="@dimen/_146pxv" android:layout_width="@dimen/_197pxh">
+                            android:layout_height="@dimen/_140pxv"
+                            android:layout_width="@dimen/_197pxh"
+                            android:layout_marginTop="@dimen/_19pxv">
                             <LinearLayout android:id="@+id/linearColumn"
                                 android:layout_gravity="bottom|start"
-                                android:layout_height="wrap_content"
+                                android:layout_height="@dimen/_140pxv"
                                 android:layout_marginEnd="@dimen/_10pxh"
-                                android:layout_marginTop="@dimen/_10pxv"
+                                android:layout_marginTop="@dimen/_20pxv"
                                 android:layout_width="match_parent"
                                 android:orientation="vertical" style="@style/groupStylebluegray_1">
                                 <LinearLayout

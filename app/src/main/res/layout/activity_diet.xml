@@ -111,13 +111,14 @@
                         </LinearLayout>
                         <FrameLayout android:id="@+id/frameStackvolume"
                             android:layout_height="@dimen/_146pxv"
-                            android:layout_marginStart="@dimen/_29pxh" android:layout_width="@dimen/_192pxh">
+                            android:layout_marginStart="@dimen/_29pxh"
+                            android:layout_width="@dimen/_192pxh"
+                            android:layout_marginTop="@dimen/_15pxv">
                             <LinearLayout
                                 android:id="@+id/linearColumnvolume"
                                 android:layout_gravity="bottom|center"
-                                android:layout_height="wrap_content"
+                                android:layout_height="117dp"
                                 android:layout_marginEnd="@dimen/_6pxh"
-                                android:layout_marginTop="@dimen/_10pxv"
                                 android:layout_width="match_parent"
                                 android:orientation="vertical" style="@style/groupStylebluegray_1">
                                 <ImageView android:id="@+id/imageVolume"
@@ -134,7 +135,7 @@
                                     android:id="@+id/txtDiet"
                                     android:layout_gravity="center_horizontal"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginBottom="@dimen/_28pxv"
+                                    android:layout_marginBottom="@dimen/_2pxv"
                                     android:layout_marginEnd="@dimen/_72pxh"
                                     android:layout_marginStart="@dimen/_72pxh"
                                     android:layout_marginTop="@dimen/_6pxv"
