@@ -40,7 +40,7 @@
                 android:singleLine="true"
                 android:text="@{ageVM.ageModel.txtWhatsyourage}"
                 style="@style/txt_2" tools:text="@string/msg_what_s_your_age"/>
-            <EditText  android:background="@drawable/rectangle_bg_gray_200"
+            <EditText  android:background="@drawable/rectangle_bg_gray_201_radius_17_5"
                 android:gravity="center_horizontal"
                 android:ellipsize="end" android:hint="@string/lbl_age"
                 android:id="@+id/etRectangleTwentyOne"
