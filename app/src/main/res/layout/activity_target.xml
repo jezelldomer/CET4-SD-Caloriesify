@@ -28,18 +28,22 @@
                 android:singleLine="true"
                 android:text="@{targetVM.targetModel.txtFour}"
                 style="@style/txtPoppinsbold24" tools:text="@string/lbl"/>
-            <TextView android:gravity="start"
+            <TextView
                 android:id="@+id/txtWhatsyourTar"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_17pxv"
+                android:gravity="center"
                 android:layout_width="match_parent"
                 android:text="@{targetVM.targetModel.txtWhatsyourTar}"
                 style="@style/txt_2" tools:text="@string/msg_what_s_your_tar"/>
-            <View
+            <EditText
                 android:background="@drawable/rectangle_bg_bluegray_100_radius_19_5"
                 android:id="@+id/viewRectangleTwentyOne"
-                android:layout_gravity="start"
+                android:layout_gravity="center|start"
+                android:gravity="center"
+                android:hint="@string/lbl_kg"
                 android:layout_height="@dimen/_50pxv"
+                android:textColorHint="@color/gray_703"
                 android:layout_marginEnd="@dimen/_115pxh"
                 android:layout_marginStart="@dimen/_115pxh"
                 android:layout_marginTop="@dimen/_18pxv" android:layout_width="@dimen/_130pxh"/>
@@ -54,31 +58,36 @@
                 style="@style/txt_3" tools:text="@string/msg_we_use_this_dat"/>
             <LinearLayout android:id="@+id/linearRowback"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/_15pxh"
-                android:layout_marginStart="@dimen/_15pxh"
                 android:layout_marginTop="@dimen/_63pxv"
                 android:layout_width="match_parent" android:orientation="horizontal">
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtBack"
+                    android:background="@drawable/rectangle_bg_gray_201_radius_17_5"
+                    android:gravity="center"
+                    android:paddingHorizontal="@dimen/_3pxh"
+                    android:paddingVertical="@dimen/_1pxv"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/_3pxv"
+                    android:layout_marginBottom="@dimen/_5pxv"
                     android:layout_marginStart="@dimen/_41pxh"
                     android:layout_marginTop="@dimen/_4pxv"
                     android:layout_weight="0.52"
-                    android:layout_width="0dp" android:singleLine="true"
+                    android:layout_width="10dp" android:singleLine="true"
                     android:text="@{targetVM.targetModel.txtBack}"
-                    style="@style/txtPoppinsbold24" tools:text="@string/lbl_back"/>
+                    style="@style/txtPoppinsbold24_1" tools:text="@string/lbl_back"/>
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtNext"
+                    android:background="@drawable/rectangle_bg_gray_201_radius_17_5"
+                    android:gravity="center"
+                    android:paddingHorizontal="@dimen/_3pxh"
+                    android:paddingVertical="@dimen/_1pxv"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/_2pxv"
-                    android:layout_marginEnd="@dimen/_46pxh"
-                    android:layout_marginStart="@dimen/_133pxh"
-                    android:layout_marginTop="@dimen/_5pxv"
-                    android:layout_weight="0.48"
-                    android:layout_width="0dp" android:singleLine="true"
+                    android:layout_marginBottom="@dimen/_5pxv"
+                    android:layout_marginStart="@dimen/_41pxh"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_weight="0.52"
+                    android:layout_width="10dp" android:singleLine="true"
                     android:text="@{targetVM.targetModel.txtNext}"
-                    style="@style/txtPoppinsbold24" tools:text="@string/lbl_next"/>
+                    style="@style/txtPoppinsbold24_1" tools:text="@string/lbl_next"/>
             </LinearLayout>
         </LinearLayout>
     </FrameLayout>
