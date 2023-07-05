@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <data>
-        <variable name="maleVM" type="com.front_end.app.modules.male.data.viewmodel.MaleVM"/>
+        <variable name="asexVM" type="com.front_end.app.modules.asex.data.viewmodel.AsexVM"/>
     </data>
     <FrameLayout android:id="@+id/frameStackrectanglethirteen"
         android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/_10pxv"
         android:layout_width="match_parent" style="@style/groupStylegray_200">
-        <FrameLayout android:id="@+id/frameMale"
+        <FrameLayout android:id="@+id/frameAsex"
             android:layout_gravity="start"
             android:layout_height="match_parent"
             android:layout_width="match_parent" style="@style/groupStylegray_200">
@@ -25,95 +24,13 @@
                 android:layout_marginTop="@dimen/_10pxv" android:layout_width="match_parent">
                 <ImageView android:id="@+id/imageRectangleOne"
                     android:layout_gravity="start"
+                    android:layout_marginBottom="-200dp"
                     android:layout_height="match_parent"
                     android:layout_width="match_parent"
                     android:scaleType="fitXY"
                     android:src="@drawable/img_rectangle1"
                     tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle1"/>
-                <LinearLayout android:id="@+id/linearColumnorsignupwith"
-                    android:layout_gravity="bottom|start"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/_160pxv"
-                    android:layout_marginEnd="@dimen/_45pxh"
-                    android:layout_marginStart="@dimen/_45pxh"
-                    android:layout_marginTop="@dimen/_160pxv"
-                    android:layout_width="match_parent" android:orientation="vertical">
-                    <TextView android:ellipsize="end"
-                        android:id="@+id/txtOrSignUpwith"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="@dimen/_90pxh"
-                        android:layout_marginStart="@dimen/_90pxh"
-                        android:layout_width="wrap_content"
-                        android:singleLine="true"
-                        android:text="@{maleVM.maleModel.txtOrSignUpwith}"
-                        style="@style/txtPoppinsregular16" tools:text="@string/lbl_or_signup_with"/>
-                    <LinearLayout android:id="@+id/linearRowgroupeight"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_40pxv"
-                        android:layout_width="match_parent" android:orientation="horizontal">
-                        <EditText
-                            android:background="@drawable/rectangle_bg_bluegray_100_radius_17"
-                            android:drawablePadding="@dimen/_17pxh"
-                            android:drawableStart="@drawable/img_facebook"
-                            android:ellipsize="end"
-                            android:hint="@string/lbl_facebook"
-                            android:id="@+id/etGroupEight"
-                            android:inputType="text"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="0.5"
-                            android:layout_width="0dp"
-                            android:paddingBottom="@dimen/_5pxv"
-                            android:paddingEnd="@dimen/_18pxh"
-                            android:paddingStart="@dimen/_21pxh"
-                            android:paddingTop="@dimen/_5pxv"
-                            android:singleLine="true"
-                            android:text="@={maleVM.maleModel.etGroupEightValue}"
-                            android:textColorHint="@color/gray_700"
-                            style="@style/etSolidRounded" tools:ignore="Autofill"/>
-                        <EditText
-                            android:background="@drawable/rectangle_bg_bluegray_100_radius_17"
-                            android:drawablePadding="@dimen/_16pxh"
-                            android:drawableStart="@drawable/img_fingerprint"
-                            android:ellipsize="end"
-                            android:hint="@string/lbl_google"
-                            android:id="@+id/etGroupSeven"
-                            android:inputType="text"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/_29pxh"
-                            android:layout_weight="0.5"
-                            android:layout_width="0dp"
-                            android:paddingBottom="@dimen/_4pxv"
-                            android:paddingEnd="@dimen/_30pxh"
-                            android:paddingStart="@dimen/_18pxh"
-                            android:paddingTop="@dimen/_6pxv"
-                            android:singleLine="true"
-                            android:text="@={maleVM.maleModel.etGroupSevenValue}"
-                            android:textColorHint="@color/gray_700"
-                            style="@style/etSolidRounded" tools:ignore="Autofill"/>
-                    </LinearLayout>
-                    <EditText
-                        android:background="@drawable/rectangle_bg_bluegray_100_radius_17"
-                        android:drawablePadding="@dimen/_10pxh"
-                        android:drawableStart="@drawable/img_grid"
-                        android:ellipsize="end"
-                        android:hint="@string/lbl_microsoft"
-                        android:id="@+id/etGroupSix"
-                        android:inputType="text"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="@dimen/_83pxh"
-                        android:layout_marginStart="@dimen/_90pxh"
-                        android:layout_marginTop="@dimen/_41pxv"
-                        android:layout_width="match_parent"
-                        android:paddingBottom="@dimen/_6pxv"
-                        android:paddingEnd="@dimen/_22pxh"
-                        android:paddingStart="@dimen/_20pxh"
-                        android:paddingTop="@dimen/_4pxv"
-                        android:singleLine="true"
-                        android:text="@={maleVM.maleModel.etGroupSixValue}"
-                        android:textColorHint="@color/gray_700"
-                        style="@style/etSolidRounded" tools:ignore="Autofill"/>
-                </LinearLayout>
+
             </FrameLayout>
             <LinearLayout android:id="@+id/linearColumnrectanglesixteen"
                 android:layout_gravity="top|center"
@@ -133,7 +50,7 @@
                     <ImageView android:id="@+id/imageRectangleSixteen"
                         android:layout_gravity="top|start"
                         android:layout_height="@dimen/_70pxh"
-                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginBottom="@dimen/_5pxv"
                         android:layout_marginEnd="@dimen/_31pxh"
                         android:layout_marginStart="@dimen/_31pxh"
                         android:layout_width="@dimen/_76pxh"
@@ -146,14 +63,14 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_10pxv"
                         android:layout_width="match_parent"
-                        android:text="@{maleVM.maleModel.txtWelcomeSignUp}"
+                        android:text="@{asexVM.asexModel.txtWelcomeSignUp}"
                         style="@style/txtPoppinsregular29" tools:text="@string/msg_welcome_signup"/>
                 </FrameLayout>
-                <LinearLayout android:gravity="end"
+                <LinearLayout android:gravity="center|start"
                     android:id="@+id/linearRowlogin"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_54pxh"
-                    android:layout_marginStart="@dimen/_54pxh"
+                    android:layout_marginStart="@dimen/_75pxh"
                     android:layout_marginTop="@dimen/_12pxv"
                     android:layout_width="wrap_content" android:orientation="horizontal">
                     <TextView android:ellipsize="end"
@@ -164,7 +81,7 @@
                         android:layout_weight="0.35"
                         android:layout_width="0dp"
                         android:singleLine="true"
-                        android:text="@{maleVM.maleModel.txtLOGIN}"
+                        android:text="@{asexVM.asexModel.txtLOGIN}"
                         style="@style/txtPoppinsbold16" tools:text="@string/lbl_login"/>
                     <FrameLayout android:id="@+id/frameStacklineone"
                         android:layout_height="@dimen/_29pxv"
@@ -174,9 +91,9 @@
                             android:layout_gravity="top|start"
                             android:layout_height="@dimen/_2pxv"
                             android:layout_marginBottom="@dimen/_10pxv"
-                            android:layout_marginEnd="@dimen/_10pxh"
-                            android:layout_marginStart="@dimen/_1pxh"
-                            android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_85pxh"/>
+                            android:layout_marginEnd="@dimen/_5pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_70pxh"/>
                         <TextView android:ellipsize="end"
                             android:gravity="center"
                             android:id="@+id/txtSIGNUP"
@@ -184,7 +101,7 @@
                             android:layout_height="wrap_content"
                             android:layout_width="match_parent"
                             android:singleLine="true"
-                            android:text="@{maleVM.maleModel.txtSIGNUP}"
+                            android:text="@{asexVM.asexModel.txtSIGNUP}"
                             style="@style/txt" tools:text="@string/lbl_signup"/>
                     </FrameLayout>
                 </LinearLayout>
@@ -205,9 +122,10 @@
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
                         android:singleLine="true"
-                        android:text="@={maleVM.maleModel.etStackuserValue}"
+                        android:text="@={asexVM.asexModel.etStackuserValue}"
                         android:textColor="@color/black_900" android:textSize="@dimen/_12pxh"/>
                 </com.google.android.material.textfield.TextInputLayout>
+
                 <com.google.android.material.textfield.TextInputLayout
                     android:hint="@string/lbl_email_com"
                     android:id="@+id/textInputLayStackvector"
@@ -225,16 +143,17 @@
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
                         android:singleLine="true"
-                        android:text="@={maleVM.maleModel.etStackvectorValue}"
+                        android:text="@={asexVM.asexModel.etStackvectorValue}"
                         android:textColor="@color/black_900" android:textSize="@dimen/_12pxh"/>
                 </com.google.android.material.textfield.TextInputLayout>
+
                 <com.google.android.material.textfield.TextInputLayout
                     android:hint="@string/lbl_password"
                     android:id="@+id/textInputLayStacklock"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/_21pxh"
-                    android:layout_marginStart="@dimen/_24pxh"
-                    android:layout_marginTop="@dimen/_24pxv"
+                    android:layout_marginEnd="@dimen/_19pxh"
+                    android:layout_marginStart="@dimen/_22pxh"
+                    android:layout_marginTop="@dimen/_30pxv"
                     android:layout_width="match_parent"
                     android:textColorHint="@color/bluegray_900" style="@style/txtSolidRounded">
 
@@ -245,43 +164,46 @@
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
                         android:singleLine="true"
-                        android:text="@={maleVM.maleModel.etStacklockValue}"
+                        android:text="@={asexVM.asexModel.etStackvectorValue}"
                         android:textColor="@color/black_900" android:textSize="@dimen/_12pxh"/>
                 </com.google.android.material.textfield.TextInputLayout>
-                <LinearLayout android:id="@+id/linearRowgroup474"
+
+                <LinearLayout android:id="@+id/linearRowvectorOne"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_24pxh"
                     android:layout_marginStart="@dimen/_24pxh"
                     android:layout_marginTop="@dimen/_11pxv"
                     android:layout_width="match_parent" android:orientation="horizontal">
-                    <ImageButton
-                        android:background="@drawable/rectangle_bg_gray_201_radius_17_5"
-                        android:id="@+id/btnGroup474"
-                        android:layout_height="@dimen/_35pxh"
-                        android:layout_width="@dimen/_35pxh"
-                        android:paddingHorizontal="@dimen/_5pxh"
-                        android:paddingVertical="@dimen/_5pxv"
-                        android:scaleType="fitCenter"
-                        android:src="@drawable/img_vector" tools:ignore="ContentDescription"/>
-                    <ImageView android:id="@+id/imageLightbulb"
-                        android:layout_height="@dimen/_20pxh"
-                        android:layout_marginBottom="@dimen/_3pxv"
-                        android:layout_marginStart="@dimen/_63pxh"
-                        android:layout_marginTop="@dimen/_11pxv"
-                        android:layout_width="@dimen/_14pxh"
+                    <ImageView android:id="@+id/imageVectorOne"
+                        android:layout_height="@dimen/_17pxh"
+                        android:layout_marginStart="@dimen/_30pxh"
+                        android:layout_marginBottom="@dimen/_5pxv"
+                        android:layout_marginTop="@dimen/_12pxv"
+                        android:layout_width="@dimen/_17pxh"
                         android:scaleType="fitXY"
-                        android:src="@drawable/img_lightbulb"
-                        tools:ignore="ContentDescription" tools:src="@drawable/img_lightbulb"/>
+                        android:src="@drawable/img_vector"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_vector"/>
+                    <ImageButton
+                        android:background="@drawable/rectangle_bg_bluegray_100_radius_20"
+                        android:id="@+id/btnLightbulb"
+                        android:layout_height="@dimen/_35pxh"
+                        android:layout_marginStart="@dimen/_70pxh"
+                        android:layout_width="@dimen/_35pxh"
+                        android:paddingHorizontal="@dimen/_3pxh"
+                        android:paddingVertical="@dimen/_3pxv"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/img_lightbulb" tools:ignore="ContentDescription"/>
                     <ImageView
                         android:id="@+id/imageIcons8lgbtSixtyFour"
-                        android:layout_height="@dimen/_20pxh"
                         android:layout_marginBottom="@dimen/_6pxv"
-                        android:layout_marginStart="@dimen/_71pxh"
                         android:layout_marginTop="@dimen/_9pxv"
-                        android:layout_width="@dimen/_20pxh"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/img_group44"
-                        tools:ignore="ContentDescription" tools:src="@drawable/img_group44"/>
+                        android:layout_height="@dimen/_30pxh"
+                        android:layout_marginStart="@dimen/_65pxh"
+                        android:layout_width="@dimen/_35pxh"
+                        android:paddingHorizontal="@dimen/_6pxh"
+                        android:paddingVertical="@dimen/_6pxv"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/img_group44" tools:ignore="ContentDescription"/>
                 </LinearLayout>
                 <TextView android:gravity="center_horizontal"
                     android:id="@+id/txtTermAndCondition"
@@ -289,22 +211,111 @@
                     android:layout_marginBottom="@dimen/_47pxv"
                     android:layout_marginEnd="@dimen/_24pxh"
                     android:layout_marginStart="@dimen/_24pxh"
-                    android:layout_marginTop="@dimen/_16pxv"
+                    android:layout_marginTop="@dimen/_1pxv"
                     android:layout_width="match_parent"
-                    android:text="@{maleVM.maleModel.txtTermAndCondition}"
+                    android:text="@{asexVM.asexModel.txtTermAndCondition}"
                     style="@style/txt_1" tools:text="@string/msg_by_pressing_su"/>
             </LinearLayout>
             <ImageView android:id="@+id/imageArrowright"
-                android:layout_gravity="bottom|center"
-                android:layout_height="@dimen/_60pxh"
-                android:layout_marginBottom="@dimen/_389pxv"
-                android:layout_marginEnd="@dimen/_182pxh"
-                android:layout_marginStart="@dimen/_182pxh"
-                android:layout_marginTop="@dimen/_389pxv"
-                android:layout_width="@dimen/_60pxh"
+                android:layout_height="@dimen/_90pxh"
+                android:layout_marginHorizontal="@dimen/_50pxh"
+                android:layout_width="@dimen/_90pxh"
                 android:scaleType="fitXY"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_240pxv"
                 android:src="@drawable/img_arrowright"
                 tools:ignore="ContentDescription" tools:src="@drawable/img_arrowright"/>
+
+            <LinearLayout android:id="@+id/linearColumnorloginwith"
+                android:layout_gravity="bottom|center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_40pxv"
+                android:layout_marginEnd="@dimen/_49pxh"
+                android:layout_marginStart="@dimen/_49pxh"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <FrameLayout android:id="@+id/frameStackorloginwith"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_20pxv"
+                    android:layout_marginEnd="@dimen/_16pxh"
+                    android:layout_marginStart="@dimen/_1pxh" android:layout_width="@dimen/_291pxh">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtOrLoginwith"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_27pxv"
+                        android:layout_marginStart="@dimen/_21pxh"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@={asexVM.asexModel.etStackvectorValue}"
+                        style="@style/txtPoppinsregular16" tools:text="@string/lbl_or_login_with"/>
+
+                </FrameLayout>
+                <LinearLayout android:id="@+id/linearRowgroupfour"
+                    android:layout_gravity="bottom"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/rectangle_bg_bluegray_100_radius_17"
+                        android:drawablePadding="@dimen/_16pxh"
+                        android:drawableStart="@drawable/img_facebook"
+                        android:ellipsize="end"
+                        android:hint="@string/lbl_facebook"
+                        android:id="@+id/etGroupFour"
+                        android:inputType="text"
+                        android:layout_height="30dp"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:layout_marginStart="@dimen/_36pxh"
+                        android:paddingBottom="@dimen/_3pxv"
+                        android:paddingEnd="@dimen/_18pxh"
+                        android:paddingStart="@dimen/_5pxh"
+                        android:paddingTop="@dimen/_7pxv"
+                        android:singleLine="true"
+                        android:text="@={asexVM.asexModel.etStackvectorValue}"
+                        android:textColorHint="@color/gray_700"
+                        style="@style/etSolidRounded" tools:ignore="Autofill"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/rectangle_bg_bluegray_100_radius_17"
+                        android:drawablePadding="@dimen/_16pxh"
+                        android:drawableStart="@drawable/img_fingerprint"
+                        android:ellipsize="end"
+                        android:hint="@string/lbl_google"
+                        android:id="@+id/etGroupThree"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="@dimen/_36pxh"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:paddingBottom="@dimen/_3pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_5pxh"
+                        android:paddingTop="@dimen/_7pxv"
+                        android:singleLine="true"
+                        android:text="@={asexVM.asexModel.etStackvectorValue}"
+                        android:textColorHint="@color/gray_700"
+                        style="@style/etSolidRounded" tools:ignore="Autofill"/>
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/etGroupFive"
+                    style="@style/etSolidRounded"
+                    android:layout_width="141dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_18pxv"
+                    android:background="@drawable/rectangle_bg_bluegray_100_radius_17"
+                    android:drawableStart="@drawable/img_grid"
+                    android:drawablePadding="@dimen/_1pxh"
+                    android:ellipsize="end"
+                    android:hint="@string/lbl_microsoft"
+                    android:paddingStart="@dimen/_5pxh"
+                    android:paddingTop="@dimen/_4pxv"
+                    android:paddingEnd="@dimen/_18pxh"
+                    android:paddingBottom="@dimen/_1pxv"
+                    android:singleLine="true"
+                    android:text="@={asexVM.asexModel.etStackvectorValue}"
+                    android:textColorHint="@color/gray_700"/>
+            </LinearLayout>
         </FrameLayout>
     </FrameLayout>
 </layout>

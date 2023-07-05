@@ -83,7 +83,7 @@
                         android:layout_gravity="top|start"
                         android:layout_height="@dimen/_2pxv"
                         android:layout_marginBottom="@dimen/_10pxv"
-                        android:layout_marginEnd="@dimen/_11pxh"
+                        android:layout_marginEnd="@dimen/_10pxh"
                         android:layout_marginStart="@dimen/_1pxh"
                         android:layout_marginTop="@dimen/_2pxv" android:layout_width="@dimen/_47pxh"/>
                     <TextView android:ellipsize="end"
@@ -223,7 +223,7 @@
 
                 </FrameLayout>
                 <LinearLayout android:id="@+id/linearRowgroupfour"
-                    android:layout_gravity="bottom| center"
+                    android:layout_gravity="bottom"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_10pxv"
                     android:layout_width="match_parent" android:orientation="horizontal">
@@ -286,7 +286,7 @@
                     android:paddingBottom="@dimen/_1pxv"
                     android:singleLine="true"
                     android:text="@={loginVM.loginModel.etGroupFiveValue}"
-                    android:textColorHint="@color/gray_700"
+                    android:textColorHint="@color/gray_700"/>
             </LinearLayout>
         </FrameLayout>
     </FrameLayout>
