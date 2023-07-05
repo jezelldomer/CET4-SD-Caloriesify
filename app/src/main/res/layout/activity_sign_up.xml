@@ -188,6 +188,7 @@
                         android:id="@+id/btnLightbulb"
                         android:layout_height="@dimen/_35pxh"
                         android:layout_marginStart="@dimen/_70pxh"
+                        android:layout_marginStart="@dimen/_70pxh"
                         android:layout_width="@dimen/_35pxh"
                         android:paddingHorizontal="@dimen/_3pxh"
                         android:paddingVertical="@dimen/_3pxv"
