@@ -34,21 +34,23 @@
                             android:layout_width="0dp" android:orientation="horizontal">
                             <FrameLayout
                                 android:id="@+id/frameStackarrowfive"
-                                android:layout_height="@dimen/_39pxv"
-                                android:layout_marginBottom="@dimen/_3pxv"
-                                android:layout_width="@dimen/_41pxh" style="@style/groupStylegreen_A700cornerRadius">
+                                android:layout_height="@dimen/_47pxv"
+                                android:layout_marginBottom="@dimen/_1pxv"
+                                android:layout_marginTop="@dimen/_4pxv"
+                                android:layout_width="@dimen/_40pxh" style="@style/btnSolidRounded">
+
                                 <ImageView
                                     android:id="@+id/imageArrowFive"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="15dp"
                                     android:layout_gravity="bottom|start"
-                                    android:layout_height="@dimen/_3pxh"
-                                    android:layout_marginBottom="@dimen/_17pxv"
+                                    android:layout_marginStart="@dimen/_14pxh"
+                                    android:layout_marginTop="@dimen/_10pxv"
                                     android:layout_marginEnd="@dimen/_15pxh"
-                                    android:layout_marginStart="@dimen/_15pxh"
-                                    android:layout_marginTop="@dimen/_17pxv"
-                                    android:layout_width="@dimen/_1pxh"
+                                    android:layout_marginBottom="@dimen/_15pxv"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/img_arrow5"
-                                    tools:ignore="ContentDescription" tools:src="@drawable/img_arrow5"/>
+                                    tools:ignore="ContentDescription"
+                                    tools:src="@drawable/img_arrow5" />
                             </FrameLayout>
                             <TextView android:ellipsize="end"
                                 android:id="@+id/txtNotes"
