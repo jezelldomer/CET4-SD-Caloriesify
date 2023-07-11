@@ -32,12 +32,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_65pxv"
                     android:layout_width="wrap_content" android:orientation="horizontal">
-                    <View
-                        android:background="@drawable/rectangle_bg_white_a700_border_gray_603"
+                    <androidx.appcompat.widget.AppCompatCheckBox
                         android:id="@+id/viewRectangleTen"
                         android:layout_height="@dimen/_19pxh"
-                        android:layout_marginBottom="@dimen/_32pxv"
-                        android:layout_marginTop="@dimen/_32pxv" android:layout_width="@dimen/_20pxh"/>
+                        android:layout_marginTop="@dimen/_32pxv" android:layout_width="@dimen/_30pxh"/>
                     <FrameLayout
                         android:id="@+id/frameStackrectanglesix"
                         android:layout_height="@dimen/_83pxv"
@@ -97,7 +95,7 @@
             </LinearLayout>
             <FrameLayout android:id="@+id/frameStackarrowfive"
                 android:layout_gravity="top|start"
-                android:layout_height="@dimen/_39pxv"
+                android:layout_height="@dimen/_50pxv"
                 android:layout_marginBottom="@dimen/_18pxv"
                 android:layout_marginEnd="@dimen/_12pxh"
                 android:layout_marginStart="@dimen/_12pxh"
@@ -105,12 +103,12 @@
                 android:layout_width="@dimen/_41pxh" style="@style/groupStylegreen_A700cornerRadius">
                 <ImageView android:id="@+id/imageArrowFive"
                     android:layout_gravity="bottom|start"
-                    android:layout_height="@dimen/_3pxh"
-                    android:layout_marginBottom="@dimen/_17pxv"
+                    android:layout_height="@dimen/_20pxh"
+                    android:layout_marginBottom="@dimen/_12pxh"
                     android:layout_marginEnd="@dimen/_15pxh"
                     android:layout_marginStart="@dimen/_15pxh"
-                    android:layout_marginTop="@dimen/_17pxv"
-                    android:layout_width="@dimen/_1pxh"
+                    android:layout_marginTop="@dimen/_25pxv"
+                    android:layout_width="@dimen/_10pxh"
                     android:scaleType="fitXY"
                     android:src="@drawable/img_arrow5"
                     tools:ignore="ContentDescription" tools:src="@drawable/img_arrow5"/>

@@ -158,21 +158,24 @@
                     android:layout_marginStart="@dimen/_22pxh"
                     android:layout_marginTop="@dimen/_2pxv"
                     android:layout_width="match_parent" android:orientation="horizontal">
+
                     <androidx.appcompat.widget.AppCompatCheckBox
+                        android:id="@+id/checkBoxRememberMe"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.49"
                         android:buttonTint="@color/gray_603"
                         android:ellipsize="end"
                         android:fontFamily="@font/poppins"
-                        android:id="@+id/checkBoxRememberMe"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0.49"
-                        android:layout_width="0dp"
                         android:paddingStart="@dimen/_4pxh"
                         android:singleLine="true"
                         android:text="@string/lbl_remember_me"
                         android:textColor="@color/gray_603"
                         android:textFontWeight="400"
                         android:textSize="@dimen/_9pxh"
-                        android:textStyle="normal" tools:text="@string/lbl_remember_me"/>
+                        android:textStyle="normal"
+                        tools:text="@string/lbl_remember_me" />
+
                     <androidx.appcompat.widget.AppCompatButton
                         android:ellipsize="end" android:gravity="center"
                         android:id="@+id/btnForgotPassword"
