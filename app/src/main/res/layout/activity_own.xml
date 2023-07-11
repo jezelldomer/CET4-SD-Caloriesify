@@ -52,7 +52,7 @@
                     android:layout_weight="0.54"
                     android:layout_width="0dp"
                     android:orientation="vertical" style="@style/groupStylebluegray_6">
-                    <androidx.appcompat.widget.AppCompatButton
+                    <EditText
                         android:ellipsize="end" android:gravity="center"
                         android:id="@+id/btn00"
                         android:layout_height="match_parent"
@@ -91,10 +91,10 @@
                     android:id="@+id/linearColumn00One"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_108pxh"
-                    android:layout_weight="0.5"
+                    android:layout_weight="0.54"
                     android:layout_width="0dp"
                     android:orientation="vertical" style="@style/groupStylebluegray_6">
-                    <androidx.appcompat.widget.AppCompatButton
+                    <EditText
                         android:ellipsize="end" android:gravity="center"
                         android:id="@+id/btn00One"
                         android:layout_height="match_parent"
@@ -133,10 +133,10 @@
                     android:id="@+id/linearColumn00Two"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_135pxh"
-                    android:layout_weight="0.62"
+                    android:layout_weight="0.54"
                     android:layout_width="0dp"
                     android:orientation="vertical" style="@style/groupStylebluegray_6">
-                    <androidx.appcompat.widget.AppCompatButton
+                    <EditText
                         android:ellipsize="end" android:gravity="center"
                         android:id="@+id/btn00Two"
                         android:layout_height="match_parent"

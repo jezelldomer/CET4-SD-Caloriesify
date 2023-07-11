@@ -267,7 +267,7 @@
                         android:layout_marginBottom="@dimen/_80pxv"
                         android:layout_marginEnd="@dimen/_14pxh"
                         android:layout_marginStart="@dimen/_14pxh"
-                        android:layout_marginTop="@dimen/_69pxv"
+                        android:layout_marginTop="@dimen/_20pxv"
                         android:layout_width="@dimen/_346pxh"
                         android:paddingBottom="@dimen/_12pxv"
                         android:paddingEnd="@dimen/_30pxh"
