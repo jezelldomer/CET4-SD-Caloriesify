@@ -6,7 +6,7 @@
     <LinearLayout android:gravity="start" android:id="@+id/linearUnder"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:orientation="vertical" style="@style/groupStylegray_200">
+        android:orientation="vertical" >
         <LinearLayout android:gravity="center_horizontal"
             android:id="@+id/linearMainEclipse"
             android:layout_height="wrap_content"
@@ -17,29 +17,25 @@
             android:orientation="vertical" style="@style/groupStylegray_200_16cornerRadius">
             <FrameLayout android:id="@+id/frameStackellipseten"
                 android:layout_gravity="center_horizontal"
-                android:layout_height="@dimen/_218pxv"
-                android:layout_marginBottom="@dimen/_35pxv"
-                android:layout_marginEnd="@dimen/_35pxh"
-                android:layout_marginStart="@dimen/_35pxh"
-                android:layout_marginTop="@dimen/_36pxv"
-                android:layout_width="@dimen/_218pxh" style="@style/groupStylecornerRadius">
+                android:layout_height="@dimen/_250pxv"
+                android:background="@drawable/rectangle_border_red_900_radius_109"
+                android:layout_width="@dimen/_218pxh" >
                 <View
                     android:background="@drawable/rectangle_border_lime_a400_radius_109"
                     android:id="@+id/viewEllipseTen"
-                    android:layout_gravity="start"
-                    android:layout_height="@dimen/_218pxh" android:layout_width="@dimen/_218pxh"/>
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_200pxh" android:layout_width="@dimen/_200pxh"/>
                 <TextView android:ellipsize="end"
-                    android:gravity="top|start"
+                    android:gravity="center"
                     android:id="@+id/txtOverweight"
                     android:layout_gravity="bottom|center"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/_86pxv"
+                    android:layout_marginBottom="@dimen/_90pxv"
                     android:layout_marginEnd="@dimen/_36pxh"
                     android:layout_marginStart="@dimen/_36pxh"
-                    android:layout_marginTop="@dimen/_86pxv"
+                    android:layout_marginTop="@dimen/_80pxv"
                     android:layout_width="match_parent"
                     android:singleLine="true"
-                    android:text="@{underVM.underModel.txtOverweight}"
                     style="@style/txtPoppinssemibold24" tools:text="@string/lbl_overweight"/>
             </FrameLayout>
         </LinearLayout>

@@ -410,7 +410,7 @@
         <item name="android:background">@drawable/rectangle_bg_bluegray_101_radius_25</item>
     </style>
     <style name="txtPoppinssemibold36">
-        <item name="android:textSize">@dimen/_36pxh</item>
+        <item name="android:textSize">@dimen/_33pxh</item>
         <item name="android:textColor">@color/black_900</item>
         <item name="android:fontFamily">@font/poppins</item>
         <item name="android:textFontWeight" tools:targetApi="p">600</item>

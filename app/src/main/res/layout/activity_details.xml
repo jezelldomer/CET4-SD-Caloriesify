@@ -24,20 +24,18 @@
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent" android:orientation="horizontal">
                     <FrameLayout android:id="@+id/frameStackarrowfive"
-                        android:layout_height="@dimen/_39pxv"
-                        android:layout_marginBottom="@dimen/_1pxv"
-                        android:layout_width="@dimen/_41pxh" style="@style/groupStylegreen_A700cornerRadius">
+                        android:layout_height="@dimen/_50pxv"
+                        android:layout_width="@dimen/_41pxh">
                         <ImageView android:id="@+id/imageArrowFive"
                             android:layout_gravity="bottom|start"
-                            android:layout_height="@dimen/_3pxh"
+                            android:layout_height="@dimen/_20pxh"
                             android:layout_marginBottom="@dimen/_17pxv"
                             android:layout_marginEnd="@dimen/_15pxh"
                             android:layout_marginStart="@dimen/_15pxh"
                             android:layout_marginTop="@dimen/_17pxv"
-                            android:layout_width="@dimen/_1pxh"
+                            android:layout_width="@dimen/_15pxh"
                             android:scaleType="fitXY"
-                            android:src="@drawable/img_arrow5"
-                            tools:ignore="ContentDescription" tools:src="@drawable/img_arrow5"/>
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_arrow2"/>
                     </FrameLayout>
                     <TextView android:ellipsize="end"
                         android:id="@+id/txtSUMMARY"
@@ -54,6 +52,7 @@
             <LinearLayout android:gravity="end"
                 android:id="@+id/linearRowyourbmi"
                 android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_bg_bluegray_100_radius_15_495"
                 android:layout_marginStart="@dimen/_10pxh"
                 android:layout_marginTop="@dimen/_61pxv"
                 android:layout_width="match_parent"
@@ -124,6 +123,7 @@
                 android:singleLine="true"
                 android:text="@string/lbl_save_results"
                 android:textAllCaps="false"
+                android:background="@drawable/rectangle_bg_white_a700_radius_40_5"
                 style="@style/btnSolidRounded_8" tools:text="@string/lbl_save_results"/>
         </LinearLayout>
     </FrameLayout>

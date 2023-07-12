@@ -18,17 +18,14 @@
             android:orientation="vertical" style="@style/groupStylegray_200_16cornerRadius">
             <FrameLayout android:id="@+id/frameStackellipseten"
                 android:layout_gravity="center_horizontal"
-                android:layout_height="@dimen/_218pxv"
-                android:layout_marginBottom="@dimen/_35pxv"
-                android:layout_marginEnd="@dimen/_35pxh"
-                android:layout_marginStart="@dimen/_35pxh"
-                android:layout_marginTop="@dimen/_36pxv"
-                android:layout_width="@dimen/_218pxh" style="@style/groupStylecornerRadius">
+                android:layout_height="@dimen/_250pxv"
+                android:background="@drawable/rectangle_border_gray_604_radius_109"
+                android:layout_width="@dimen/_218pxh">
                 <View
                     android:background="@drawable/rectangle_border_red_900_radius_109"
                     android:id="@+id/viewEllipseTen"
-                    android:layout_gravity="start"
-                    android:layout_height="@dimen/_218pxh" android:layout_width="@dimen/_218pxh"/>
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_200pxh" android:layout_width="@dimen/_200pxh"/>
                 <TextView android:ellipsize="end"
                     android:gravity="top|start"
                     android:id="@+id/txtObsesse"
@@ -36,11 +33,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_40pxv"
                     android:layout_marginEnd="@dimen/_31pxh"
-                    android:layout_marginStart="@dimen/_31pxh"
+                    android:layout_marginStart="@dimen/_33pxh"
                     android:layout_marginTop="@dimen/_40pxv"
                     android:layout_width="match_parent"
                     android:singleLine="true"
-                    android:text="@{obeseVM.obeseModel.txtObsesse}"
                     style="@style/txtPoppinssemibold36" tools:text="@string/lbl_obsesse"/>
             </FrameLayout>
         </LinearLayout>
