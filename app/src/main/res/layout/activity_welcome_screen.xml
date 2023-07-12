@@ -8,16 +8,20 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:orientation="vertical" style="@style/groupStylegray_200">
-        <ImageView android:id="@+id/imageRectangleThirteen"
-            android:layout_gravity="center_horizontal"
+
+        <ImageView
+            android:id="@+id/imageRectangleThirteen"
+            imageRes="@{@drawable/img_rectangle13}"
+            android:layout_width="@dimen/_242pxh"
             android:layout_height="@dimen/_234pxh"
-            android:layout_marginEnd="@dimen/_25pxh"
+            android:layout_gravity="center_horizontal"
             android:layout_marginStart="@dimen/_25pxh"
             android:layout_marginTop="@dimen/_228pxv"
-            android:layout_width="@dimen/_242pxh"
+            android:layout_marginEnd="@dimen/_25pxh"
             android:scaleType="fitXY"
-            imageRes="@{@drawable/img_rectangle13}"
-            tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle13"/>
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/img_rectangle13" />
+
         <androidx.appcompat.widget.AppCompatButton
             android:ellipsize="end" android:gravity="center"
             android:id="@+id/btnGetStarted"
