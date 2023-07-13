@@ -183,7 +183,7 @@
                                 </LinearLayout>
                             </LinearLayout>
 
-                            <LinearLayout
+                            <FrameLayout
                                     android:id="@+id/linearColumnvolume"
                                     android:layout_width="0dp"
                                     android:layout_height="match_parent"
@@ -215,6 +215,7 @@
                                         android:layout_gravity="center_horizontal"
                                         android:layout_marginEnd="@dimen/_72pxh"
                                         android:layout_marginStart="@dimen/_72pxh"
+                                        android:layout_marginTop="@dimen/_31pxv"
                                         android:scaleType="fitXY"
                                         android:src="@drawable/img_volume"
                                         tools:ignore="ContentDescription"/>
@@ -222,11 +223,12 @@
                                 <TextView
                                         android:id="@+id/txtDiet"
                                         android:layout_width="wrap_content"
-                                        android:layout_height="22dp"
+                                        android:layout_height="wrap_content"
                                         android:layout_gravity="center_horizontal"
-                                        android:layout_marginBottom="@dimen/_26pxv"
+                                        android:layout_marginBottom="@dimen/_28pxv"
                                         android:layout_marginEnd="@dimen/_72pxh"
                                         android:layout_marginStart="@dimen/_72pxh"
+                                        android:layout_marginTop="@dimen/_76pxv"
                                         android:ellipsize="end"
                                         android:singleLine="true"
                                         android:text="@{dietVM.dietModel.txtDiet}"
@@ -234,7 +236,7 @@
                                         tools:text="@string/lbl_diet"/>
 
 
-                            </LinearLayout>
+                            </FrameLayout>
 
                         </LinearLayout>
                         <LinearLayout
