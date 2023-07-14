@@ -1,62 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
     <data>
-        <variable name="newVM" type="com.front_end.app.modules.new.data.viewmodel.NewVM"/>
+        <variable name="newVM" type="com.front_end.app.modules.new.data.viewmodel.NewVM" />
     </data>
-    <LinearLayout android:id="@+id/linearNew"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        android:orientation="horizontal" style="@style/groupStylegray_200">
-        <LinearLayout android:gravity="start"
-            android:id="@+id/linearColumnarrowleft"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/_766pxv"
-            android:layout_marginStart="@dimen/_14pxh"
-            android:layout_marginTop="@dimen/_17pxv"
-            android:layout_weight="0.95" android:layout_width="0dp" android:orientation="vertical">
-            <ImageView android:id="@+id/imageArrowleft"
-                android:layout_height="@dimen/_30pxh"
-                android:layout_marginEnd="@dimen/_10pxh"
-                android:layout_marginStart="@dimen/_4pxh"
-                android:layout_width="@dimen/_11pxh"
-                android:scaleType="fitXY"
-                tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft"/>
-            <EditText android:background="@android:color/transparent"
-                android:ellipsize="end"
-                android:hint="@string/lbl_untitle"
-                android:id="@+id/etUntitled" android:inputType="text"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/_10pxh"
-                android:layout_marginTop="@dimen/_3pxv"
-                android:layout_width="wrap_content"
-                android:singleLine="true"
-                android:text="@={newVM.newModel.etUntitledValue}"
-                android:textColorHint="@color/black_900"
-                style="@style/etRobotobold24" tools:ignore="Autofill"/>
-            <EditText android:background="@android:color/transparent"
-                android:ellipsize="end"
-                android:hint="@string/lbl_content"
-                android:id="@+id/etContent" android:inputType="text"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/_10pxh"
-                android:layout_marginStart="@dimen/_6pxh"
-                android:layout_width="wrap_content"
-                android:singleLine="true"
-                android:text="@={newVM.newModel.etContentValue}"
-                android:textColorHint="@color/black_900"
-                style="@style/etRobotomedium18" tools:ignore="Autofill"/>
-        </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+        <LinearLayout
+                android:id="@+id/linearNew"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                style="@style/groupStylegray_200" app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                    android:id="@+id/linearColumnarrowleft"
+                    android:layout_width="0dp"
+                    android:layout_height="98dp"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_marginTop="@dimen/_17pxv"
+                    android:layout_marginBottom="@dimen/_766pxv"
+                    android:layout_weight="0.95"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:id="@+id/imageArrowleft"
+                        android:layout_width="@dimen/_15pxh"
+                        android:layout_height="@dimen/_30pxh"
+                        android:layout_marginStart="@dimen/_4pxh"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:scaleType="fitXY"
+                        tools:ignore="ContentDescription"
+                        tools:src="@drawable/img_arrowleft"/>
+
+                <EditText
+                        android:id="@+id/etUntitled"
+                        android:layout_width="97dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_20pxv"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="end"
+                        android:hint="@string/lbl_untitle"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        android:text="@={newVM.newModel.etUntitledValue}"
+                        android:textColorHint="@color/black_900"
+                        style="@style/etRobotobold24"
+                        tools:ignore="Autofill"
+                        android:translationX="@dimen/_4pxh"/>
+                />
+
+                <EditText
+                        android:id="@+id/etContent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15pxh"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="end"
+                        android:hint="@string/lbl_content"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        android:text="@={newVM.newModel.etContentValue}"
+                        android:textColorHint="@color/black_900"
+                        style="@style/etRobotomedium18"
+                        tools:ignore="Autofill"/>
+            </LinearLayout>
+        </LinearLayout>
         <ImageView
-            android:id="@+id/imageCheckmark"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/_20pxh"
-            android:layout_marginTop="@dimen/_19pxv"
-            android:layout_marginEnd="@dimen/_12pxh"
-            android:layout_marginBottom="@dimen/_852pxv"
-            android:scaleType="fitXY"
-            android:src="@drawable/img_checkmark"
-            tools:ignore="ContentDescription"
-            tools:src="@drawable/img_checkmark" />
-    </LinearLayout>
+                android:id="@+id/imageCheckmark"
+                android:layout_width="@dimen/_36pxv"
+                android:layout_height="@dimen/_30pxv"
+                android:layout_marginTop="@dimen/_32pxv"
+                android:layout_marginEnd="@dimen/_15pxh"
+                android:layout_marginBottom="@dimen/_852pxv"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="@id/linearNew"
+                app:srcCompat="@drawable/img_checkmark"
+                tools:ignore="ContentDescription"
+                android:translationX="@dimen/_6pxh"/>
+        />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
