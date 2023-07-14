@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
     xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
 
-=======
-        xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto">
->>>>>>> 5a6c00cde9cea68d866caa32c395e2f1ee673587
     <data>
         <variable
             name="savedVM"
             type="com.front_end.app.modules.saved.data.viewmodel.SavedVM" />
     </data>
-<<<<<<< HEAD
 
     <FrameLayout
         android:id="@+id/frameSAVED"
@@ -55,41 +49,4 @@
             app:layout_constraintBottom_toBottomOf="parent" />
 
     </FrameLayout>
-=======
-    <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            style="@style/groupStylegray_200">
-        <ImageView
-                android:id="@+id/image360F247848348"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="fitXY"
-                imageRes="@{@drawable/img_360f247848348}"
-                tools:ignore="ContentDescription"
-                tools:src="@drawable/img_360f247848348"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" />
-        <TextView
-                android:id="@+id/txtSAVED"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_150pxv"
-                android:layout_marginBottom="@dimen/_292pxv"
-                android:layout_marginStart="@dimen/_100pxh"
-                android:layout_marginEnd="@dimen/_92pxh"
-                android:gravity="top|start"
-                android:ellipsize="end"
-                android:singleLine="true"
-                android:text="@{savedVM.savedModel.txtSAVED}"
-                style="@style/txtPoppinsbold59"
-                tools:text="@string/lbl_saved"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
->>>>>>> 5a6c00cde9cea68d866caa32c395e2f1ee673587
 </layout>
