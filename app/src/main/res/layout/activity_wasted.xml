@@ -1,85 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
-    <data>
-        <variable name="wastedVM" type="com.front_end.app.modules.wasted.data.viewmodel.WastedVM"/>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<data>
+        <variable name="wastedVM" type="com.front_end.app.modules.wasted.data.viewmodel.WastedVM" />
     </data>
-    <LinearLayout android:gravity="end" android:id="@+id/linearWasted"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        android:orientation="vertical" style="@style/groupStylegray_200">
-        <LinearLayout android:gravity="center_horizontal"
-            android:id="@+id/linearMainEclipse"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/_64pxh"
-            android:layout_marginStart="@dimen/_64pxh"
-            android:layout_marginTop="@dimen/_105pxv"
+
+    <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:orientation="vertical" style="@style/groupStylegray_200_16cornerRadius">
-            <FrameLayout android:id="@+id/frameStackellipseten"
-                android:layout_gravity="center_horizontal"
-                android:layout_height="@dimen/_250pxv"
-                android:background="@drawable/rectangle_border_gray_604_radius_109"
-                android:layout_width="@dimen/_218pxh">
+            android:layout_height="match_parent"
+            style="@style/groupStylegray_200">
+
+        <LinearLayout
+                android:id="@+id/linearMainEclipse"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_64pxh"
+                android:layout_marginEnd="@dimen/_64pxh"
+                android:layout_marginTop="@dimen/_105pxv"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                style="@style/groupStylegray_200_16cornerRadius"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                    android:id="@+id/frameStackellipseten"
+                    android:layout_width="@dimen/_218pxh"
+                    android:layout_height="@dimen/_250pxv"
+                    android:background="@drawable/rectangle_border_gray_604_radius_109">
+
                 <View
-                    android:background="@drawable/rectangle_border_blue_400_radius_109"
-                    android:id="@+id/viewEllipseTen"
-                    android:layout_gravity="center"
-                    android:layout_height="@dimen/_200pxh" android:layout_width="@dimen/_200pxh"/>
-                <TextView android:ellipsize="end"
-                    android:gravity="top|start"
-                    android:id="@+id/txtUnderweight"
-                    android:layout_gravity="bottom|center"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/_90pxv"
-                    android:layout_marginEnd="@dimen/_35pxh"
-                    android:layout_marginStart="@dimen/_35pxh"
-                    android:layout_marginTop="@dimen/_80pxv"
-                    android:layout_width="match_parent"
-                    android:singleLine="true"
-                    android:text="@{wastedVM.wastedModel.txtUnderweight}"
-                    style="@style/txtPoppinssemibold22" tools:text="@string/lbl_underweight"/>
+                        android:id="@+id/viewEllipseTen"
+                        android:layout_width="@dimen/_200pxh"
+                        android:layout_height="@dimen/_200pxh"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rectangle_border_blue_400_radius_109" />
+
+                <TextView
+                        android:id="@+id/txtUnderweight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginTop="@dimen/_80pxv"
+                        android:layout_marginBottom="@dimen/_90pxv"
+                        android:layout_marginStart="@dimen/_35pxh"
+                        android:layout_marginEnd="@dimen/_35pxh"
+                        android:gravity="top|start"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@{wastedVM.wastedModel.txtUnderweight}"
+                        style="@style/txtPoppinssemibold22"
+                        tools:text="@string/lbl_underweight" />
             </FrameLayout>
         </LinearLayout>
-        <TextView android:ellipsize="end"
-            android:id="@+id/txtYouhaveUnderw"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/_19pxh"
-            android:layout_marginStart="@dimen/_19pxh"
-            android:layout_marginTop="@dimen/_45pxv"
-            android:layout_width="match_parent"
-            android:singleLine="true"
-            android:text="@{wastedVM.wastedModel.txtYouhaveUnderw}"
-            style="@style/txt_14" tools:text="@string/msg_you_have_underw"/>
+
+        <TextView
+                android:id="@+id/txtYouhaveUnderw"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_45pxv"
+                android:layout_marginStart="@dimen/_25pxh"
+                android:layout_marginEnd="@dimen/_19pxh"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@{wastedVM.wastedModel.txtYouhaveUnderw}"
+                style="@style/txt_14"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linearMainEclipse"
+                tools:text="@string/msg_you_have_underw"/>
+        />
+
         <androidx.appcompat.widget.AppCompatButton
-            android:ellipsize="end" android:gravity="center"
-            android:id="@+id/btnDetails"
-            android:layout_gravity="center_horizontal"
-            android:layout_height="@dimen/_64pxv"
-            android:layout_marginEnd="@dimen/_19pxh"
-            android:layout_marginStart="@dimen/_19pxh"
-            android:layout_marginTop="@dimen/_233pxv"
-            android:layout_width="@dimen/_293pxh"
-            android:paddingBottom="@dimen/_14pxv"
-            android:paddingEnd="@dimen/_30pxh"
-            android:paddingStart="@dimen/_30pxh"
-            android:paddingTop="@dimen/_14pxv" android:singleLine="true"
-            android:text="@string/lbl_details"
-            android:textAllCaps="false" style="@style/btnSolidRounded_6" tools:text="@string/lbl_details"/>
+                android:id="@+id/btnDetails"
+                android:layout_width="@dimen/_293pxh"
+                android:layout_height="@dimen/_64pxv"
+                android:layout_marginTop="@dimen/_233pxv"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:paddingTop="@dimen/_14pxv"
+                android:paddingBottom="@dimen/_14pxv"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingEnd="@dimen/_30pxh"
+                android:singleLine="true"
+                android:text="@string/lbl_details"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded_6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtYouhaveUnderw" />
+
         <androidx.appcompat.widget.AppCompatButton
-            android:ellipsize="end" android:gravity="center"
-            android:id="@+id/btnBack"
-            android:layout_gravity="center_horizontal"
-            android:layout_height="@dimen/_46pxv"
-            android:layout_marginBottom="@dimen/_20pxv"
-            android:layout_marginEnd="@dimen/_19pxh"
-            android:layout_marginStart="@dimen/_19pxh"
-            android:layout_marginTop="@dimen/_18pxv"
-            android:layout_width="@dimen/_228pxh"
-            android:paddingBottom="@dimen/_5pxv"
-            android:paddingEnd="@dimen/_30pxh"
-            android:paddingStart="@dimen/_30pxh"
-            android:paddingTop="@dimen/_5pxv" android:singleLine="true"
-            android:text="@string/lbl_back2" android:textAllCaps="false"
-            style="@style/btnSolidRounded_7" tools:text="@string/lbl_back2"/>
-    </LinearLayout>
+                android:id="@+id/btnBack"
+                android:layout_width="@dimen/_228pxh"
+                android:layout_height="@dimen/_46pxv"
+                android:layout_marginTop="@dimen/_18pxv"
+                android:layout_marginBottom="@dimen/_20pxv"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:paddingTop="@dimen/_5pxv"
+                android:paddingBottom="@dimen/_5pxv"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingEnd="@dimen/_30pxh"
+                android:singleLine="true"
+                android:text="@string/lbl_back2"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded_7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnDetails" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

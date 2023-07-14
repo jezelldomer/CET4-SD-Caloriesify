@@ -1,84 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
     <data>
-        <variable name="underVM" type="com.front_end.app.modules.under.data.viewmodel.UnderVM"/>
+        <variable name="underVM" type="com.front_end.app.modules.under.data.viewmodel.UnderVM" />
     </data>
-    <LinearLayout android:gravity="start" android:id="@+id/linearUnder"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        android:orientation="vertical" >
-        <LinearLayout android:gravity="center_horizontal"
-            android:id="@+id/linearMainEclipse"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/_64pxh"
-            android:layout_marginStart="@dimen/_64pxh"
-            android:layout_marginTop="@dimen/_105pxv"
+    <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:orientation="vertical" style="@style/groupStylegray_200_16cornerRadius">
-            <FrameLayout android:id="@+id/frameStackellipseten"
-                android:layout_gravity="center_horizontal"
-                android:layout_height="@dimen/_250pxv"
-                android:background="@drawable/rectangle_border_red_900_radius_109"
-                android:layout_width="@dimen/_218pxh" >
-                <View
-                    android:background="@drawable/rectangle_border_lime_a400_radius_109"
-                    android:id="@+id/viewEllipseTen"
-                    android:layout_gravity="center"
-                    android:layout_height="@dimen/_200pxh" android:layout_width="@dimen/_200pxh"/>
-                <TextView android:ellipsize="end"
-                    android:gravity="center"
-                    android:id="@+id/txtOverweight"
-                    android:layout_gravity="bottom|center"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/_90pxv"
-                    android:layout_marginEnd="@dimen/_36pxh"
-                    android:layout_marginStart="@dimen/_36pxh"
-                    android:layout_marginTop="@dimen/_80pxv"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:id="@+id/linearUnder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:id="@+id/linearMainEclipse"
                     android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_64pxh"
+                    android:layout_marginStart="@dimen/_64pxh"
+                    android:layout_marginTop="@dimen/_105pxv"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    style="@style/groupStylegray_200_16cornerRadius">
+
+                <FrameLayout
+                        android:id="@+id/frameStackellipseten"
+                        android:layout_width="@dimen/_218pxh"
+                        android:layout_height="@dimen/_250pxv"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/rectangle_border_red_900_radius_109">
+
+                    <View
+                            android:id="@+id/viewEllipseTen"
+                            android:layout_width="@dimen/_200pxh"
+                            android:layout_height="@dimen/_200pxh"
+                            android:layout_gravity="center"
+                            android:background="@drawable/rectangle_border_lime_a400_radius_109" />
+
+                    <TextView
+                            android:id="@+id/txtOverweight"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:layout_marginBottom="@dimen/_90pxv"
+                            android:layout_marginEnd="@dimen/_36pxh"
+                            android:layout_marginStart="@dimen/_36pxh"
+                            android:layout_marginTop="@dimen/_80pxv"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="@{underVM.underModel.txtOverweight}"
+                            style="@style/txtPoppinssemibold24"
+                            tools:text="@string/lbl_overweight" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/txtYouhaveOverweight"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_45pxh"
+                    android:layout_marginStart="@dimen/_35pxh"
+                    android:layout_marginTop="@dimen/_45pxv"
+                    android:ellipsize="end"
+                    android:gravity="end"
                     android:singleLine="true"
-                    style="@style/txtPoppinssemibold24" tools:text="@string/lbl_overweight"/>
-            </FrameLayout>
+                    android:text="@{underVM.underModel.txtYouhaveNormal}"
+                    style="@style/txt_14"
+                    tools:text="@string/msg_you_have_overw"/>
+            <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnDetails"
+                    android:layout_width="317dp"
+                    android:layout_height="@dimen/_64pxv"
+                    android:layout_marginEnd="@dimen/_49pxh"
+                    android:layout_marginStart="@dimen/_50pxh"
+                    android:layout_marginTop="@dimen/_233pxv"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/_14pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_29pxh"
+                    android:paddingTop="@dimen/_14pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_details"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded_6"
+                    tools:text="@string/lbl_details"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnBack"
+                    android:layout_width="@dimen/_228pxh"
+                    android:layout_height="@dimen/_46pxv"
+                    android:layout_marginBottom="@dimen/_20pxv"
+                    android:layout_marginEnd="@dimen/_45pxh"
+                    android:layout_marginStart="@dimen/_100pxh"
+                    android:layout_marginTop="@dimen/_18pxv"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/_5pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_29pxh"
+                    android:paddingTop="@dimen/_5pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_back2"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded_7"
+                    tools:text="@string/lbl_back2"/>
+
         </LinearLayout>
-        <TextView android:ellipsize="end" android:gravity="end"
-            android:id="@+id/txtYouhaveNormal"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/_45pxh"
-            android:layout_marginStart="@dimen/_45pxh"
-            android:layout_marginTop="@dimen/_45pxv"
-            android:layout_width="match_parent"
-            android:singleLine="true"
-            android:text="@{underVM.underModel.txtYouhaveNormal}"
-            style="@style/txt_14" tools:text="@string/msg_you_have_normal"/>
-        <androidx.appcompat.widget.AppCompatButton
-            android:ellipsize="end" android:gravity="center"
-            android:id="@+id/btnDetails"
-            android:layout_gravity="center_horizontal"
-            android:layout_height="@dimen/_64pxv"
-            android:layout_marginEnd="@dimen/_45pxh"
-            android:layout_marginStart="@dimen/_45pxh"
-            android:layout_marginTop="@dimen/_233pxv"
-            android:layout_width="@dimen/_293pxh"
-            android:paddingBottom="@dimen/_14pxv"
-            android:paddingEnd="@dimen/_30pxh"
-            android:paddingStart="@dimen/_30pxh"
-            android:paddingTop="@dimen/_14pxv" android:singleLine="true"
-            android:text="@string/lbl_details"
-            android:textAllCaps="false" style="@style/btnSolidRounded_6" tools:text="@string/lbl_details"/>
-        <androidx.appcompat.widget.AppCompatButton
-            android:ellipsize="end" android:gravity="center"
-            android:id="@+id/btnBack"
-            android:layout_gravity="center_horizontal"
-            android:layout_height="@dimen/_46pxv"
-            android:layout_marginBottom="@dimen/_20pxv"
-            android:layout_marginEnd="@dimen/_45pxh"
-            android:layout_marginStart="@dimen/_45pxh"
-            android:layout_marginTop="@dimen/_18pxv"
-            android:layout_width="@dimen/_228pxh"
-            android:paddingBottom="@dimen/_5pxv"
-            android:paddingEnd="@dimen/_30pxh"
-            android:paddingStart="@dimen/_30pxh"
-            android:paddingTop="@dimen/_5pxv" android:singleLine="true"
-            android:text="@string/lbl_back2" android:textAllCaps="false"
-            style="@style/btnSolidRounded_7" tools:text="@string/lbl_back2"/>
-    </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
