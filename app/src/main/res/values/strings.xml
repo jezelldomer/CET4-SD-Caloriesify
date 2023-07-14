@@ -3,7 +3,7 @@
     <string name="app_name">caloriesify</string>
     <string name="loading">Loading…</string>
     <string name="no_internet_connection">No internet connection!</string>
-<string name="lbl_back">Back</string>
+    <string name="lbl_back">Back</string>
 <string name="msg_less_than_18_5">Less than 18.5              Underweight
 
 
@@ -26,7 +26,7 @@
 <string name="lbl3"> _ _ _ _</string>
 <string name="lbl_bmi">BMI</string>
 <string name="lbl_or_login_with">Or Login with</string>
-<string name="msg_you_have_normal">You have Normal body weight!</string>
+<string name="msg_you_have_overw">You have Overweight body weight!</string>
 <string name="lbl_signup">SIGNUP</string>
 <string name="lbl_ft">ft</string>
 <string name="lbl_overweight2">                            Overweight
@@ -48,6 +48,7 @@
 <string name="lbl_exercise">Exercise</string>
 <string name="lbl_or_signup_with">Or SignUp with</string>
 <string name="lbl_normal">Normal</string>
+    <string name="msg_you_have_normal">You have Normal body weight!</string>
 <string name="msg_welcome_signup">Welcome,
 SignUp to Continue</string>
 <string name="lbl_adjust_calories">Adjust Calories</string>
@@ -68,8 +69,7 @@ SignUp to Continue</string>
 <string name="lbl_35_mins">35 mins</string>
 <string name="lbl_details">Details</string>
 <string name="lbl_240">240</string>
-<string name="lbl_welcome">Welcome,
-</string>
+    <string name="lbl_welcome">Welcome,</string>
 <string name="msg_good_morning_us">Good Morning USER!</string>
 <string name="lbl_2_large">2 Large</string>
 <string name="lbl_untitle">Untitled</string>
@@ -88,7 +88,7 @@ SignUp to Continue</string>
 <string name="lbl_fat">Fat</string>
 <string name="msg_whole_grain_toa">Whole Grain Toast</string>
 <string name="lbl_password">password</string>
-<string name="lbl_obsesse">Obsesse</string>
+<string name="lbl_obsesse">Obese</string>
 <string name="lbl_overweight">Overweight</string>
 <string name="lbl_saved">SAVED!</string>
 <string name="lbl8">+</string>
@@ -104,7 +104,7 @@ SignUp to Continue</string>
 <string name="msg_what_s_your_cur">What\u2019s your Current Weight ?</string>
 <string name="lbl_breakfast">Breakfast</string>
 <string name="lbl_1728_kcal_day">1728 Kcal/day</string>
-<string name="lbl_back2">back</string>
+<string name="lbl_back2">Back</string>
 <string name="lbl_egg">Egg</string>
 <string name="msg_adjust_macronut">Adjust MacroNutrients</string>
 <string name="msg_recommended_89">Recommended 89 - 178 Kcal</string>
