@@ -1,29 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
     <data>
-        <variable name="savedVM" type="com.front_end.app.modules.saved.data.viewmodel.SavedVM"/>
+        <variable
+            name="savedVM"
+            type="com.front_end.app.modules.saved.data.viewmodel.SavedVM" />
     </data>
-    <FrameLayout android:id="@+id/frameSAVED"
+
+    <FrameLayout
+        android:id="@+id/frameSAVED"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_width="match_parent" style="@style/groupStylegray_200">
-        <ImageView android:id="@+id/image360F247848348"
-            android:layout_gravity="start"
-            android:layout_height="match_parent"
+        style="@style/groupStylegray_200">
+
+        <ImageView
+            android:id="@+id/image360F247848348"
             android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
             android:scaleType="fitXY"
             imageRes="@{@drawable/img_360f247848348}"
-            tools:ignore="ContentDescription" tools:src="@drawable/img_360f247848348"/>
-        <TextView android:ellipsize="end" android:gravity="top|start"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/img_360f247848348"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
             android:id="@+id/txtSAVED"
-            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/_292pxv"
-            android:layout_marginEnd="@dimen/_92pxh"
+            android:ellipsize="end"
+            android:gravity="top|start"
+            android:layout_gravity="center_vertical"
             android:layout_marginStart="@dimen/_100pxh"
             android:layout_marginTop="@dimen/_150pxv"
-            android:layout_width="match_parent"
+            android:layout_marginEnd="@dimen/_92pxh"
+            android:layout_marginBottom="@dimen/_292pxv"
             android:singleLine="true"
             android:text="@{savedVM.savedModel.txtSAVED}"
-            style="@style/txtPoppinsbold59" tools:text="@string/lbl_saved"/>
+            style="@style/txtPoppinsbold59"
+            tools:text="@string/lbl_saved"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
     </FrameLayout>
 </layout>

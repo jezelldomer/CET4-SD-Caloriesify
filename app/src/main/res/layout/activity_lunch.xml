@@ -355,18 +355,7 @@
                         android:textAllCaps="false"
                         style="@style/btnSolidRounded_4" tools:text="@string/msg_net_carbs_16"/>
                 </FrameLayout>
-                <androidx.recyclerview.widget.RecyclerView
-                    android:gravity="end"
-                    android:id="@+id/recyclerLunch"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/_4pxh"
-                    android:layout_marginStart="@dimen/_47pxh"
-                    android:layout_marginTop="@dimen/_12pxv"
-                    android:layout_width="match_parent"
-                    android:nestedScrollingEnabled="false"
-                    android:orientation="vertical"
-                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                    itemSpace="@{@dimen/_29pxh}" tools:itemCount="3" tools:listitem="@layout/row_lunch"/>
+                ools:listitem="@layout/row_lunch"/>
                 <FrameLayout android:id="@+id/frameStackwater"
                     android:layout_gravity="center_horizontal"
                     android:layout_height="@dimen/_115pxv"

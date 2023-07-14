@@ -222,17 +222,7 @@
                 android:text="@{carbsVM.carbsModel.txtRecommended356}"
                 style="@style/txtSFCompactDisplaylight11" tools:text="@string/msg_recommended_356"/>
         </FrameLayout>
-        <androidx.recyclerview.widget.RecyclerView
-            android:gravity="center_horizontal"
-            android:id="@+id/recyclerCarbs"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/_12pxh"
-            android:layout_marginStart="@dimen/_12pxh"
-            android:layout_marginTop="@dimen/_10pxv"
-            android:layout_width="match_parent"
-            android:orientation="vertical"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            itemSpace="@{@dimen/_23pxh}" tools:itemCount="4" tools:listitem="@layout/row_carbs"/>
+
         <FrameLayout android:id="@+id/frameStackwater"
             android:layout_gravity="start"
             android:layout_height="@dimen/_113pxv"

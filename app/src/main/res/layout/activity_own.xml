@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
     <data>
         <variable name="ownVM" type="com.front_end.app.modules.own.data.viewmodel.OwnVM"/>
     </data>
@@ -14,7 +15,10 @@
             android:layout_width="@dimen/_427pxh"
             android:scaleType="fitXY"
             imageRes="@{@drawable/img_360f247848348_887x427}"
-            tools:ignore="ContentDescription" tools:src="@drawable/img_360f247848348_887x427"/>
+            tools:ignore="ContentDescription" tools:src="@drawable/img_360f247848348_887x427"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
         <LinearLayout android:id="@+id/linearColumncreateyourown"
             android:layout_gravity="center"
             android:layout_height="wrap_content"
@@ -28,7 +32,10 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:text="@{ownVM.ownModel.txtCreateyourOwn}"
-                style="@style/txt_15" tools:text="@string/msg_create_your_own"/>
+                style="@style/txt_15" tools:text="@string/msg_create_your_own"
+                app:layout_constraintTop_toBottomOf="@id/image360F247848348"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
             <LinearLayout android:gravity="end"
                 android:id="@+id/linearRowcarbs"
                 android:layout_height="wrap_content"
@@ -51,7 +58,11 @@
                     android:layout_marginStart="@dimen/_117pxh"
                     android:layout_weight="0.54"
                     android:layout_width="0dp"
-                    android:orientation="vertical" style="@style/groupStylebluegray_6">
+                    android:orientation="vertical" style="@style/groupStylebluegray_6"
+                    app:layout_constraintTop_toBottomOf="@id/txtCreateyourOwn"
+                    app:layout_constraintStart_toEndOf="@id/txtCarbs"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0">
                     <EditText
                         android:ellipsize="end" android:gravity="center"
                         android:id="@+id/btn00"
@@ -86,14 +97,21 @@
                     android:layout_weight="0.5"
                     android:layout_width="0dp" android:singleLine="true"
                     android:text="@{ownVM.ownModel.txtProtein}"
-                    style="@style/txt_15" tools:text="@string/lbl_protein"/>
+                    style="@style/txt_15" tools:text="@string/lbl_protein"
+                    app:layout_constraintTop_toBottomOf="@id/linearRowcarbs"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/linearColumn00One"/>
                 <LinearLayout android:gravity="center_horizontal"
                     android:id="@+id/linearColumn00One"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_108pxh"
                     android:layout_weight="0.54"
                     android:layout_width="0dp"
-                    android:orientation="vertical" style="@style/groupStylebluegray_6">
+                    android:orientation="vertical" style="@style/groupStylebluegray_6"
+                    app:layout_constraintTop_toBottomOf="@id/linearRowcarbs"
+                    app:layout_constraintStart_toEndOf="@id/txtProtein"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0">
                     <EditText
                         android:ellipsize="end" android:gravity="center"
                         android:id="@+id/btn00One"
@@ -128,6 +146,9 @@
                     android:layout_weight="0.38"
                     android:layout_width="0dp" android:singleLine="true"
                     android:text="@{ownVM.ownModel.txtFats}"
+                    app:layout_constraintTop_toBottomOf="@id/linearRowfats"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/linearColumn00One"
                     style="@style/txt_15" tools:text="@string/lbl_fats"/>
                 <LinearLayout android:gravity="center_horizontal"
                     android:id="@+id/linearColumn00Two"
@@ -171,6 +192,9 @@
                 android:singleLine="true"
                 android:text="@string/lbl_proceed"
                 android:textAllCaps="false"
+                app:layout_constraintTop_toBottomOf="@id/linearRowfats"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 style="@style/btnSolidRounded_10" tools:text="@string/lbl_proceed"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:ellipsize="end" android:gravity="center"
@@ -187,6 +211,9 @@
                 android:singleLine="true"
                 android:text="@string/lbl_back"
                 android:textAllCaps="false"
+                app:layout_constraintTop_toBottomOf="@id/btnBack"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 style="@style/btnSolidRounded_11" tools:text="@string/lbl_back"/>
         </LinearLayout>
     </FrameLayout>

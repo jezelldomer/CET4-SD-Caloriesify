@@ -424,18 +424,6 @@
                         </FrameLayout>
                     </LinearLayout>
                 </LinearLayout>
-                <androidx.recyclerview.widget.RecyclerView
-                    android:gravity="end"
-                    android:id="@+id/recyclerDinner"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/_2pxh"
-                    android:layout_marginStart="@dimen/_49pxh"
-                    android:layout_marginTop="@dimen/_28pxv"
-                    android:layout_width="match_parent"
-                    android:nestedScrollingEnabled="false"
-                    android:orientation="vertical"
-                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                    itemSpace="@{@dimen/_20pxh}" tools:itemCount="2" tools:listitem="@layout/row_dinner"/>
                 <FrameLayout android:id="@+id/frameStackwater"
                     android:layout_gravity="end"
                     android:layout_height="@dimen/_115pxv"
