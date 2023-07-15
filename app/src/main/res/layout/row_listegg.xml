@@ -17,7 +17,11 @@
                 android:layout_width="wrap_content"
                 android:singleLine="true"
                 android:text="@{listeggRowModel.txtEgg}"
+<<<<<<< HEAD
                 style="@style/txt_13" tools:text="@string/lbl_egg"/>
+=======
+                style="@style/txt_15" tools:text="@string/lbl_egg"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
             <TextView android:ellipsize="end"
                 android:id="@+id/txtLargeCounter"
                 android:layout_height="wrap_content"
@@ -26,13 +30,21 @@
                 android:layout_width="wrap_content"
                 android:singleLine="true"
                 android:text="@{listeggRowModel.txtLargeCounter}"
+<<<<<<< HEAD
                 style="@style/txt_13" tools:text="@string/lbl_2_large"/>
+=======
+                style="@style/txt_15" tools:text="@string/lbl_2_large"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
         </LinearLayout>
         <TextView android:id="@+id/txtOneHundredFortyThree"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_1pxv"
             android:layout_weight="0.27" android:layout_width="0dp"
             android:text="@{listeggRowModel.txtOneHundredFortyThree}"
+<<<<<<< HEAD
             style="@style/txt_13" tools:text="@string/lbl_143"/>
+=======
+            style="@style/txt_15" tools:text="@string/lbl_143"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
     </LinearLayout>
 </layout>

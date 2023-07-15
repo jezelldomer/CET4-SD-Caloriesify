@@ -28,11 +28,17 @@ data class LoginModel(
   /**
    * TODO Replace with dynamic value
    */
+<<<<<<< HEAD
   var etStackuserValue: String? = null,
   /**
    * TODO Replace with dynamic value
    */
   var etStacklockValue: String? = null,
+=======
+  var txtForgotPassword: String? =
+      MyApp.getInstance().resources.getString(R.string.msg_forgot_password)
+  ,
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
   /**
    * TODO Replace with dynamic value
    */
@@ -44,5 +50,17 @@ data class LoginModel(
   /**
    * TODO Replace with dynamic value
    */
+<<<<<<< HEAD
   var etGroupFiveValue: String? = null
+=======
+  var etGroupFiveValue: String? = null,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var etStackuserValue: String? = null,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var etStacklockValue: String? = null
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
 )

@@ -56,7 +56,11 @@
                 android:paddingTop="@dimen/_3pxv"
                 android:singleLine="true"
                 android:text="@{listuntitleddesignRowModel.txtGroupFortyOne}"
+<<<<<<< HEAD
                 style="@style/txtSolidRounded_2" tools:text="@string/lbl8"/>
+=======
+                style="@style/txtSolidRounded" tools:text="@string/lbl8"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
         </LinearLayout>
     </LinearLayout>
 </layout>

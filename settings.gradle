@@ -1,2 +1,6 @@
 include ':app'
+<<<<<<< HEAD
 rootProject.name = "caloriesify"
+=======
+rootProject.name = "front"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8

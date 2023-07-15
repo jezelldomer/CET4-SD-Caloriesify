@@ -3,5 +3,9 @@
     <!--<font app:font="@font/sfcompactdisplaybold" app:fontWeight="700"-->
     <!--<font app:font="@font/sfcompactdisplaylight" app:fontWeight="300"-->
     <!--<font app:font="@font/sfcompactdisplayultralight" app:fontWeight="100"-->
+<<<<<<< HEAD
+=======
+    <!--<font app:font="@font/sfcompactdisplaymedium" app:fontWeight="500"-->
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
     <!--<font app:font="@font/sfcompactdisplaysemibold" app:fontWeight="600"-->
 </font-family>

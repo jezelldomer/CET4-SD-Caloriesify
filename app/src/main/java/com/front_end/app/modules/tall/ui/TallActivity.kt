@@ -10,12 +10,22 @@ import com.front_end.app.databinding.ActivityTallBinding
 import com.front_end.app.modules.age.ui.AgeActivity
 import com.front_end.app.modules.tall.`data`.viewmodel.TallVM
 import com.front_end.app.modules.weight.ui.WeightActivity
+<<<<<<< HEAD
+=======
+import kotlin.Int
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
 import kotlin.String
 import kotlin.Unit
 
 class TallActivity : BaseActivity<ActivityTallBinding>(R.layout.activity_tall) {
   private val viewModel: TallVM by viewModels<TallVM>()
 
+<<<<<<< HEAD
+=======
+  private val REQUEST_CODE_WEIGHT_ACTIVITY: Int = 134
+
+
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     binding.tallVM = viewModel
@@ -28,8 +38,12 @@ class TallActivity : BaseActivity<ActivityTallBinding>(R.layout.activity_tall) {
     }
     binding.txtNext.setOnClickListener {
       val destIntent = WeightActivity.getIntent(this, null)
+<<<<<<< HEAD
       destIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
       startActivity(destIntent)
+=======
+      startActivityForResult(destIntent, REQUEST_CODE_WEIGHT_ACTIVITY)
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
     }
   }
 

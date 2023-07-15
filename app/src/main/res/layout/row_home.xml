@@ -10,7 +10,11 @@
             android:id="@+id/linearColumn"
             android:layout_height="wrap_content"
             android:layout_weight="0.5" android:layout_width="0dp"
+<<<<<<< HEAD
             android:orientation="vertical" style="@style/groupStylebluegray_1">
+=======
+            android:orientation="vertical" style="@style/groupStylebluegray_100cornerRadius">
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
             <LinearLayout android:gravity="center_horizontal"
                 android:id="@+id/linearColumnvector"
                 android:layout_height="match_parent"
@@ -49,7 +53,11 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_29pxh"
             android:layout_weight="0.5" android:layout_width="0dp"
+<<<<<<< HEAD
             android:orientation="vertical" style="@style/groupStylebluegray_1">
+=======
+            android:orientation="vertical" style="@style/groupStylebluegray_100cornerRadius">
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
             <ImageView android:id="@+id/imageVolume"
                 android:layout_gravity="center_horizontal"
                 android:layout_height="@dimen/_33pxh"
@@ -70,7 +78,11 @@
                 android:layout_width="wrap_content"
                 android:singleLine="true"
                 android:text="@{homeRowModel.txtDiet}"
+<<<<<<< HEAD
                 style="@style/txt_7" tools:text="@string/lbl_diet"/>
+=======
+                style="@style/txt_8" tools:text="@string/lbl_diet"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
         </LinearLayout>
     </LinearLayout>
 </layout>

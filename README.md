@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 # caloriesify
+=======
+# front
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
 
 Built with AndroidX Support
 
@@ -76,5 +80,9 @@ sfcompactdisplayregular
 sfcompactdisplaybold
 sfcompactdisplaylight
 sfcompactdisplayultralight
+<<<<<<< HEAD
+=======
+sfcompactdisplaymedium
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
 sfcompactdisplaysemibold
 ```

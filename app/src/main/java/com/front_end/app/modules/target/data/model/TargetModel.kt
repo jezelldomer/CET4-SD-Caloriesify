@@ -31,5 +31,13 @@ data class TargetModel(
    * TODO Replace with dynamic value
    */
   var txtNext: String? = MyApp.getInstance().resources.getString(R.string.lbl_next)
+<<<<<<< HEAD
 
+=======
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var etColumnrectangletwentyfiveValue: String? = null
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
 )

@@ -8,6 +8,44 @@ data class BreakfastModel(
   /**
    * TODO Replace with dynamic value
    */
+<<<<<<< HEAD
+=======
+  var txtActivity: String? = MyApp.getInstance().resources.getString(R.string.lbl_activity)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtEaten: String? = MyApp.getInstance().resources.getString(R.string.lbl_eaten)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txt108220KCAL: String? = MyApp.getInstance().resources.getString(R.string.lbl_108_220_kcal)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtSteps: String? = MyApp.getInstance().resources.getString(R.string.lbl_steps)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtLanguage: String? = MyApp.getInstance().resources.getString(R.string.lbl_2_116_4_000)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtDistance: String? = MyApp.getInstance().resources.getString(R.string.lbl_distance)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtDistanceOne: String? = MyApp.getInstance().resources.getString(R.string.lbl_1_62km)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
   var txtCarbs: String? = MyApp.getInstance().resources.getString(R.string.lbl_carbs)
   ,
   /**
@@ -48,7 +86,11 @@ data class BreakfastModel(
   /**
    * TODO Replace with dynamic value
    */
+<<<<<<< HEAD
   var txtSix: String? = MyApp.getInstance().resources.getString(R.string.lbl9)
+=======
+  var txtFive: String? = MyApp.getInstance().resources.getString(R.string.lbl9)
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
   ,
   /**
    * TODO Replace with dynamic value

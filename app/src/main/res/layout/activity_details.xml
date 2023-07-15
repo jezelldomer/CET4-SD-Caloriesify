@@ -67,7 +67,11 @@
                     android:layout_weight="0.35"
                     android:layout_width="0dp" android:singleLine="true"
                     android:text="@{detailsVM.detailsModel.txtYourBMI}"
+<<<<<<< HEAD
                     style="@style/txtPoppinssemibold20" tools:text="@string/lbl_your_bmi"/>
+=======
+                    style="@style/txtPoppinssemibold20_1" tools:text="@string/lbl_your_bmi"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtThreeHundredThirtyThree"
                     android:layout_height="wrap_content"
@@ -88,7 +92,11 @@
                     android:layout_weight="0.26"
                     android:layout_width="0dp" android:singleLine="true"
                     android:text="@{detailsVM.detailsModel.txtObese}"
+<<<<<<< HEAD
                     style="@style/txtPoppinssemibold20_1" tools:text="@string/lbl_obese"/>
+=======
+                    style="@style/txtPoppinssemibold20_2" tools:text="@string/lbl_obese"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
             </LinearLayout>
             <LinearLayout android:gravity="center_horizontal"
                 android:id="@+id/linearColumndescription"

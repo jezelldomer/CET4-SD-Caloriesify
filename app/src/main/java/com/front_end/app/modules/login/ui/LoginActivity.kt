@@ -28,7 +28,10 @@ class LoginActivity : BaseActivity<ActivityLoginBinding>(R.layout.activity_login
     }
     binding.imageArrowright.setOnClickListener {
       val destIntent = LoadingPageActivity.getIntent(this, null)
+<<<<<<< HEAD
       destIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+=======
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
       startActivity(destIntent)
     }
   }

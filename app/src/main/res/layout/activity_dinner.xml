@@ -5,10 +5,17 @@
         <variable name="dinnerVM" type="com.front_end.app.modules.dinner.data.viewmodel.DinnerVM"/>
     </data>
     <LinearLayout android:gravity="center_horizontal"
+<<<<<<< HEAD
         android:id="@+id/linearColumnarrowtwo"
         android:layout_height="match_parent"
         android:layout_marginBottom="@dimen/_4pxv"
         android:layout_marginEnd="@dimen/_23pxh"
+=======
+        android:id="@+id/linearColumn"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_18pxv"
+        android:layout_marginEnd="@dimen/_30pxh"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
         android:layout_marginStart="@dimen/_4pxh"
         android:layout_marginTop="@dimen/_4pxv"
         android:layout_width="match_parent"
@@ -21,6 +28,7 @@
             <LinearLayout android:id="@+id/linearDinner"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent" android:orientation="vertical">
+<<<<<<< HEAD
                 <LinearLayout android:gravity="center_horizontal"
                     android:id="@+id/linearColumnarrowfive"
                     android:layout_height="wrap_content"
@@ -52,6 +60,154 @@
                     android:layout_marginEnd="@dimen/_8pxh"
                     android:layout_marginStart="@dimen/_43pxh"
                     android:layout_marginTop="@dimen/_35pxv"
+=======
+                <FrameLayout android:id="@+id/frameStackactivity"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_270pxv"
+                    android:layout_marginEnd="@dimen/_11pxh" android:layout_width="@dimen/_381pxh">
+                    <LinearLayout
+                        android:id="@+id/linearColumnarrowfive"
+                        android:layout_gravity="top|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical" style="@style/groupStylebluegray_1">
+                        <FrameLayout
+                            android:id="@+id/frameStackarrowfive"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="@dimen/_39pxv"
+                            android:layout_marginHorizontal="@dimen/_2pxh"
+                            android:layout_marginVertical="@dimen/_2pxv"
+                            android:layout_width="@dimen/_41pxh" style="@style/groupStylegreen_A700cornerRadius">
+                            <ImageView android:id="@+id/imageArrowFive"
+                                android:layout_gravity="bottom|start"
+                                android:layout_height="@dimen/_3pxh"
+                                android:layout_marginBottom="@dimen/_17pxv"
+                                android:layout_marginEnd="@dimen/_15pxh"
+                                android:layout_marginStart="@dimen/_15pxh"
+                                android:layout_marginTop="@dimen/_17pxv"
+                                android:layout_width="@dimen/_1pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_arrow5"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_arrow5"/>
+                        </FrameLayout>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearColumnactivity"
+                        android:layout_gravity="end"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_3pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical" style="@style/groupStyle">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtActivity"
+                            android:layout_gravity="start"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginStart="@dimen/_9pxh"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{dinnerVM.dinnerModel.txtActivity}"
+                            style="@style/txtPoppinsbold24_2" tools:text="@string/lbl_activity"/>
+                        <LinearLayout android:gravity="start"
+                            android:id="@+id/linearRoweaten"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_13pxv"
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal" style="@style/groupStylegreen_1">
+                            <LinearLayout android:gravity="end"
+                                android:id="@+id/linearColumneaten"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_35pxv"
+                                android:layout_marginStart="@dimen/_32pxh"
+                                android:layout_marginTop="@dimen/_35pxv"
+                                android:layout_weight="0.52"
+                                android:layout_width="0dp" android:orientation="vertical">
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtEaten"
+                                    android:layout_gravity="start"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_92pxh"
+                                    android:layout_width="wrap_content"
+                                    android:singleLine="true"
+                                    android:text="@{dinnerVM.dinnerModel.txtEaten}"
+                                    style="@style/txt_13" tools:text="@string/lbl_eaten"/>
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txt108220KCAL"
+                                    android:layout_gravity="start"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_80pxh"
+                                    android:layout_marginStart="@dimen/_8pxh"
+                                    android:layout_marginTop="@dimen/_7pxv"
+                                    android:layout_width="wrap_content"
+                                    android:singleLine="true"
+                                    android:text="@{dinnerVM.dinnerModel.txt108220KCAL}"
+                                    style="@style/txtSFCompactDisplaymedium11" tools:text="@string/lbl_108_220_kcal"/>
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtSteps"
+                                    android:layout_gravity="start"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_92pxh"
+                                    android:layout_marginTop="@dimen/_15pxv"
+                                    android:layout_width="wrap_content"
+                                    android:singleLine="true"
+                                    android:text="@{dinnerVM.dinnerModel.txtSteps}"
+                                    style="@style/txt_13" tools:text="@string/lbl_steps"/>
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtLanguage"
+                                    android:layout_gravity="start"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_95pxh"
+                                    android:layout_marginStart="@dimen/_7pxh"
+                                    android:layout_marginTop="@dimen/_7pxv"
+                                    android:layout_width="wrap_content"
+                                    android:singleLine="true"
+                                    android:text="@{dinnerVM.dinnerModel.txtLanguage}"
+                                    style="@style/txtSFCompactDisplaymedium11_1" tools:text="@string/lbl_2_116_4_000"/>
+                                <TextView android:ellipsize="end"
+                                    android:gravity="start"
+                                    android:id="@+id/txtDistance"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_68pxh"
+                                    android:layout_marginStart="@dimen/_6pxh"
+                                    android:layout_marginTop="@dimen/_14pxv"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@{dinnerVM.dinnerModel.txtDistance}"
+                                    style="@style/txt_13" tools:text="@string/lbl_distance"/>
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtDistanceOne"
+                                    android:layout_gravity="start"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_120pxh"
+                                    android:layout_marginStart="@dimen/_7pxh"
+                                    android:layout_marginTop="@dimen/_6pxv"
+                                    android:layout_width="wrap_content"
+                                    android:singleLine="true"
+                                    android:text="@{dinnerVM.dinnerModel.txtDistanceOne}"
+                                    style="@style/txtSFCompactDisplaymedium11_1" tools:text="@string/lbl_1_62km"/>
+                            </LinearLayout>
+                            <ImageView
+                                android:id="@+id/imageGroupThirtyFive"
+                                android:layout_height="@dimen/_147pxh"
+                                android:layout_marginBottom="@dimen/_38pxv"
+                                android:layout_marginEnd="@dimen/_8pxh"
+                                android:layout_marginTop="@dimen/_30pxv"
+                                android:layout_width="@dimen/_143pxh"
+                                android:scaleType="fitXY"
+                                imageRes="@{@drawable/img_group35}"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_group35"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearColumncarbs"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_9pxh"
+                    android:layout_marginStart="@dimen/_35pxh"
+                    android:layout_marginTop="@dimen/_29pxv"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     android:layout_width="match_parent"
                     android:orientation="vertical" style="@style/groupStylebluegray_101cornerRadius">
                     <LinearLayout android:id="@+id/linearRowcarbs"
@@ -91,12 +247,55 @@
                             android:text="@{dinnerVM.dinnerModel.txtFat}"
                             style="@style/txtSFCompactDisplaysemibold16" tools:text="@string/lbl_fat"/>
                     </LinearLayout>
+<<<<<<< HEAD
+=======
+                    <LinearLayout android:id="@+id/linearRowgroup3010"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_23pxh"
+                        android:layout_marginStart="@dimen/_29pxh"
+                        android:layout_marginTop="@dimen/_7pxv"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <ProgressBar
+                            android:id="@+id/progressBarGroup3010"
+                            android:indeterminate="false"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.33"
+                            android:layout_width="0dp" android:max="100"
+                            android:minHeight="@dimen/_5pxv"
+                            android:progress="100"
+                            android:progressDrawable="@drawable/layer_list_bg_green_a700_radius_2_5" style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                        <ProgressBar
+                            android:id="@+id/progressBarGroup3011"
+                            android:indeterminate="false"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_65pxh"
+                            android:layout_weight="0.33"
+                            android:layout_width="0dp" android:max="100"
+                            android:minHeight="@dimen/_5pxv"
+                            android:progress="100"
+                            android:progressDrawable="@drawable/layer_list_bg_green_a700_radius_2_5" style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                        <ProgressBar
+                            android:id="@+id/progressBarGroup3012"
+                            android:indeterminate="false"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_69pxh"
+                            android:layout_weight="0.33"
+                            android:layout_width="0dp" android:max="100"
+                            android:minHeight="@dimen/_5pxv"
+                            android:progress="100"
+                            android:progressDrawable="@drawable/layer_list_bg_green_a700_radius_2_5" style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                    </LinearLayout>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     <LinearLayout android:id="@+id/linearRowweight"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/_15pxv"
                         android:layout_marginEnd="@dimen/_25pxh"
                         android:layout_marginStart="@dimen/_29pxh"
+<<<<<<< HEAD
                         android:layout_marginTop="@dimen/_17pxv"
+=======
+                        android:layout_marginTop="@dimen/_5pxv"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                         android:layout_width="match_parent" android:orientation="horizontal">
                         <TextView android:ellipsize="end"
                             android:id="@+id/txtWeight"
@@ -105,7 +304,11 @@
                             android:layout_width="0dp"
                             android:singleLine="true"
                             android:text="@{dinnerVM.dinnerModel.txtWeight}"
+<<<<<<< HEAD
                             style="@style/txt_12" tools:text="@string/lbl_36_223g"/>
+=======
+                            style="@style/txt_14" tools:text="@string/lbl_36_223g"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                         <TextView android:ellipsize="end"
                             android:id="@+id/txtWeightOne"
                             android:layout_height="wrap_content"
@@ -114,7 +317,11 @@
                             android:layout_width="0dp"
                             android:singleLine="true"
                             android:text="@{dinnerVM.dinnerModel.txtWeightOne}"
+<<<<<<< HEAD
                             style="@style/txt_12" tools:text="@string/lbl_59_89g"/>
+=======
+                            style="@style/txt_14" tools:text="@string/lbl_59_89g"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                         <TextView android:ellipsize="end"
                             android:id="@+id/txtWeightTwo"
                             android:layout_height="wrap_content"
@@ -123,14 +330,23 @@
                             android:layout_width="0dp"
                             android:singleLine="true"
                             android:text="@{dinnerVM.dinnerModel.txtWeightTwo}"
+<<<<<<< HEAD
                             style="@style/txt_12" tools:text="@string/lbl_14_59g"/>
+=======
+                            style="@style/txt_14" tools:text="@string/lbl_14_59g"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout android:gravity="end"
                     android:id="@+id/linearRowarrowone"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
                     android:layout_marginEnd="@dimen/_52pxh"
                     android:layout_marginStart="@dimen/_52pxh"
+=======
+                    android:layout_marginEnd="@dimen/_49pxh"
+                    android:layout_marginStart="@dimen/_49pxh"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     android:layout_marginTop="@dimen/_19pxv"
                     android:layout_width="match_parent"
                     android:orientation="horizontal" style="@style/groupStylebluegray_102cornerRadius">
@@ -179,6 +395,7 @@
                         android:src="@drawable/img_arrow1"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_arrow1"/>
                 </LinearLayout>
+<<<<<<< HEAD
                 <FrameLayout android:id="@+id/frameStackuntitleddesign"
                     android:layout_gravity="end"
                     android:layout_height="@dimen/_177pxv"
@@ -318,6 +535,139 @@
                     android:layout_marginEnd="@dimen/_2pxh"
                     android:layout_marginStart="@dimen/_49pxh"
                     android:layout_marginTop="@dimen/_27pxv"
+=======
+                <FrameLayout android:id="@+id/frameStackgroupfortyone"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_105pxv"
+                    android:layout_marginStart="@dimen/_11pxh"
+                    android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_383pxh">
+                    <LinearLayout
+                        android:id="@+id/linearColumngroupfortyone"
+                        android:layout_gravity="top|end"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_12pxv"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_12pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical" style="@style/groupStylebluegray_101cornerRadius">
+                        <TextView android:ellipsize="end"
+                            android:gravity="end"
+                            android:id="@+id/txtGroupFortyOne"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="@dimen/_20pxv"
+                            android:layout_marginEnd="@dimen/_12pxh"
+                            android:layout_marginStart="@dimen/_12pxh"
+                            android:layout_marginTop="@dimen/_20pxv"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="@dimen/_2pxv"
+                            android:paddingStart="@dimen/_10pxh"
+                            android:paddingTop="@dimen/_3pxv"
+                            android:singleLine="true"
+                            android:text="@{dinnerVM.dinnerModel.txtGroupFortyOne}"
+                            style="@style/txtSolidRounded" tools:text="@string/lbl8"/>
+                    </LinearLayout>
+                    <ImageView android:id="@+id/imageBeigeIllustrat"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_105pxh"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="@dimen/_151pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_beigeillustrat}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_beigeillustrat"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtBreakfast"
+                        android:layout_gravity="top|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_35pxv"
+                        android:layout_marginEnd="@dimen/_132pxh"
+                        android:layout_marginStart="@dimen/_132pxh"
+                        android:layout_marginTop="@dimen/_35pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{dinnerVM.dinnerModel.txtBreakfast}"
+                        style="@style/txtSFCompactDisplaysemibold16" tools:text="@string/lbl_breakfast"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtRecommended356"
+                        android:layout_gravity="bottom|end"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_32pxv"
+                        android:layout_marginEnd="@dimen/_109pxh"
+                        android:layout_marginStart="@dimen/_109pxh"
+                        android:layout_marginTop="@dimen/_32pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{dinnerVM.dinnerModel.txtRecommended356}"
+                        style="@style/txtSFCompactDisplaylight11" tools:text="@string/msg_recommended_356"/>
+                </FrameLayout>
+                <LinearLayout android:gravity="end"
+                    android:id="@+id/linearRowuntitleddesign"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_1pxh"
+                    android:layout_marginStart="@dimen/_43pxh"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal" style="@style/groupStylebluegray_101cornerRadius">
+                    <ImageView android:id="@+id/imageUntitleddesign"
+                        android:layout_height="@dimen/_68pxh"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_7pxv"
+                        android:layout_width="@dimen/_73pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_untitleddesign}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_untitleddesign"/>
+                    <LinearLayout android:id="@+id/linearRowlunch"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_14pxv"
+                        android:layout_marginEnd="@dimen/_12pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_20pxv"
+                        android:layout_weight="0.77"
+                        android:layout_width="0dp" android:orientation="horizontal">
+                        <LinearLayout android:gravity="start"
+                            android:id="@+id/linearColumnlunch"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3pxv"
+                            android:layout_weight="0.85"
+                            android:layout_width="0dp" android:orientation="vertical">
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtLunch"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_10pxh"
+                                android:layout_width="wrap_content"
+                                android:singleLine="true"
+                                android:text="@{dinnerVM.dinnerModel.txtLunch}"
+                                style="@style/txtSFCompactDisplaysemibold16" tools:text="@string/lbl_lunch"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtRecommended535"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_10pxh"
+                                android:layout_marginStart="@dimen/_1pxh"
+                                android:layout_marginTop="@dimen/_2pxv"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@{dinnerVM.dinnerModel.txtRecommended535}"
+                                style="@style/txtSFCompactDisplaylight11" tools:text="@string/msg_recommended_535"/>
+                        </LinearLayout>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtGroupFortyOneOne"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5pxv"
+                            android:layout_weight="0.15"
+                            android:layout_width="0dp"
+                            android:paddingBottom="@dimen/_2pxv"
+                            android:paddingStart="@dimen/_10pxh"
+                            android:paddingTop="@dimen/_3pxv"
+                            android:singleLine="true"
+                            android:text="@{dinnerVM.dinnerModel.txtGroupFortyOneOne}"
+                            style="@style/txtSolidRounded" tools:text="@string/lbl8"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="end"
+                    android:id="@+id/linearRowuntitleddesignOne"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_1pxh"
+                    android:layout_marginStart="@dimen/_43pxh"
+                    android:layout_marginTop="@dimen/_19pxv"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     android:layout_width="match_parent"
                     android:orientation="horizontal" style="@style/groupStylebluegray_101cornerRadius">
                     <ImageView android:id="@+id/imageUntitleddesignOne"
@@ -338,7 +688,10 @@
                         android:layout_weight="0.8"
                         android:layout_width="0dp" android:orientation="horizontal">
                         <LinearLayout
+<<<<<<< HEAD
                             android:gravity="center_horizontal"
+=======
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                             android:id="@+id/linearColumndinner"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_1pxv"
@@ -348,8 +701,13 @@
                                 android:id="@+id/txtDinner"
                                 android:layout_gravity="center_horizontal"
                                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                                 android:layout_marginEnd="@dimen/_40pxh"
                                 android:layout_marginStart="@dimen/_40pxh"
+=======
+                                android:layout_marginEnd="@dimen/_20pxh"
+                                android:layout_marginStart="@dimen/_20pxh"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                                 android:layout_width="wrap_content"
                                 android:singleLine="true"
                                 android:text="@{dinnerVM.dinnerModel.txtDinner}"
@@ -358,8 +716,13 @@
                                 android:gravity="center_horizontal"
                                 android:id="@+id/txtRecommended535One"
                                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                                 android:layout_marginEnd="@dimen/_34pxh"
                                 android:layout_marginStart="@dimen/_40pxh"
+=======
+                                android:layout_marginEnd="@dimen/_20pxh"
+                                android:layout_marginStart="@dimen/_20pxh"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                                 android:layout_marginTop="@dimen/_3pxv"
                                 android:layout_width="match_parent"
                                 android:singleLine="true"
@@ -380,15 +743,37 @@
                                 android:text="@string/msg_net_carbs_16"
                                 android:textAllCaps="false"
                                 style="@style/btnSolidRounded_4" tools:text="@string/msg_net_carbs_16"/>
+<<<<<<< HEAD
+=======
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:gravity="start"
+                                android:id="@+id/recyclerListavocado"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_20pxh"
+                                android:layout_marginStart="@dimen/_20pxh"
+                                android:layout_marginTop="@dimen/_17pxv"
+                                android:layout_width="match_parent"
+                                android:nestedScrollingEnabled="false"
+                                android:orientation="vertical"
+                                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                                itemSpace="@{@dimen/_7pxh}"
+                                tools:itemCount="3" tools:listitem="@layout/row_listavocado1"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                             <androidx.appcompat.widget.AppCompatButton
                                 android:ellipsize="end"
                                 android:gravity="center"
                                 android:id="@+id/btnAddItems"
                                 android:layout_gravity="center_horizontal"
                                 android:layout_height="@dimen/_33pxv"
+<<<<<<< HEAD
                                 android:layout_marginEnd="@dimen/_40pxh"
                                 android:layout_marginStart="@dimen/_40pxh"
                                 android:layout_marginTop="@dimen/_177pxv"
+=======
+                                android:layout_marginEnd="@dimen/_20pxh"
+                                android:layout_marginStart="@dimen/_20pxh"
+                                android:layout_marginTop="@dimen/_47pxv"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                                 android:layout_width="@dimen/_90pxh"
                                 android:paddingBottom="@dimen/_9pxv"
                                 android:paddingEnd="@dimen/_18pxh"
@@ -411,7 +796,11 @@
                                 android:layout_height="@dimen/_35pxh"
                                 android:layout_marginBottom="@dimen/_10pxv" android:layout_width="@dimen/_35pxh"/>
                             <TextView android:ellipsize="end"
+<<<<<<< HEAD
                                 android:id="@+id/txtEight"
+=======
+                                android:id="@+id/txtSeven"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                                 android:layout_gravity="center"
                                 android:layout_height="wrap_content"
                                 android:layout_marginEnd="@dimen/_11pxh"
@@ -419,28 +808,49 @@
                                 android:layout_marginTop="@dimen/_1pxv"
                                 android:layout_width="wrap_content"
                                 android:singleLine="true"
+<<<<<<< HEAD
                                 android:text="@{dinnerVM.dinnerModel.txtEight}"
+=======
+                                android:text="@{dinnerVM.dinnerModel.txtSeven}"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                                 style="@style/txtSFCompactDisplaysemibold32" tools:text="@string/lbl9"/>
                         </FrameLayout>
                     </LinearLayout>
                 </LinearLayout>
                 <androidx.recyclerview.widget.RecyclerView
                     android:gravity="end"
+<<<<<<< HEAD
                     android:id="@+id/recyclerDinner"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_2pxh"
                     android:layout_marginStart="@dimen/_49pxh"
                     android:layout_marginTop="@dimen/_28pxv"
+=======
+                    android:id="@+id/recyclerListuntitleddesignTwo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_1pxh"
+                    android:layout_marginStart="@dimen/_43pxh"
+                    android:layout_marginTop="@dimen/_26pxv"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     android:layout_width="match_parent"
                     android:nestedScrollingEnabled="false"
                     android:orientation="vertical"
                     app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+<<<<<<< HEAD
                     itemSpace="@{@dimen/_20pxh}" tools:itemCount="2" tools:listitem="@layout/row_dinner"/>
                 <FrameLayout android:id="@+id/frameStackwater"
                     android:layout_gravity="end"
                     android:layout_height="@dimen/_115pxv"
                     android:layout_marginEnd="@dimen/_2pxh"
                     android:layout_marginStart="@dimen/_19pxh" android:layout_width="@dimen/_380pxh">
+=======
+                    itemSpace="@{@dimen/_29pxh}" tools:itemCount="2" tools:listitem="@layout/row_listuntitleddesign_two"/>
+                <FrameLayout android:id="@+id/frameStackwater"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_115pxv"
+                    android:layout_marginEnd="@dimen/_1pxh"
+                    android:layout_marginStart="@dimen/_11pxh" android:layout_width="@dimen/_380pxh">
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     <LinearLayout android:id="@+id/linearRowwater"
                         android:layout_gravity="bottom|end"
                         android:layout_height="wrap_content"
@@ -489,7 +899,11 @@
                             android:paddingTop="@dimen/_4pxv"
                             android:singleLine="true"
                             android:text="@{dinnerVM.dinnerModel.txtGroupFortyOneFour}"
+<<<<<<< HEAD
                             style="@style/txtSolidRounded_2" tools:text="@string/lbl8"/>
+=======
+                            style="@style/txtSolidRounded" tools:text="@string/lbl8"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     </LinearLayout>
                     <ImageView android:id="@+id/imageUntitleddesignFour"
                         android:layout_gravity="start"

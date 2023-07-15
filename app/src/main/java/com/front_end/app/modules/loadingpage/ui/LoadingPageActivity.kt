@@ -14,7 +14,11 @@ import kotlin.String
 import kotlin.Unit
 
 class LoadingPageActivity : BaseActivity<ActivityLoadingPageBinding>(R.layout.activity_loading_page)
+<<<<<<< HEAD
 {
+=======
+    {
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
   private val viewModel: LoadingPageVM by viewModels<LoadingPageVM>()
 
   private val REQUEST_CODE_HOME_ACTIVITY: Int = 874

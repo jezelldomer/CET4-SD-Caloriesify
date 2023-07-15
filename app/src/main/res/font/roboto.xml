@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+<<<<<<< HEAD
     <font app:font="@font/robotomedium" app:fontWeight="500"/>
     <font app:font="@font/robotobold" app:fontWeight="700"/>
+=======
+    <font app:font="@font/robotobold" app:fontWeight="700"/>
+    <font app:font="@font/robotomedium" app:fontWeight="500"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
     <font app:font="@font/robotoregular" app:fontWeight="400"/>
 </font-family>

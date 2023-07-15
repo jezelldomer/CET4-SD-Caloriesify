@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <data>
         <variable name="dietVM" type="com.front_end.app.modules.diet.data.viewmodel.DietVM"/>
+=======
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="homeVM" type="com.front_end.app.modules.home.data.viewmodel.HomeVM"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
     </data>
     <LinearLayout android:gravity="center_horizontal"
         android:id="@+id/linearColumnrectangletwentyfive"
@@ -23,6 +30,10 @@
             <LinearLayout android:id="@+id/linearColumnuser"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+                android:layout_marginBottom="@dimen/_40pxv"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                 android:layout_marginEnd="@dimen/_1pxh"
                 android:layout_marginTop="@dimen/_22pxv"
                 android:layout_width="match_parent" android:orientation="vertical">
@@ -51,14 +62,20 @@
                         android:layout_marginStart="@dimen/_14pxh"
                         android:layout_marginTop="@dimen/_17pxv"
                         android:layout_width="match_parent"
+<<<<<<< HEAD
                         android:text="@{dietVM.dietModel.txtGoodMorningUS}"
                         style="@style/txt_5" tools:text="@string/msg_good_morning_us"/>
+=======
+                        android:text="@{homeVM.homeModel.txtGoodMorningUS}"
+                        style="@style/txt_6" tools:text="@string/msg_good_morning_us"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     <TextView android:gravity="center_horizontal"
                         android:id="@+id/txtLetsstartwit"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/_14pxh"
                         android:layout_marginStart="@dimen/_14pxh"
                         android:layout_width="match_parent"
+<<<<<<< HEAD
                         android:text="@{dietVM.dietModel.txtLetsstartwit}"
                         style="@style/txt_6" tools:text="@string/msg_let_s_start_wit"/>
                     <LinearLayout android:id="@+id/linearRowvector"
@@ -210,6 +227,21 @@
                                 style="@style/txt_9" tools:text="@string/lbl_bmi"/>
                         </LinearLayout>
                     </LinearLayout>
+=======
+                        android:text="@{homeVM.homeModel.txtLetsstartwit}"
+                        style="@style/txt_7" tools:text="@string/msg_let_s_start_wit"/>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:gravity="center_horizontal"
+                        android:id="@+id/recyclerHome"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_12pxh"
+                        android:layout_marginStart="@dimen/_14pxh"
+                        android:layout_marginTop="@dimen/_31pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        itemSpace="@{@dimen/_31pxh}" tools:itemCount="2" tools:listitem="@layout/row_home"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     <LinearLayout android:gravity="center_horizontal"
                         android:id="@+id/linearColumnairplane"
                         android:layout_height="wrap_content"
@@ -217,7 +249,11 @@
                         android:layout_marginStart="@dimen/_14pxh"
                         android:layout_marginTop="@dimen/_31pxv"
                         android:layout_width="match_parent"
+<<<<<<< HEAD
                         android:orientation="vertical" style="@style/groupStylebluegray_1">
+=======
+                        android:orientation="vertical" style="@style/groupStylebluegray_100cornerRadius">
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                         <ImageView android:id="@+id/imageAirplane"
                             android:layout_gravity="end"
                             android:layout_height="@dimen/_41pxh"
@@ -238,18 +274,30 @@
                             android:layout_marginTop="@dimen/_13pxv"
                             android:layout_width="match_parent"
                             android:singleLine="true"
+<<<<<<< HEAD
                             android:text="@{dietVM.dietModel.txtCreateyourCus}"
                             style="@style/txt_10" tools:text="@string/msg_create_your_cus"/>
+=======
+                            android:text="@{homeVM.homeModel.txtCreateyourCus}"
+                            style="@style/txt_11" tools:text="@string/msg_create_your_cus"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     </LinearLayout>
                     <androidx.appcompat.widget.AppCompatButton
                         android:ellipsize="end" android:gravity="center"
                         android:id="@+id/btnProceed"
                         android:layout_gravity="center_horizontal"
                         android:layout_height="@dimen/_60pxv"
+<<<<<<< HEAD
                         android:layout_marginBottom="@dimen/_80pxv"
                         android:layout_marginEnd="@dimen/_14pxh"
                         android:layout_marginStart="@dimen/_14pxh"
                         android:layout_marginTop="@dimen/_15pxv"
+=======
+                        android:layout_marginBottom="@dimen/_36pxv"
+                        android:layout_marginEnd="@dimen/_14pxh"
+                        android:layout_marginStart="@dimen/_14pxh"
+                        android:layout_marginTop="@dimen/_69pxv"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                         android:layout_width="@dimen/_346pxh"
                         android:paddingBottom="@dimen/_12pxv"
                         android:paddingEnd="@dimen/_30pxh"
@@ -264,4 +312,7 @@
         </FrameLayout>
     </LinearLayout>
 </layout>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8

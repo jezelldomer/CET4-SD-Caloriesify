@@ -5,10 +5,17 @@
         <variable name="breakfastVM" type="com.front_end.app.modules.breakfast.data.viewmodel.BreakfastVM"/>
     </data>
     <LinearLayout android:gravity="center_horizontal"
+<<<<<<< HEAD
         android:id="@+id/linearColumnarrowtwo"
         android:layout_height="match_parent"
         android:layout_marginBottom="@dimen/_1pxv"
         android:layout_marginEnd="@dimen/_23pxh"
+=======
+        android:id="@+id/linearColumn"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_18pxv"
+        android:layout_marginEnd="@dimen/_31pxh"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
         android:layout_marginStart="@dimen/_4pxh"
         android:layout_marginTop="@dimen/_4pxv"
         android:layout_width="match_parent"
@@ -21,6 +28,7 @@
             <LinearLayout android:id="@+id/linearBreakfast"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent" android:orientation="vertical">
+<<<<<<< HEAD
                 <LinearLayout android:gravity="center_horizontal"
                     android:id="@+id/linearColumnarrowfive"
                     android:layout_height="wrap_content"
@@ -46,12 +54,159 @@
                             tools:ignore="ContentDescription" tools:src="@drawable/img_arrow5"/>
                     </FrameLayout>
                 </LinearLayout>
+=======
+                <FrameLayout android:id="@+id/frameStackactivity"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_270pxv"
+                    android:layout_marginEnd="@dimen/_10pxh" android:layout_width="@dimen/_381pxh">
+                    <LinearLayout
+                        android:id="@+id/linearColumnarrowfive"
+                        android:layout_gravity="top|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical" style="@style/groupStylebluegray_1">
+                        <FrameLayout
+                            android:id="@+id/frameStackarrowfive"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="@dimen/_39pxv"
+                            android:layout_marginHorizontal="@dimen/_2pxh"
+                            android:layout_marginVertical="@dimen/_2pxv"
+                            android:layout_width="@dimen/_41pxh" style="@style/groupStylegreen_A700cornerRadius">
+                            <ImageView android:id="@+id/imageArrowFive"
+                                android:layout_gravity="bottom|start"
+                                android:layout_height="@dimen/_3pxh"
+                                android:layout_marginBottom="@dimen/_17pxv"
+                                android:layout_marginEnd="@dimen/_15pxh"
+                                android:layout_marginStart="@dimen/_15pxh"
+                                android:layout_marginTop="@dimen/_17pxv"
+                                android:layout_width="@dimen/_1pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_arrow5"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_arrow5"/>
+                        </FrameLayout>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearColumnactivity"
+                        android:layout_gravity="end"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_3pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical" style="@style/groupStyle">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtActivity"
+                            android:layout_gravity="start"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginStart="@dimen/_9pxh"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{breakfastVM.breakfastModel.txtActivity}"
+                            style="@style/txtPoppinsbold24_2" tools:text="@string/lbl_activity"/>
+                        <LinearLayout android:gravity="start"
+                            android:id="@+id/linearRoweaten"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_13pxv"
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal" style="@style/groupStylegreen_1">
+                            <LinearLayout android:gravity="end"
+                                android:id="@+id/linearColumneaten"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_35pxv"
+                                android:layout_marginStart="@dimen/_32pxh"
+                                android:layout_marginTop="@dimen/_35pxv"
+                                android:layout_weight="0.52"
+                                android:layout_width="0dp" android:orientation="vertical">
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtEaten"
+                                    android:layout_gravity="start"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_92pxh"
+                                    android:layout_width="wrap_content"
+                                    android:singleLine="true"
+                                    android:text="@{breakfastVM.breakfastModel.txtEaten}"
+                                    style="@style/txt_13" tools:text="@string/lbl_eaten"/>
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txt108220KCAL"
+                                    android:layout_gravity="start"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_80pxh"
+                                    android:layout_marginStart="@dimen/_8pxh"
+                                    android:layout_marginTop="@dimen/_7pxv"
+                                    android:layout_width="wrap_content"
+                                    android:singleLine="true"
+                                    android:text="@{breakfastVM.breakfastModel.txt108220KCAL}"
+                                    style="@style/txtSFCompactDisplaymedium11" tools:text="@string/lbl_108_220_kcal"/>
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtSteps"
+                                    android:layout_gravity="start"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_92pxh"
+                                    android:layout_marginTop="@dimen/_15pxv"
+                                    android:layout_width="wrap_content"
+                                    android:singleLine="true"
+                                    android:text="@{breakfastVM.breakfastModel.txtSteps}"
+                                    style="@style/txt_13" tools:text="@string/lbl_steps"/>
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtLanguage"
+                                    android:layout_gravity="start"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_95pxh"
+                                    android:layout_marginStart="@dimen/_7pxh"
+                                    android:layout_marginTop="@dimen/_7pxv"
+                                    android:layout_width="wrap_content"
+                                    android:singleLine="true"
+                                    android:text="@{breakfastVM.breakfastModel.txtLanguage}"
+                                    style="@style/txtSFCompactDisplaymedium11_1" tools:text="@string/lbl_2_116_4_000"/>
+                                <TextView android:ellipsize="end"
+                                    android:gravity="start"
+                                    android:id="@+id/txtDistance"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_68pxh"
+                                    android:layout_marginStart="@dimen/_6pxh"
+                                    android:layout_marginTop="@dimen/_14pxv"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@{breakfastVM.breakfastModel.txtDistance}"
+                                    style="@style/txt_13" tools:text="@string/lbl_distance"/>
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtDistanceOne"
+                                    android:layout_gravity="start"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_120pxh"
+                                    android:layout_marginStart="@dimen/_7pxh"
+                                    android:layout_marginTop="@dimen/_6pxv"
+                                    android:layout_width="wrap_content"
+                                    android:singleLine="true"
+                                    android:text="@{breakfastVM.breakfastModel.txtDistanceOne}"
+                                    style="@style/txtSFCompactDisplaymedium11_1" tools:text="@string/lbl_1_62km"/>
+                            </LinearLayout>
+                            <ImageView
+                                android:id="@+id/imageGroupThirtyFive"
+                                android:layout_height="@dimen/_147pxh"
+                                android:layout_marginBottom="@dimen/_38pxv"
+                                android:layout_marginEnd="@dimen/_8pxh"
+                                android:layout_marginTop="@dimen/_30pxv"
+                                android:layout_width="@dimen/_143pxh"
+                                android:scaleType="fitXY"
+                                imageRes="@{@drawable/img_group35}"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_group35"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                 <LinearLayout android:gravity="center_horizontal"
                     android:id="@+id/linearColumncarbs"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8pxh"
+<<<<<<< HEAD
                     android:layout_marginStart="@dimen/_43pxh"
                     android:layout_marginTop="@dimen/_35pxv"
+=======
+                    android:layout_marginStart="@dimen/_35pxh"
+                    android:layout_marginTop="@dimen/_29pxv"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     android:layout_width="match_parent"
                     android:orientation="vertical" style="@style/groupStylebluegray_101cornerRadius">
                     <LinearLayout android:id="@+id/linearRowcarbs"
@@ -91,12 +246,55 @@
                             android:text="@{breakfastVM.breakfastModel.txtFat}"
                             style="@style/txtSFCompactDisplaysemibold16" tools:text="@string/lbl_fat"/>
                     </LinearLayout>
+<<<<<<< HEAD
+=======
+                    <LinearLayout android:id="@+id/linearRowgroup3118"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_23pxh"
+                        android:layout_marginStart="@dimen/_29pxh"
+                        android:layout_marginTop="@dimen/_7pxv"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <ProgressBar
+                            android:id="@+id/progressBarGroup3118"
+                            android:indeterminate="false"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.33"
+                            android:layout_width="0dp" android:max="100"
+                            android:minHeight="@dimen/_5pxv"
+                            android:progress="100"
+                            android:progressDrawable="@drawable/layer_list_bg_green_a700_radius_2_5" style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                        <ProgressBar
+                            android:id="@+id/progressBarGroup3119"
+                            android:indeterminate="false"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_65pxh"
+                            android:layout_weight="0.33"
+                            android:layout_width="0dp" android:max="100"
+                            android:minHeight="@dimen/_5pxv"
+                            android:progress="100"
+                            android:progressDrawable="@drawable/layer_list_bg_green_a700_radius_2_5" style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                        <ProgressBar
+                            android:id="@+id/progressBarGroup3120"
+                            android:indeterminate="false"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_69pxh"
+                            android:layout_weight="0.33"
+                            android:layout_width="0dp" android:max="100"
+                            android:minHeight="@dimen/_5pxv"
+                            android:progress="100"
+                            android:progressDrawable="@drawable/layer_list_bg_green_a700_radius_2_5" style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                    </LinearLayout>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     <LinearLayout android:id="@+id/linearRowweight"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/_15pxv"
                         android:layout_marginEnd="@dimen/_25pxh"
                         android:layout_marginStart="@dimen/_29pxh"
+<<<<<<< HEAD
                         android:layout_marginTop="@dimen/_17pxv"
+=======
+                        android:layout_marginTop="@dimen/_5pxv"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                         android:layout_width="match_parent" android:orientation="horizontal">
                         <TextView android:ellipsize="end"
                             android:id="@+id/txtWeight"
@@ -105,7 +303,11 @@
                             android:layout_width="0dp"
                             android:singleLine="true"
                             android:text="@{breakfastVM.breakfastModel.txtWeight}"
+<<<<<<< HEAD
                             style="@style/txt_12" tools:text="@string/lbl_36_223g"/>
+=======
+                            style="@style/txt_14" tools:text="@string/lbl_36_223g"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                         <TextView android:ellipsize="end"
                             android:id="@+id/txtWeightOne"
                             android:layout_height="wrap_content"
@@ -114,7 +316,11 @@
                             android:layout_width="0dp"
                             android:singleLine="true"
                             android:text="@{breakfastVM.breakfastModel.txtWeightOne}"
+<<<<<<< HEAD
                             style="@style/txt_12" tools:text="@string/lbl_59_89g"/>
+=======
+                            style="@style/txt_14" tools:text="@string/lbl_59_89g"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                         <TextView android:ellipsize="end"
                             android:id="@+id/txtWeightTwo"
                             android:layout_height="wrap_content"
@@ -123,7 +329,11 @@
                             android:layout_width="0dp"
                             android:singleLine="true"
                             android:text="@{breakfastVM.breakfastModel.txtWeightTwo}"
+<<<<<<< HEAD
                             style="@style/txt_12" tools:text="@string/lbl_14_59g"/>
+=======
+                            style="@style/txt_14" tools:text="@string/lbl_14_59g"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout android:gravity="end"
@@ -180,7 +390,11 @@
                         tools:ignore="ContentDescription" tools:src="@drawable/img_arrow1"/>
                 </LinearLayout>
                 <FrameLayout android:id="@+id/frameStackbreakfast"
+<<<<<<< HEAD
                     android:layout_gravity="end"
+=======
+                    android:layout_gravity="center_horizontal"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     android:layout_height="@dimen/_312pxv"
                     android:layout_marginStart="@dimen/_10pxh"
                     android:layout_marginTop="@dimen/_22pxv" android:layout_width="@dimen/_383pxh">
@@ -220,7 +434,11 @@
                                     android:layout_height="@dimen/_34pxh"
                                     android:layout_marginBottom="@dimen/_10pxv" android:layout_width="@dimen/_35pxh"/>
                                 <TextView android:ellipsize="end"
+<<<<<<< HEAD
                                     android:id="@+id/txtSix"
+=======
+                                    android:id="@+id/txtFive"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                                     android:layout_gravity="center"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="@dimen/_11pxh"
@@ -228,7 +446,11 @@
                                     android:layout_marginTop="@dimen/_1pxv"
                                     android:layout_width="wrap_content"
                                     android:singleLine="true"
+<<<<<<< HEAD
                                     android:text="@{breakfastVM.breakfastModel.txtSix}"
+=======
+                                    android:text="@{breakfastVM.breakfastModel.txtFive}"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                                     style="@style/txtSFCompactDisplaysemibold32" tools:text="@string/lbl9"/>
                             </FrameLayout>
                         </LinearLayout>
@@ -317,7 +539,11 @@
                     app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                     itemSpace="@{@dimen/_23pxh}" tools:itemCount="4" tools:listitem="@layout/row_listuntitleddesign"/>
                 <FrameLayout android:id="@+id/frameStackwater"
+<<<<<<< HEAD
                     android:layout_gravity="end"
+=======
+                    android:layout_gravity="center_horizontal"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     android:layout_height="@dimen/_115pxv"
                     android:layout_marginStart="@dimen/_10pxh" android:layout_width="@dimen/_380pxh">
                     <LinearLayout android:id="@+id/linearRowwater"
@@ -368,7 +594,11 @@
                             android:paddingTop="@dimen/_4pxv"
                             android:singleLine="true"
                             android:text="@{breakfastVM.breakfastModel.txtGroupFortyOneFour}"
+<<<<<<< HEAD
                             style="@style/txtSolidRounded_2" tools:text="@string/lbl8"/>
+=======
+                            style="@style/txtSolidRounded" tools:text="@string/lbl8"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     </LinearLayout>
                     <ImageView android:id="@+id/imageUntitleddesignFour"
                         android:layout_gravity="start"

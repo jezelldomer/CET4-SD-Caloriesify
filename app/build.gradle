@@ -2,6 +2,10 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-kapt'
+<<<<<<< HEAD
+=======
+id 'com.google.gms.google-services'
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
 }
 
 def koin_version = "2.1.6"
@@ -81,4 +85,13 @@ dependencies {
     implementation("androidx.security:security-crypto:1.0.0")
     implementation "com.airbnb.android:lottie:3.4.0"
 
+<<<<<<< HEAD
 }
+=======
+    implementation platform ('com.google.firebase:firebase-bom:28.3.1')
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+}
+
+
+
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8

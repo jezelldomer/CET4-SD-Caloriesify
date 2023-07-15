@@ -22,14 +22,22 @@
             android:layout_marginTop="@dimen/_19pxv"
             android:layout_width="match_parent" android:orientation="vertical">
             <TextView android:ellipsize="end" android:id="@+id/txtTwo"
+<<<<<<< HEAD
                 android:layout_gravity="center"
+=======
+                android:layout_gravity="start"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_101pxh"
                 android:layout_marginStart="@dimen/_101pxh"
                 android:layout_width="wrap_content"
                 android:singleLine="true"
                 android:text="@{tallVM.tallModel.txtTwo}"
+<<<<<<< HEAD
                 style="@style/txtPoppinsbold24" tools:text="@string/lbl3"/>
+=======
+                style="@style/txtPoppinsbold24" tools:text="@string/lbl"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
             <TextView android:ellipsize="end" android:gravity="end"
                 android:id="@+id/txtHowTallareyo"
                 android:layout_height="wrap_content"
@@ -39,6 +47,7 @@
                 android:layout_width="match_parent"
                 android:singleLine="true"
                 android:text="@{tallVM.tallModel.txtHowTallareyo}"
+<<<<<<< HEAD
                 style="@style/txt_2" tools:text="@string/msg_how_tall_are_yo"/>
             <LinearLayout
                 android:id="@+id/linearRowrectangletwentyone"
@@ -77,6 +86,41 @@
                     android:text="@={tallVM.tallModel.etRectangleTwentyFourValue}"
                     android:textColorHint="@color/gray_703"
                     style="@style/etSolidRounded_2" tools:ignore="Autofill"/>
+=======
+                style="@style/txt_3" tools:text="@string/msg_how_tall_are_yo"/>
+            <LinearLayout android:gravity="end"
+                android:id="@+id/linearRowrectangletwentyfive"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_21pxh"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <EditText
+                    android:background="@android:color/transparent"
+                    android:ellipsize="end"
+                    android:hint="@string/lbl_ft"
+                    android:id="@+id/etColumnrectangletwentyfive"
+                    android:inputType="number"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@={tallVM.tallModel.etColumnrectangletwentyfiveValue}"
+                    android:textColorHint="@color/black_900"
+                    style="@style/etSolidRounded_3" tools:ignore="Autofill"/>
+                <EditText
+                    android:background="@android:color/transparent"
+                    android:ellipsize="end"
+                    android:hint="@string/lbl_inch"
+                    android:id="@+id/etColumnrectangletwentysix"
+                    android:inputType="number"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16pxh"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@={tallVM.tallModel.etColumnrectangletwentysixValue}"
+                    android:textColorHint="@color/black_900"
+                    style="@style/etSolidRounded_3" tools:ignore="Autofill"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
             </LinearLayout>
             <TextView android:gravity="center_horizontal"
                 android:id="@+id/txtWeusethisdat"
@@ -86,13 +130,18 @@
                 android:layout_marginTop="@dimen/_92pxv"
                 android:layout_width="match_parent"
                 android:text="@{tallVM.tallModel.txtWeusethisdat}"
+<<<<<<< HEAD
                 style="@style/txt_3" tools:text="@string/msg_we_use_this_dat"/>
+=======
+                style="@style/txt_4" tools:text="@string/msg_we_use_this_dat"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
             <LinearLayout android:id="@+id/linearRowback"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_63pxv"
                 android:layout_width="match_parent" android:orientation="horizontal">
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtBack"
+<<<<<<< HEAD
                     android:background="@drawable/rectangle_bg_gray_201_radius_17_5"
                     android:gravity="center"
                     android:paddingHorizontal="@dimen/_3pxh"
@@ -124,3 +173,28 @@
         </LinearLayout>
     </FrameLayout>
 </layout>
+=======
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_3pxv"
+                    android:layout_marginStart="@dimen/_41pxh"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_weight="0.52"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{tallVM.tallModel.txtBack}"
+                    style="@style/txtPoppinsbold24" tools:text="@string/lbl_back"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtNext"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_marginEnd="@dimen/_46pxh"
+                    android:layout_marginStart="@dimen/_133pxh"
+                    android:layout_marginTop="@dimen/_5pxv"
+                    android:layout_weight="0.48"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{tallVM.tallModel.txtNext}"
+                    style="@style/txtPoppinsbold24" tools:text="@string/lbl_next"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8

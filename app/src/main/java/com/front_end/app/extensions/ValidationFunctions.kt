@@ -87,3 +87,30 @@ public fun String?.isText(isMandatory: Boolean = false): Boolean {
   }
   return result
 }
+<<<<<<< HEAD
+=======
+
+public fun String?.isNumeric(isMandatory: Boolean = false): Boolean {
+  if (isNullOrEmpty()) {
+    if (isMandatory) {
+      Toast.makeText(
+              MyApp.getInstance(),
+              R.string.msg_please_enter_valid_nu,
+              Toast.LENGTH_SHORT
+          ).show()
+    }
+    return !isMandatory
+  }
+  val numberRegex = "^[0-9]*${'$'}".toRegex()
+  val result = 
+  numberRegex.matches(this)
+  if (!result) {
+    Toast.makeText(
+            MyApp.getInstance(),
+            R.string.msg_please_enter_valid_nu,
+            Toast.LENGTH_SHORT
+        ).show()
+  }
+  return result
+}
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8

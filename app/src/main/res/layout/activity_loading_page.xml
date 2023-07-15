@@ -34,7 +34,11 @@
             android:layout_marginTop="@dimen/_381pxv"
             android:layout_width="match_parent"
             android:text="@{loadingPageVM.loadingPageModel.txtEatwellasyou}"
+<<<<<<< HEAD
             style="@style/txt_4" tools:text="@string/msg_eat_well_as_you"/>
+=======
+            style="@style/txt_5" tools:text="@string/msg_eat_well_as_you"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
         <ImageView android:id="@+id/imageImageSix"
             android:layout_gravity="top|start"
             android:layout_height="@dimen/_129pxh"

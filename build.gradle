@@ -6,6 +6,10 @@ buildscript {
         jcenter()
     }
     dependencies {
+<<<<<<< HEAD
+=======
+    classpath 'com.google.gms:google-services:4.3.10'
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
         classpath "com.android.tools.build:gradle:7.3.1"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         // NOTE: Do not place your application dependencies here; they belong
@@ -23,4 +27,9 @@ allprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8

@@ -22,20 +22,30 @@
             android:layout_marginTop="@dimen/_19pxv"
             android:layout_width="match_parent" android:orientation="vertical">
             <TextView android:ellipsize="end" android:id="@+id/txtThree"
+<<<<<<< HEAD
                 android:layout_gravity="center_horizontal"
+=======
+                android:layout_gravity="start"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_116pxh"
                 android:layout_marginStart="@dimen/_116pxh"
                 android:layout_width="wrap_content"
                 android:singleLine="true"
                 android:text="@{weightVM.weightModel.txtThree}"
+<<<<<<< HEAD
                 style="@style/txtPoppinsbold24" tools:text="@string/lbl4"/>
             <TextView android:gravity="center_horizontal"
+=======
+                style="@style/txtPoppinsbold24" tools:text="@string/lbl"/>
+            <TextView android:gravity="start"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                 android:id="@+id/txtWhatsyourCur"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_17pxv"
                 android:layout_width="match_parent"
                 android:text="@{weightVM.weightModel.txtWhatsyourCur}"
+<<<<<<< HEAD
                 style="@style/txt_2" tools:text="@string/msg_what_s_your_cur"/>
             <EditText
                 android:background="@drawable/rectangle_bg_bluegray_100_radius_19_5"
@@ -61,10 +71,40 @@
                 style="@style/txt_3" tools:text="@string/msg_we_use_this_dat"/>
             <LinearLayout android:id="@+id/linearRowback"
                 android:layout_height="wrap_content"
+=======
+                style="@style/txt_3" tools:text="@string/msg_what_s_your_cur"/>
+            <EditText android:background="@android:color/transparent"
+                android:ellipsize="end" android:hint="@string/lbl_kilo"
+                android:id="@+id/etColumnrectangletwentyfive"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_15pxh"
+                android:layout_marginStart="@dimen/_15pxh"
+                android:layout_marginTop="@dimen/_21pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@={weightVM.weightModel.etColumnrectangletwentyfiveValue}"
+                android:textColorHint="@color/black_900"
+                style="@style/etSolidRounded_2" tools:ignore="Autofill"/>
+            <TextView android:gravity="start"
+                android:id="@+id/txtWeusethisdat"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_68pxh"
+                android:layout_marginStart="@dimen/_68pxh"
+                android:layout_marginTop="@dimen/_55pxv"
+                android:layout_width="match_parent"
+                android:text="@{weightVM.weightModel.txtWeusethisdat}"
+                style="@style/txt_4" tools:text="@string/msg_we_use_this_dat"/>
+            <LinearLayout android:id="@+id/linearRowback"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_15pxh"
+                android:layout_marginStart="@dimen/_15pxh"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                 android:layout_marginTop="@dimen/_63pxv"
                 android:layout_width="match_parent" android:orientation="horizontal">
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtBack"
+<<<<<<< HEAD
                     android:background="@drawable/rectangle_bg_gray_201_radius_17_5"
                     android:gravity="center"
                     android:paddingHorizontal="@dimen/_3pxh"
@@ -96,3 +136,28 @@
         </LinearLayout>
     </FrameLayout>
 </layout>
+=======
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_3pxv"
+                    android:layout_marginStart="@dimen/_41pxh"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_weight="0.52"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{weightVM.weightModel.txtBack}"
+                    style="@style/txtPoppinsbold24" tools:text="@string/lbl_back"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtNext"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_marginEnd="@dimen/_46pxh"
+                    android:layout_marginStart="@dimen/_133pxh"
+                    android:layout_marginTop="@dimen/_5pxv"
+                    android:layout_weight="0.48"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{weightVM.weightModel.txtNext}"
+                    style="@style/txtPoppinsbold24" tools:text="@string/lbl_next"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8

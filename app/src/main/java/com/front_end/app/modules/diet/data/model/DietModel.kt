@@ -8,39 +8,134 @@ data class DietModel(
   /**
    * TODO Replace with dynamic value
    */
+<<<<<<< HEAD
   var txtGoodMorningUS: String? =
       MyApp.getInstance().resources.getString(R.string.msg_good_morning_us)
+=======
+  var txtActivity: String? = MyApp.getInstance().resources.getString(R.string.lbl_activity)
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
   ,
   /**
    * TODO Replace with dynamic value
    */
+<<<<<<< HEAD
   var txtLetsstartwit: String? =
       MyApp.getInstance().resources.getString(R.string.msg_let_s_start_wit)
+=======
+  var txtEaten: String? = MyApp.getInstance().resources.getString(R.string.lbl_eaten)
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
   ,
   /**
    * TODO Replace with dynamic value
    */
+<<<<<<< HEAD
   var txtJournal: String? = MyApp.getInstance().resources.getString(R.string.lbl_journal)
+=======
+  var txt108220KCAL: String? = MyApp.getInstance().resources.getString(R.string.lbl_108_220_kcal)
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
   ,
   /**
    * TODO Replace with dynamic value
    */
+<<<<<<< HEAD
   var txtDiet: String? = MyApp.getInstance().resources.getString(R.string.lbl_diet)
+=======
+  var txtSteps: String? = MyApp.getInstance().resources.getString(R.string.lbl_steps)
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
   ,
   /**
    * TODO Replace with dynamic value
    */
+<<<<<<< HEAD
   var txtWorkout: String? = MyApp.getInstance().resources.getString(R.string.lbl_workout)
+=======
+  var txtLanguage: String? = MyApp.getInstance().resources.getString(R.string.lbl_2_116_4_000)
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
   ,
   /**
    * TODO Replace with dynamic value
    */
+<<<<<<< HEAD
   var txtBMI: String? = MyApp.getInstance().resources.getString(R.string.lbl_bmi)
+=======
+  var txtDistance: String? = MyApp.getInstance().resources.getString(R.string.lbl_distance)
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
   ,
   /**
    * TODO Replace with dynamic value
    */
+<<<<<<< HEAD
   var txtCreateyourCus: String? =
       MyApp.getInstance().resources.getString(R.string.msg_create_your_cus)
+=======
+  var txtDistanceOne: String? = MyApp.getInstance().resources.getString(R.string.lbl_1_62km)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtCarbs: String? = MyApp.getInstance().resources.getString(R.string.lbl_carbs)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtProtein: String? = MyApp.getInstance().resources.getString(R.string.lbl_protein)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtFat: String? = MyApp.getInstance().resources.getString(R.string.lbl_fat)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtWeight: String? = MyApp.getInstance().resources.getString(R.string.lbl_36_223g)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtWeightOne: String? = MyApp.getInstance().resources.getString(R.string.lbl_59_89g)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtWeightTwo: String? = MyApp.getInstance().resources.getString(R.string.lbl_14_59g)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtDuration: String? = MyApp.getInstance().resources.getString(R.string.lbl_today_18_nov)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtGroupFortyOne: String? = MyApp.getInstance().resources.getString(R.string.lbl8)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtBreakfast: String? = MyApp.getInstance().resources.getString(R.string.lbl_breakfast)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtRecommended356: String? =
+      MyApp.getInstance().resources.getString(R.string.msg_recommended_356)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtWater: String? = MyApp.getInstance().resources.getString(R.string.lbl_water)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtRecommended5Lt: String? =
+      MyApp.getInstance().resources.getString(R.string.msg_recommended_5lt)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var txtGroupFortyOneFive: String? = MyApp.getInstance().resources.getString(R.string.lbl8)
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
 
 )

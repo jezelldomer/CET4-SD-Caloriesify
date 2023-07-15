@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listrectangleoneSixRowModel" type="com.front_end.app.modules.notes.data.model.ListrectangleoneSixRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearItemlist"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylegray_300cornerRadius">
+        <View android:background="@color/gray_402"
+            android:id="@+id/viewRectangleOneSix"
+            android:layout_height="@dimen/_16pxv"
+            android:layout_marginBottom="@dimen/_45pxv"
+            android:layout_marginTop="@dimen/_16pxv" android:layout_width="@dimen/_25pxh"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnnotesnameSix"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_15pxv"
+            android:layout_marginEnd="@dimen/_172pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_15pxv"
+            android:layout_weight="0.8" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtNotesnameSix"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{listrectangleoneSixRowModel.txtNotesnameSix}"
+                style="@style/txtRobotobold18" tools:text="@string/lbl_notes_name"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtDateSix"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_6pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{listrectangleoneSixRowModel.txtDateSix}"
+                style="@style/txtRobotomedium14" tools:text="@string/lbl_date"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

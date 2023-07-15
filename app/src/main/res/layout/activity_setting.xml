@@ -26,7 +26,11 @@
                     android:layout_marginTop="@dimen/_4pxv"
                     android:layout_weight="0.19"
                     android:layout_width="0dp"
+<<<<<<< HEAD
                     android:orientation="vertical" style="@style/groupStylebluegray_2">
+=======
+                    android:orientation="vertical" style="@style/groupStylebluegray_1">
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     <FrameLayout android:id="@+id/frameStackarrowfive"
                         android:layout_gravity="center_horizontal"
                         android:layout_height="@dimen/_39pxv"
@@ -65,7 +69,11 @@
             android:layout_marginStart="@dimen/_44pxh"
             android:layout_marginTop="@dimen/_27pxv"
             android:layout_width="match_parent"
+<<<<<<< HEAD
             android:orientation="vertical" style="@style/groupStylebluegray_3">
+=======
+            android:orientation="vertical" style="@style/groupStylebluegray_2">
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
             <TextView android:ellipsize="end"
                 android:id="@+id/txtProfile"
                 android:layout_gravity="center_horizontal"
@@ -76,7 +84,11 @@
                 android:layout_width="wrap_content"
                 android:singleLine="true"
                 android:text="@{settingVM.settingModel.txtProfile}"
+<<<<<<< HEAD
                 style="@style/txt_11" tools:text="@string/lbl_profile"/>
+=======
+                style="@style/txt_12" tools:text="@string/lbl_profile"/>
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
             <FrameLayout android:id="@+id/frameStackellipsetwentyfive"
                 android:layout_gravity="center_horizontal"
                 android:layout_height="@dimen/_74pxv"
@@ -227,6 +239,7 @@
             android:paddingTop="@dimen/_9pxv" android:singleLine="true"
             android:text="@string/lbl_customization"
             android:textAllCaps="false" style="@style/btnSolidRounded_2" tools:text="@string/lbl_customization"/>
+<<<<<<< HEAD
         <LinearLayout android:gravity="start"
             android:id="@+id/linearRowlinethree"
             android:layout_height="wrap_content"
@@ -249,11 +262,39 @@
                     android:layout_height="@dimen/_1pxv"
                     android:layout_marginEnd="@dimen/_27pxh"
                     android:layout_marginStart="@dimen/_38pxh" android:layout_width="@dimen/_250pxh"/>
+=======
+        <View android:background="@color/gray_400"
+            android:id="@+id/lineLineThree"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_44pxh"
+            android:layout_marginStart="@dimen/_44pxh"
+            android:layout_marginTop="@dimen/_43pxv" android:layout_width="@dimen/_250pxh"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearRowlinefour"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_92pxv"
+            android:layout_marginEnd="@dimen/_42pxh"
+            android:layout_marginStart="@dimen/_44pxh"
+            android:layout_marginTop="@dimen/_4pxv"
+            android:layout_width="match_parent"
+            android:orientation="horizontal" style="@style/groupStylebluegray_3">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearColumnuserOne"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_6pxv"
+                android:layout_marginStart="@dimen/_8pxh"
+                android:layout_marginTop="@dimen/_14pxv"
+                android:layout_weight="0.99" android:layout_width="0dp" android:orientation="vertical">
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                 <LinearLayout android:gravity="start"
                     android:id="@+id/linearRowuserOne"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_10pxh"
+<<<<<<< HEAD
                     android:layout_marginTop="@dimen/_18pxv"
+=======
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                     android:layout_width="wrap_content" android:orientation="horizontal">
                     <ImageView android:id="@+id/imageUserOne"
                         android:layout_height="@dimen/_22pxh"
@@ -297,27 +338,47 @@
                     android:layout_marginTop="@dimen/_7pxv" android:layout_width="@dimen/_250pxh"/>
             </LinearLayout>
             <ImageView android:id="@+id/imageArrowEight"
+<<<<<<< HEAD
                 android:layout_height="@dimen/_3pxh"
                 android:layout_marginBottom="@dimen/_130pxv"
                 android:layout_marginTop="@dimen/_33pxv"
+=======
+                android:layout_height="@dimen/_1pxh"
+                android:layout_marginBottom="@dimen/_132pxv"
+                android:layout_marginTop="@dimen/_25pxv"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                 android:layout_width="@dimen/_1pxh"
                 android:scaleType="fitXY"
                 android:src="@drawable/img_arrow8"
                 tools:ignore="ContentDescription" tools:src="@drawable/img_arrow8"/>
             <ImageView android:id="@+id/imageArrowNine"
+<<<<<<< HEAD
                 android:layout_height="@dimen/_3pxh"
                 android:layout_marginBottom="@dimen/_74pxv"
                 android:layout_marginStart="@dimen/_2pxh"
                 android:layout_marginTop="@dimen/_89pxv"
+=======
+                android:layout_height="@dimen/_1pxh"
+                android:layout_marginBottom="@dimen/_76pxv"
+                android:layout_marginStart="@dimen/_2pxh"
+                android:layout_marginTop="@dimen/_81pxv"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                 android:layout_width="@dimen/_1pxh"
                 android:scaleType="fitXY"
                 android:src="@drawable/img_arrow8"
                 tools:ignore="ContentDescription" tools:src="@drawable/img_arrow8"/>
             <ImageView android:id="@+id/imageArrowTen"
+<<<<<<< HEAD
                 android:layout_height="@dimen/_3pxh"
                 android:layout_marginBottom="@dimen/_26pxv"
                 android:layout_marginEnd="@dimen/_10pxh"
                 android:layout_marginTop="@dimen/_137pxv"
+=======
+                android:layout_height="@dimen/_1pxh"
+                android:layout_marginBottom="@dimen/_28pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_129pxv"
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
                 android:layout_width="@dimen/_1pxh"
                 android:scaleType="fitXY"
                 android:src="@drawable/img_arrow8"

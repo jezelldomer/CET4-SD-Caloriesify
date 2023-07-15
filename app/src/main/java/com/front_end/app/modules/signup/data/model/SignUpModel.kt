@@ -36,6 +36,7 @@ data class SignUpModel(
   /**
    * TODO Replace with dynamic value
    */
+<<<<<<< HEAD
   var etStackuserValue: String? = null,
   /**
    * TODO Replace with dynamic value
@@ -48,6 +49,8 @@ data class SignUpModel(
   /**
    * TODO Replace with dynamic value
    */
+=======
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
   var etGroupEightValue: String? = null,
   /**
    * TODO Replace with dynamic value
@@ -56,5 +59,21 @@ data class SignUpModel(
   /**
    * TODO Replace with dynamic value
    */
+<<<<<<< HEAD
   var etGroupSixValue: String? = null
+=======
+  var etGroupSixValue: String? = null,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var etStackuserValue: String? = null,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var etStackvectorValue: String? = null,
+  /**
+   * TODO Replace with dynamic value
+   */
+  var etStacklockValue: String? = null
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
 )

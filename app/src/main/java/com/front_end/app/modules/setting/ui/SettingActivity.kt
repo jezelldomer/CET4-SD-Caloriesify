@@ -10,10 +10,16 @@ import com.front_end.app.appcomponents.base.BaseActivity
 import com.front_end.app.databinding.ActivitySettingBinding
 import com.front_end.app.modules.age.ui.AgeActivity
 import com.front_end.app.modules.home.ui.HomeActivity
+<<<<<<< HEAD
 import com.front_end.app.modules.own.ui.OwnActivity
 import com.front_end.app.modules.setting.`data`.model.SettingRowModel
 import com.front_end.app.modules.setting.`data`.viewmodel.SettingVM
 import com.front_end.app.modules.tall.ui.TallActivity
+=======
+import com.front_end.app.modules.macrosone.ui.MacrosoneActivity
+import com.front_end.app.modules.setting.`data`.model.SettingRowModel
+import com.front_end.app.modules.setting.`data`.viewmodel.SettingVM
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
 import kotlin.Int
 import kotlin.String
 import kotlin.Unit
@@ -39,12 +45,17 @@ class SettingActivity : BaseActivity<ActivitySettingBinding>(R.layout.activity_s
   }
 
   override fun setUpClicks(): Unit {
+<<<<<<< HEAD
     binding.imageArrowEight.setOnClickListener {
       val destIntent = AgeActivity.getIntent(this, null)
       startActivity(destIntent)
     }
     binding.linearRowuserOne.setOnClickListener {
       val destIntent = TallActivity.getIntent(this, null)
+=======
+    binding.linearRowuserOne.setOnClickListener {
+      val destIntent = AgeActivity.getIntent(this, null)
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
       startActivity(destIntent)
     }
     binding.frameStackarrowfive.setOnClickListener {
@@ -60,7 +71,11 @@ class SettingActivity : BaseActivity<ActivitySettingBinding>(R.layout.activity_s
   ): Unit {
     when(view.id) {
       R.id.linearRowgroup105 ->  {
+<<<<<<< HEAD
         val destIntent = OwnActivity.getIntent(this, null)
+=======
+        val destIntent = MacrosoneActivity.getIntent(this, null)
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
         startActivity(destIntent)
       }
     }

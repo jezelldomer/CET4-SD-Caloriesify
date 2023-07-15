@@ -8,7 +8,10 @@ import com.front_end.app.R
 import com.front_end.app.appcomponents.base.BaseActivity
 import com.front_end.app.databinding.ActivityAgeBinding
 import com.front_end.app.modules.age.`data`.viewmodel.AgeVM
+<<<<<<< HEAD
 import com.front_end.app.modules.signup.ui.SignUpActivity
+=======
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
 import com.front_end.app.modules.tall.ui.TallActivity
 import kotlin.Int
 import kotlin.String
@@ -17,7 +20,11 @@ import kotlin.Unit
 class AgeActivity : BaseActivity<ActivityAgeBinding>(R.layout.activity_age) {
   private val viewModel: AgeVM by viewModels<AgeVM>()
 
+<<<<<<< HEAD
   private val REQUEST_CODE_SIGN_UP_ACTIVITY: Int = 575
+=======
+  private val REQUEST_CODE_TALL_ACTIVITY: Int = 832
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
 
 
   override fun onInitialized(): Unit {
@@ -27,6 +34,7 @@ class AgeActivity : BaseActivity<ActivityAgeBinding>(R.layout.activity_age) {
 
   override fun setUpClicks(): Unit {
     binding.txtBack.setOnClickListener {
+<<<<<<< HEAD
       val destIntent = SignUpActivity.getIntent(this, null)
       startActivityForResult(destIntent, REQUEST_CODE_SIGN_UP_ACTIVITY)
     }
@@ -34,6 +42,13 @@ class AgeActivity : BaseActivity<ActivityAgeBinding>(R.layout.activity_age) {
       val destIntent = TallActivity.getIntent(this, null)
       destIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
       startActivity(destIntent)
+=======
+      finish()
+    }
+    binding.txtNext.setOnClickListener {
+      val destIntent = TallActivity.getIntent(this, null)
+      startActivityForResult(destIntent, REQUEST_CODE_TALL_ACTIVITY)
+>>>>>>> 7debd9c21c9b9e51d6cb8a7946f6c7275b1731e8
     }
   }
 
