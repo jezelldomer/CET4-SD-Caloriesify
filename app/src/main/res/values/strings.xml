@@ -40,9 +40,10 @@
 <string name="lbl_save_results">Save Results</string>
 <string name="msg_what_is_the_nam3">Enter the name of your bestfriend here</string>
 <string name="lbl_goal">Goal</string>
-<string name="msg_what_is_the_nam2">Enter the name of your First Pet here</string>
-    <string name="msg_what_is_the_nam4">Enter the name of your International Favorite Artist?</string>
-<string name="lbl_dinner">Dinner</string>
+<string name="msg_what_is_the_namm">Enter the name of your First Pet here</string>
+    <string name="msg_what_is_the_nam4">Enter the name of your International Favorite Artist</string>
+    <string name="msg_what_is_the_nam2">Who is your best friend?</string>
+    <string name="lbl_dinner">Dinner</string>
 <string name="lbl_less_than_18_5">Less than 18.5</string>
 <string name="msg_forgot_password">Forgot Password ?</string>
 <string name="lbl_exercise">Exercise</string>
