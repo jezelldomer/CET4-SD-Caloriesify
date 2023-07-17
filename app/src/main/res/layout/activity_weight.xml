@@ -5,8 +5,8 @@
 
     <data>
         <variable
-                name="ageVM"
-                type="com.front_end.app.modules.age.data.viewmodel.AgeVM" />
+                name="weightVM"
+                type="com.front_end.app.modules.weight.data.viewmodel.WeightVM" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -27,7 +27,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
         <LinearLayout
-                android:id="@+id/linearColumnone"
+                android:id="@+id/linearColumnthree"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="@dimen/_350pxh"
@@ -41,7 +41,7 @@
                 app:layout_constraintTop_toTopOf="@+id/image360F247848348" app:layout_constraintHorizontal_bias="1.0">
 
             <TextView
-                    android:id="@+id/txtOne"
+                    android:id="@+id/txtThree"
                     style="@style/txtPoppinsbold24"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -50,11 +50,11 @@
                     android:layout_marginEnd="@dimen/_101pxh"
                     android:ellipsize="end"
                     android:singleLine="true"
-                    android:text="@{ageVM.ageModel.txtOne}"
+                    android:text="@{weightVM.weightModel.txtThree}"
                     tools:text="@string/lbl4"/>
 
             <TextView
-                    android:id="@+id/txtWhatsyourage"
+                    android:id="@+id/txtWhatsyourCur"
                     style="@style/txt_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
                     android:ellipsize="end"
                     android:gravity="start"
                     android:singleLine="true"
-                    android:text="@{ageVM.ageModel.txtWhatsyourage}"
+                    android:text="@{weightVM.weightModel.txtWhatsyourCur}"
                     tools:text="@string/msg_what_s_your_cur"/>
 
             <EditText
@@ -84,7 +84,7 @@
                     android:paddingHorizontal="@dimen/_3pxh"
                     android:paddingVertical="@dimen/_1pxv"
                     android:singleLine="true"
-                    android:text="@={ageVM.ageModel.etRectangleTwentyOneValue}"
+                    android:text="@={weightVM.weightModel.etRectangleTwentyOneValue}"
                     android:textColorHint="@color/gray_703"/>
 
             <TextView
@@ -96,7 +96,7 @@
                     android:layout_marginEnd="@dimen/_23pxh"
                     android:layout_marginTop="@dimen/_58pxv"
                     android:gravity="center_horizontal"
-                    android:text="@{ageVM.ageModel.txtWeusethisdat}"
+                    android:text="@{weightVM.weightModel.txtWeusethisdat}"
                     tools:text="@string/msg_we_use_this_dat"/>
 
         </LinearLayout>
@@ -108,7 +108,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/linearColumnone" app:layout_constraintHorizontal_bias="1.0">
+                app:layout_constraintHorizontal_bias="1.0">
 
             <TextView
                     android:id="@+id/txtBack"
@@ -127,7 +127,7 @@
                     android:paddingHorizontal="@dimen/_3pxh"
                     android:paddingVertical="@dimen/_1pxv"
                     android:singleLine="true"
-                    android:text="@{ageVM.ageModel.txtBack}"
+                    android:text="@{weightVM.weightModel.txtBack}"
                     tools:text="@string/lbl_back"/>
 
             <TextView
@@ -146,7 +146,7 @@
                     android:gravity="center"
                     android:paddingVertical="@dimen/_1pxv"
                     android:singleLine="true"
-                    android:text="@{ageVM.ageModel.txtNext}"
+                    android:text="@{weightVM.weightModel.txtNext}"
                     tools:text="@string/lbl_next"/>
 
         </LinearLayout>
