@@ -46,12 +46,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|start"
-                    android:layout_marginStart="@dimen/_113pxh"
+                    android:layout_marginStart="@dimen/_147pxh"
                     android:layout_marginEnd="@dimen/_101pxh"
                     android:ellipsize="end"
                     android:singleLine="true"
                     android:text="@{ageVM.ageModel.txtOne}"
-                    tools:text="@string/lbl"/>
+                    tools:text="@string/lbl5"/>
 
             <TextView
                     android:id="@+id/txtWhatsyourage"
