@@ -1,49 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
     <data>
-        <variable name="loadingPageVM" type="com.front_end.app.modules.loadingpage.data.viewmodel.LoadingPageVM"/>
+        <variable
+                name="loadingPageVM"
+                type="com.front_end.app.modules.loadingpage.data.viewmodel.LoadingPageVM" />
     </data>
-    <FrameLayout android:id="@+id/frameLoadingpage"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent" style="@style/groupStylegray_200">
-        <ImageView android:id="@+id/imageImageFive"
-            android:layout_gravity="start"
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/frameLoadingpage"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_width="match_parent"
-            android:scaleType="fitXY" imageRes="@{@drawable/img_image5}"
-            tools:ignore="ContentDescription" tools:src="@drawable/img_image5"/>
-        <TextView android:ellipsize="end" android:gravity="top|start"
-            android:id="@+id/txtProcessingAn"
-            android:layout_gravity="top|center"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/_321pxv"
-            android:layout_marginEnd="@dimen/_102pxh"
-            android:layout_marginStart="@dimen/_102pxh"
-            android:layout_marginTop="@dimen/_321pxv"
-            android:layout_width="match_parent"
-            android:singleLine="true"
-            android:text="@{loadingPageVM.loadingPageModel.txtProcessingAn}"
-            style="@style/txtPoppinsbold15" tools:text="@string/msg_processing_an"/>
-        <TextView android:gravity="top|center"
-            android:id="@+id/txtEatwellasyou"
-            android:layout_gravity="end"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/_381pxv"
-            android:layout_marginEnd="@dimen/_3pxh"
-            android:layout_marginStart="@dimen/_10pxh"
-            android:layout_marginTop="@dimen/_381pxv"
-            android:layout_width="match_parent"
-            android:text="@{loadingPageVM.loadingPageModel.txtEatwellasyou}"
-            style="@style/txt_4" tools:text="@string/msg_eat_well_as_you"/>
-        <ImageView android:id="@+id/imageImageSix"
-            android:layout_gravity="top|start"
-            android:layout_height="@dimen/_129pxh"
-            android:layout_marginBottom="@dimen/_203pxv"
-            android:layout_marginEnd="@dimen/_123pxh"
-            android:layout_marginStart="@dimen/_123pxh"
-            android:layout_marginTop="@dimen/_203pxv"
-            android:layout_width="@dimen/_161pxh"
-            android:scaleType="fitXY" imageRes="@{@drawable/img_image6}"
-            tools:ignore="ContentDescription" tools:src="@drawable/img_image6"/>
-    </FrameLayout>
+            style="@style/groupStylegray_200">
+
+        <ImageView
+                android:id="@+id/imageImageFive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:scaleType="fitXY"
+                imageRes="@{@drawable/img_image5}"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/img_image5"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0"/>
+
+        <ImageView
+                android:id="@+id/imageImageSix"
+                android:layout_width="@dimen/_161pxh"
+                android:layout_height="@dimen/_129pxh"
+                android:layout_marginTop="@dimen/_166pxv"
+                android:layout_gravity="top|start"
+                android:scaleType="fitXY"
+                imageRes="@{@drawable/img_image6}"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/img_image6"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@id/imageImageFive"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0">
+
+            <TextView
+                    android:id="@+id/txtProcessingAn"
+                    android:layout_width="223dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_107pxh"
+                    android:layout_marginEnd="@dimen/_108pxh"
+                    android:layout_marginTop="@dimen/_321pxv"
+                    android:layout_marginBottom="@dimen/_321pxv"
+                    android:ellipsize="end"
+                    android:gravity="top|start"
+                    android:singleLine="true"
+                    android:text="@{loadingPageVM.loadingPageModel.txtProcessingAn}"
+                    style="@style/txtPoppinsbold15"
+                    tools:text="@string/msg_processing_an"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/txtEatwellasyou"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_90pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginEnd="@dimen/_3pxh"
+                android:layout_marginTop="@dimen/_381pxv"
+                android:layout_marginBottom="@dimen/_381pxv"
+                android:gravity="top|center"
+                android:text="@{loadingPageVM.loadingPageModel.txtEatwellasyou}"
+                style="@style/txt_4"
+                tools:text="@string/msg_eat_well_as_you"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
