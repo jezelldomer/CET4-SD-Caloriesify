@@ -5,8 +5,8 @@
 
     <data>
         <variable
-                name="dietVM"
-                type="com.front_end.app.modules.diet.data.viewmodel.DietVM" />
+                name="workVM"
+                type="com.front_end.app.modules.work.data.viewmodel.WorkVM" />
     </data>
 
     <RelativeLayout
@@ -98,7 +98,7 @@
                                 android:layout_marginStart="@dimen/_14pxh"
                                 android:layout_marginTop="@dimen/_17pxv"
                                 android:gravity="center_horizontal"
-                                android:text="@{dietVM.dietModel.txtGoodMorningUS}"
+                                android:text="@{workVM.workModel.txtGoodMorningUS}"
                                 style="@style/txt_5"
                                 tools:text="@string/msg_good_morning_us"/>
 
@@ -108,7 +108,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginEnd="@dimen/_14pxh"
                                 android:layout_marginStart="@dimen/_65pxh"
-                                android:text="@{dietVM.dietModel.txtLetsstartwit}"
+                                android:text="@{workVM.workModel.txtLetsstartwit}"
                                 style="@style/txt_6"
                                 tools:text="@string/msg_let_s_start_wit"/>
 
@@ -123,7 +123,8 @@
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@id/txtLetsstartwit">
+                                app:layout_constraintTop_toBottomOf="@id/txtLetsstartwit"
+                                android:baselineAligned="false">
 
                             <LinearLayout
                                     android:id="@+id/linearColumn"
@@ -175,7 +176,6 @@
                                             android:ellipsize="end"
                                             android:gravity="center_horizontal"
                                             android:singleLine="true"
-                                            android:text="@{dietVM.dietModel.txtJournal}"
                                             style="@style/txtPoppinsbold20"
                                             tools:text="@string/lbl_journal"/>
 
@@ -218,7 +218,6 @@
                                         android:layout_marginTop="@dimen/_6pxv"
                                         android:ellipsize="end"
                                         android:singleLine="true"
-                                        android:text="@{dietVM.dietModel.txtDiet}"
                                         style="@style/txt_7"
                                         tools:text="@string/lbl_diet"/>
 
@@ -237,7 +236,8 @@
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@id/linearRowvector">
+                                app:layout_constraintTop_toBottomOf="@id/linearRowvector"
+                                android:baselineAligned="false">
 
                             <FrameLayout
                                     android:id="@+id/linearColumnfire"
@@ -285,7 +285,6 @@
                                         android:layout_marginTop="@dimen/_77pxv"
                                         android:ellipsize="end"
                                         android:singleLine="true"
-                                        android:text="@{dietVM.dietModel.txtWorkout}"
                                         style="@style/txt_8"
                                         tools:text="@string/lbl_workout" />
 
@@ -327,7 +326,6 @@
                                         android:layout_marginTop="@dimen/_13pxv"
                                         android:ellipsize="end"
                                         android:singleLine="true"
-                                        android:text="@{dietVM.dietModel.txtBMI}"
                                         style="@style/txt_9"
                                         tools:text="@string/lbl_bmi"/>
 
@@ -373,7 +371,7 @@
                                     android:ellipsize="end"
                                     android:gravity="end"
                                     android:singleLine="true"
-                                    android:text="@{dietVM.dietModel.txtCreateyourCus}"
+                                    android:text="@{workVM.workModel.txtCreateyourCus}"
                                     style="@style/txt_10"
                                     tools:text="@string/msg_create_your_cus"/>
 
