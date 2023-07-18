@@ -4,7 +4,6 @@
         xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-<<<<<<< HEAD
         <variable name="bmiVM" type="com.front_end.app.modules.bmi.data.viewmodel.BmiVM" />
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -31,7 +30,6 @@
             <ImageView android:id="@+id/imageRectangleTwentyFive"
                 android:layout_gravity="start"
                 android:layout_height="match_parent"
-=======
         <variable
                 name="dietVM"
                 type="com.front_end.app.modules.diet.data.viewmodel.DietVM" />
@@ -43,7 +41,6 @@
 
         <LinearLayout
                 android:id="@+id/linearColumnrectangletwentyfive"
->>>>>>> 5a6c00cde9cea68d866caa32c395e2f1ee673587
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="@dimen/_1pxv"
@@ -434,13 +431,13 @@
 
 
                 </LinearLayout>
-<<<<<<< HEAD
+
             </LinearLayout>
         </FrameLayout>
     </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
-=======
+
 
             </FrameLayout>
 
@@ -448,4 +445,4 @@
 
     </RelativeLayout>
 </layout>
->>>>>>> 5a6c00cde9cea68d866caa32c395e2f1ee673587
+
