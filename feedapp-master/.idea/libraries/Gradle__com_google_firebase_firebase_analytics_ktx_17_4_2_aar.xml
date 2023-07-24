@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-analytics-ktx:17.4.2@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/33aaef0e70c5b0288637a9a31f7ad20f/jetified-firebase-analytics-ktx-17.4.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/33aaef0e70c5b0288637a9a31f7ad20f/jetified-firebase-analytics-ktx-17.4.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/com.google.firebase/firebase-analytics-ktx/17.4.2/3595118ed0ead1cee5178fbd6258f9199eb969a5/firebase-analytics-ktx-17.4.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

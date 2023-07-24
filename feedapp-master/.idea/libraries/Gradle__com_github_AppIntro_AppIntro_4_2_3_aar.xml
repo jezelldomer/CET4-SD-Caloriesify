@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AppIntro:AppIntro:4.2.3@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/de304b277d728e5a8402de415c4e4b96/jetified-AppIntro-4.2.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/de304b277d728e5a8402de415c4e4b96/jetified-AppIntro-4.2.3/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/de304b277d728e5a8402de415c4e4b96/jetified-AppIntro-4.2.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/com.github.AppIntro/AppIntro/4.2.3/a91e77ea1a5fa8ed980e4d6109d83619632162e6/AppIntro-4.2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.airbnb.android:lottie:3.0.3-support@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/8c38c852f11b90b1d8a3b6250a40191c/jetified-lottie-3.0.3-support/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/8c38c852f11b90b1d8a3b6250a40191c/jetified-lottie-3.0.3-support/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/8c38c852f11b90b1d8a3b6250a40191c/jetified-lottie-3.0.3-support/res" />
+      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/8c38c852f11b90b1d8a3b6250a40191c/jetified-lottie-3.0.3-support/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/com.airbnb.android/lottie/3.0.3-support/51ee01e99814a931f1d20502b847ddb83bc05025/lottie-3.0.3-support-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/com.airbnb.android/lottie/3.0.3-support/6df4af4056adda8cb208cc1f6b99d41a29621179/lottie-3.0.3-support-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

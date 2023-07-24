@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-reactivestreams:2.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/7209fcb56da8560ae3f9c35ca59772d6/lifecycle-reactivestreams-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/7209fcb56da8560ae3f9c35ca59772d6/lifecycle-reactivestreams-2.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-reactivestreams/2.0.0/6ee910ac396a929132f00813bad838a44fa0a91/lifecycle-reactivestreams-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

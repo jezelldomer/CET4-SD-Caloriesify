@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.navigation:navigation-fragment:2.2.1@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/02f326125e434ed9c7792fc37826f76e/navigation-fragment-2.2.1/res" />
+      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/02f326125e434ed9c7792fc37826f76e/navigation-fragment-2.2.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/02f326125e434ed9c7792fc37826f76e/navigation-fragment-2.2.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/androidx.navigation/navigation-fragment/2.2.1/14236c383673a4736a6e5429e10d7f418b10489b/navigation-fragment-2.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

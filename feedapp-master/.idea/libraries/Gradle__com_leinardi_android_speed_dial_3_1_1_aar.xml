@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.leinardi.android:speed-dial:3.1.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/6f8226b1771fba5d12d57719644bc7e8/jetified-speed-dial-3.1.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/6f8226b1771fba5d12d57719644bc7e8/jetified-speed-dial-3.1.1/res" />
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/6f8226b1771fba5d12d57719644bc7e8/jetified-speed-dial-3.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/6f8226b1771fba5d12d57719644bc7e8/jetified-speed-dial-3.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/com.leinardi.android/speed-dial/3.1.1/2b76be9bfe5af7ce1123f519b623ef044e5647ee/speed-dial-3.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/com.leinardi.android/speed-dial/3.1.1/3c504b74123bf226e676e1915e9534240b660d5f/speed-dial-3.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

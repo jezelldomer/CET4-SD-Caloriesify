@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement-sdk:17.4.2@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/14ba22ccc6cd0e3b1a92a06834587ede/jetified-play-services-measurement-sdk-17.4.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/14ba22ccc6cd0e3b1a92a06834587ede/jetified-play-services-measurement-sdk-17.4.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-sdk/17.4.2/3595118ed0ead1cee5178fbd6258f9199eb969a5/play-services-measurement-sdk-17.4.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
