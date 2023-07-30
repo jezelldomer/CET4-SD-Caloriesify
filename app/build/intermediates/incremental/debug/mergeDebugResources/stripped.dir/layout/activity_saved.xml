@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                                                                                                                  
+    
+                                                                                                
+           
+    <FrameLayout android:id="@+id/frameSAVED"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylegray_200" android:tag="layout/activity_saved_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+        <ImageView android:id="@+id/image360F247848348"
+            android:layout_gravity="start"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:tag="binding_1"                  
+            tools:ignore="ContentDescription" tools:src="@drawable/img_360f247848348"/>
+        <TextView android:ellipsize="end" android:gravity="top|start"
+            android:id="@+id/txtSAVED"
+            android:layout_gravity="top|start"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_292pxv"
+            android:layout_marginEnd="@dimen/_94pxh"
+            android:layout_marginStart="@dimen/_94pxh"
+            android:layout_marginTop="@dimen/_292pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:tag="binding_2"                      
+            style="@style/txtPoppinsbold59" tools:text="@string/lbl_saved"/>
+    </FrameLayout>
+         

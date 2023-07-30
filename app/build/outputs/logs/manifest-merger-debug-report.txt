@@ -1,0 +1,683 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:2:1-87:12
+MERGED from [androidx.databinding:databinding-adapters:7.3.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4f6194d0770c5088b343f22a53d2035b\transformed\databinding-adapters-7.3.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:databinding-ktx:7.3.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5e19cf54a124c3cf2b4968dc0a481d96\transformed\jetified-databinding-ktx-7.3.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:databinding-runtime:7.3.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\0d8b16dd790622eaf075334b72a14567\transformed\databinding-runtime-7.3.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ee6722a8484fd6a8cf68665faffce0c8\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\df95c7c7dd0fbb0060c57336c486a801\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [io.insert-koin:koin-androidx-viewmodel:2.1.6] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\811458b2cafcf1a35c94089df88c33b4\transformed\jetified-koin-androidx-viewmodel-2.1.6\AndroidManifest.xml:2:1-9:12
+MERGED from [io.insert-koin:koin-androidx-scope:2.1.6] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\3dafbf93527f5e0ce5eeaea8686141e0\transformed\jetified-koin-androidx-scope-2.1.6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.mukeshsolanki:android-otpview-pinview:2.1.2] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\2a0c9aac7ef6ef3fb075c6b4b5110664\transformed\jetified-android-otpview-pinview-2.1.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\0da2cb61fcdd7625fe503a49f52cad06\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\eea9a61ae8c746aa046c16ca52218ab7\transformed\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5b3b7f37a8252fd52d63c47c420486b7\transformed\appcompat-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.5] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\36ba3748b3a13533c6d537e17ce6390f\transformed\jetified-fragment-ktx-1.5.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\de34ab2bcbe2199f5ca955638c09402f\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\83ef2f7b6a6462e40a49f8cf4a72d038\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6c0ee852c6429b1c63ea5dd042065fea\transformed\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ba399ac90685f2e55904542ac877ea76\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\23c708643dfa1bdd42c9887a28ff979a\transformed\jetified-firebase-firestore-ktx-23.0.3\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4979e2da815c906d88e8125218783953\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\323524c3657023543690a68f1d6b8b59\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\e8d49a75e10b6bcfe31ee4c7cc2ff75f\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\99f903913f39ad6b5cac85518da12bff\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\0dca2a7f2f7148ab3865ce2efa8a2847\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\a417fe362de0e925cb47e84f5c1c974a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\233ab1fe2302d7e18db89d4c775994a6\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6d3064f4a1a4abd8827ce2471a7c8072\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.5.5] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\2ebd30886a47bdba1fccfaef63ef6f51\transformed\fragment-1.5.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\9b2e9856feec1ff9b37c24abda89150e\transformed\jetified-activity-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.6.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\46e3817474d64a3d95428e734fce3141\transformed\jetified-activity-ktx-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\c7d7ea80b04a933cc85fbaca2cbf826f\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5fc56a3d9ffc09af1ebc2fc06c4bc0ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8f3293d1fa987f39fc948e94bc1752a8\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\58a2c4c2ca3a7d263bdcbaa7e61ce15d\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\b0521d7ce10a94d941f8d46dafac123f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ad8c3eeb04a31ad7219a3d8cdfbb5f2c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8209575ae54ffb165f23b8c6b53b0634\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\fed32d4a0d9ab256538be16828077b79\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\608819c56355905a54d291c5804d83dd\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ba168e3fba658e1d58e62914688460d7\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\76c81a4c07c22bbddf6726cda068fcf3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\647479888b699788d2f1e6e097af393d\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\7122ae506ac0cf62ef0b9714b562c165\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\bf50942fdf94d302c5fd1712461bbd2a\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8d05c1278e5edefc172d4ac36094ebe7\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\fe034a08d3d8ef7abb6ebb8995791cc4\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\dbe82f28299537602ed0d6540ba627a2\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5e1540cc97314a18f448fbd4480c2a2d\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\3a6713f75a9eadbec71838fbaf5a9d45\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f0e36fd82ee1cda346b5e8df1e7a1990\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\58b99d0ac4a5b898e8f275d98bf745ed\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\9202621f4e6fa52cf2fb33f075837862\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\2279f15b69f664600363b5682ea1a9f0\transformed\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [io.insert-koin:koin-android:2.1.6] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\722aefcbb5d1981dd59343c9c2a513aa\transformed\jetified-koin-android-2.1.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8cba755589fd25ed4e5b7bcc34f8fae3\transformed\jetified-savedstate-ktx-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4e8b38a0e800bb80a0d1feed7891db7b\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\18fa10503ae6f535bcc2da0d8f0e8b03\transformed\jetified-lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\deb88efcc4b50cb892a116781bb7afff\transformed\jetified-lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\bb26e350595fef73ec771dbdd0dee5eb\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.security:security-crypto:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\e6d55d4bf61d3dbd667a5bce806f9faf\transformed\jetified-security-crypto-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\69d2384ebeae9f64112b36d3dc42362e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\10f52715a8f9e959626b272fbe5991c1\transformed\jetified-viewbinding-7.3.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.4.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6b3b7fe9523e05c862e6fe124c36009b\transformed\jetified-lifecycle-service-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\155db8bf934597e9901f3a9ba2e23691\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\aaac630c9c66bb57610e1a30fed7b5be\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\624cd2f932d15155a23a25e96e41433e\transformed\lifecycle-livedata-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\cafbfe7935d9976a9271aa67230cdd83\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\0724ff8163dce4056b47a6a0b6ae54d1\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\40522c52ca0bd5fde0d29912b3c7d338\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5ef3fd374fca21dc6ee8325d416b7dfa\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5748a0b6fa34612463949083f18163fe\transformed\jetified-gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\225c0e4682952775429d84a1fa150642\transformed\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ec8c16697e989bc4bf7b21beb10242d0\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\86ecdbbd359ccff8dd4a367509adb10a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\9673d025b739c22fb3f6f6c7312d55f3\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\9237f0e193e2399b95579866e6133ef9\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\75358bf84255906b04ea0b8a8ece8436\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\c0a99b23044c05526ef371c651a062a1\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\c659cc778e1a4fc97ac7ba406aad2082\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8207590f0c838deb74ad39e646b0eb46\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5cfa149c301e154b899fb74fa0324179\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:2:1-87:12
+	package
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:2:11-38
+		INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:2:1-87:12
+		INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:2:1-87:12
+		INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:2:39-97
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:3:5-66
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\323524c3657023543690a68f1d6b8b59\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\323524c3657023543690a68f1d6b8b59\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:3:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:4:5-78
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\323524c3657023543690a68f1d6b8b59\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\323524c3657023543690a68f1d6b8b59\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8207590f0c838deb74ad39e646b0eb46\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8207590f0c838deb74ad39e646b0eb46\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:4:22-76
+application
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:5:5-86:19
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ee6722a8484fd6a8cf68665faffce0c8\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ee6722a8484fd6a8cf68665faffce0c8\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\df95c7c7dd0fbb0060c57336c486a801\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\df95c7c7dd0fbb0060c57336c486a801\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [io.insert-koin:koin-androidx-viewmodel:2.1.6] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\811458b2cafcf1a35c94089df88c33b4\transformed\jetified-koin-androidx-viewmodel-2.1.6\AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-androidx-viewmodel:2.1.6] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\811458b2cafcf1a35c94089df88c33b4\transformed\jetified-koin-androidx-viewmodel-2.1.6\AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-androidx-scope:2.1.6] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\3dafbf93527f5e0ce5eeaea8686141e0\transformed\jetified-koin-androidx-scope-2.1.6\AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-androidx-scope:2.1.6] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\3dafbf93527f5e0ce5eeaea8686141e0\transformed\jetified-koin-androidx-scope-2.1.6\AndroidManifest.xml:7:5-20
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\0da2cb61fcdd7625fe503a49f52cad06\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\0da2cb61fcdd7625fe503a49f52cad06\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\de34ab2bcbe2199f5ca955638c09402f\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\de34ab2bcbe2199f5ca955638c09402f\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6c0ee852c6429b1c63ea5dd042065fea\transformed\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6c0ee852c6429b1c63ea5dd042065fea\transformed\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-firestore-ktx:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\23c708643dfa1bdd42c9887a28ff979a\transformed\jetified-firebase-firestore-ktx-23.0.3\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\23c708643dfa1bdd42c9887a28ff979a\transformed\jetified-firebase-firestore-ktx-23.0.3\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4979e2da815c906d88e8125218783953\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4979e2da815c906d88e8125218783953\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\323524c3657023543690a68f1d6b8b59\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\323524c3657023543690a68f1d6b8b59\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\e8d49a75e10b6bcfe31ee4c7cc2ff75f\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\e8d49a75e10b6bcfe31ee4c7cc2ff75f\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\99f903913f39ad6b5cac85518da12bff\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\99f903913f39ad6b5cac85518da12bff\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\a417fe362de0e925cb47e84f5c1c974a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\a417fe362de0e925cb47e84f5c1c974a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\233ab1fe2302d7e18db89d4c775994a6\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\233ab1fe2302d7e18db89d4c775994a6\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6d3064f4a1a4abd8827ce2471a7c8072\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6d3064f4a1a4abd8827ce2471a7c8072\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5fc56a3d9ffc09af1ebc2fc06c4bc0ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5fc56a3d9ffc09af1ebc2fc06c4bc0ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\69d2384ebeae9f64112b36d3dc42362e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\69d2384ebeae9f64112b36d3dc42362e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\155db8bf934597e9901f3a9ba2e23691\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\155db8bf934597e9901f3a9ba2e23691\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5748a0b6fa34612463949083f18163fe\transformed\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5748a0b6fa34612463949083f18163fe\transformed\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\86ecdbbd359ccff8dd4a367509adb10a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\86ecdbbd359ccff8dd4a367509adb10a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:7:9-41
+	android:roundIcon
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:9:9-54
+	android:largeHeap
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:7:42-66
+	android:icon
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:6:9-43
+	android:allowBackup
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:5:18-45
+	android:theme
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:10:36-70
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:10:71-106
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:8:9-64
+activity#com.front_end.app.modules.macros.ui.MacrosActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:11:9-12:117
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:12:79-115
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:12:13-78
+activity#com.front_end.app.modules.pass.ui.PassActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:13:9-14:113
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:14:75-111
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:14:13-74
+activity#com.front_end.app.modules.normal.ui.NormalActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:15:9-16:117
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:16:79-115
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:16:13-78
+activity#com.front_end.app.modules.neww.ui.NewwActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:17:9-18:113
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:18:75-111
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:18:13-74
+activity#com.front_end.app.modules.work.ui.WorkActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:19:9-20:113
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:20:75-111
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:20:13-74
+activity#com.front_end.app.modules.excer.ui.ExcerActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:21:9-22:115
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:22:77-113
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:22:13-76
+activity#com.front_end.app.modules.breakfast.ui.BreakfastActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:23:9-24:123
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:24:85-121
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:24:13-84
+activity#com.front_end.app.modules.welcomescreen.ui.WelcomeScreenActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:25:9-31:20
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:26:93-129
+	android:exported
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:25:19-42
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:26:13-92
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.front_end.app.modules.wasted.ui.WastedActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:32:9-33:117
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:33:79-115
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:33:13-78
+activity#com.front_end.app.modules.tall.ui.TallActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:34:9-35:113
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:35:75-111
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:35:13-74
+activity#com.front_end.app.modules.target.ui.TargetActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:36:9-37:117
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:37:79-115
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:37:13-78
+activity#com.front_end.app.modules.dinner.ui.DinnerActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:38:9-39:117
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:39:79-115
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:39:13-78
+activity#com.front_end.app.modules.age.ui.AgeActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:40:9-41:111
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:41:73-109
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:41:13-72
+activity#com.front_end.app.modules.obese.ui.ObeseActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:42:9-43:115
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:43:77-113
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:43:13-76
+activity#com.front_end.app.modules.male.ui.MaleActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:44:9-45:113
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:45:75-111
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:45:13-74
+activity#com.front_end.app.modules.weight.ui.WeightActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:46:9-47:117
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:47:79-115
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:47:13-78
+activity#com.front_end.app.modules.asex.ui.AsexActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:48:9-49:113
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:49:75-111
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:49:13-74
+activity#com.front_end.app.modules.timemanagement.ui.TimeManagementActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:50:9-51:133
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:51:95-131
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:51:13-94
+activity#com.front_end.app.modules.journal.ui.JournalActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:52:9-53:119
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:53:81-117
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:53:13-80
+activity#com.front_end.app.modules.saved.ui.SavedActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:54:9-55:115
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:55:77-113
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:55:13-76
+activity#com.front_end.app.modules.signup.ui.SignUpActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:56:9-57:117
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:57:79-115
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:57:13-78
+activity#com.front_end.app.modules.under.ui.UnderActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:58:9-59:115
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:59:77-113
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:59:13-76
+activity#com.front_end.app.modules.water.ui.WaterActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:60:9-61:115
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:61:77-113
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:61:13-76
+activity#com.front_end.app.modules.bmi.ui.BmiActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:62:9-63:111
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:63:73-109
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:63:13-72
+activity#com.front_end.app.modules.details.ui.DetailsActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:64:9-65:119
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:65:81-117
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:65:13-80
+activity#com.front_end.app.modules.notes.ui.NotesActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:66:9-67:115
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:67:77-113
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:67:13-76
+activity#com.front_end.app.modules.home.ui.HomeActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:68:9-69:113
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:69:75-111
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:69:13-74
+activity#com.front_end.app.modules.diet.ui.DietActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:70:9-71:113
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:71:75-111
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:71:13-74
+activity#com.front_end.app.modules.carbs.ui.CarbsActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:72:9-73:115
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:73:77-113
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:73:13-76
+activity#com.front_end.app.modules.login.ui.LoginActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:74:9-75:115
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:75:77-113
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:75:13-76
+activity#com.front_end.app.modules.sched.ui.SchedActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:76:9-77:115
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:77:77-113
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:77:13-76
+activity#com.front_end.app.modules.lunch.ui.LunchActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:78:9-79:115
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:79:77-113
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:79:13-76
+activity#com.front_end.app.modules.setting.ui.SettingActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:80:9-81:119
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:81:81-117
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:81:13-80
+activity#com.front_end.app.modules.loadingpage.ui.LoadingPageActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:82:9-83:127
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:83:89-125
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:83:13-88
+activity#com.front_end.app.modules.own.ui.OwnActivity
+ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:84:9-85:111
+	android:screenOrientation
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:85:73-109
+	android:name
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml:85:13-72
+uses-sdk
+INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:7.3.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4f6194d0770c5088b343f22a53d2035b\transformed\databinding-adapters-7.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-adapters:7.3.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4f6194d0770c5088b343f22a53d2035b\transformed\databinding-adapters-7.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-ktx:7.3.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5e19cf54a124c3cf2b4968dc0a481d96\transformed\jetified-databinding-ktx-7.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-ktx:7.3.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5e19cf54a124c3cf2b4968dc0a481d96\transformed\jetified-databinding-ktx-7.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-runtime:7.3.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\0d8b16dd790622eaf075334b72a14567\transformed\databinding-runtime-7.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-runtime:7.3.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\0d8b16dd790622eaf075334b72a14567\transformed\databinding-runtime-7.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ee6722a8484fd6a8cf68665faffce0c8\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ee6722a8484fd6a8cf68665faffce0c8\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\df95c7c7dd0fbb0060c57336c486a801\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\df95c7c7dd0fbb0060c57336c486a801\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [io.insert-koin:koin-androidx-viewmodel:2.1.6] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\811458b2cafcf1a35c94089df88c33b4\transformed\jetified-koin-androidx-viewmodel-2.1.6\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-viewmodel:2.1.6] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\811458b2cafcf1a35c94089df88c33b4\transformed\jetified-koin-androidx-viewmodel-2.1.6\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-scope:2.1.6] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\3dafbf93527f5e0ce5eeaea8686141e0\transformed\jetified-koin-androidx-scope-2.1.6\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-androidx-scope:2.1.6] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\3dafbf93527f5e0ce5eeaea8686141e0\transformed\jetified-koin-androidx-scope-2.1.6\AndroidManifest.xml:5:5-44
+MERGED from [com.github.mukeshsolanki:android-otpview-pinview:2.1.2] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\2a0c9aac7ef6ef3fb075c6b4b5110664\transformed\jetified-android-otpview-pinview-2.1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mukeshsolanki:android-otpview-pinview:2.1.2] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\2a0c9aac7ef6ef3fb075c6b4b5110664\transformed\jetified-android-otpview-pinview-2.1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\0da2cb61fcdd7625fe503a49f52cad06\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\0da2cb61fcdd7625fe503a49f52cad06\transformed\jetified-lottie-3.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\eea9a61ae8c746aa046c16ca52218ab7\transformed\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\eea9a61ae8c746aa046c16ca52218ab7\transformed\jetified-appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5b3b7f37a8252fd52d63c47c420486b7\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5b3b7f37a8252fd52d63c47c420486b7\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.5.5] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\36ba3748b3a13533c6d537e17ce6390f\transformed\jetified-fragment-ktx-1.5.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.5] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\36ba3748b3a13533c6d537e17ce6390f\transformed\jetified-fragment-ktx-1.5.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\de34ab2bcbe2199f5ca955638c09402f\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\de34ab2bcbe2199f5ca955638c09402f\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\83ef2f7b6a6462e40a49f8cf4a72d038\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\83ef2f7b6a6462e40a49f8cf4a72d038\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6c0ee852c6429b1c63ea5dd042065fea\transformed\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6c0ee852c6429b1c63ea5dd042065fea\transformed\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ba399ac90685f2e55904542ac877ea76\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ba399ac90685f2e55904542ac877ea76\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\23c708643dfa1bdd42c9887a28ff979a\transformed\jetified-firebase-firestore-ktx-23.0.3\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\23c708643dfa1bdd42c9887a28ff979a\transformed\jetified-firebase-firestore-ktx-23.0.3\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4979e2da815c906d88e8125218783953\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4979e2da815c906d88e8125218783953\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\323524c3657023543690a68f1d6b8b59\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\323524c3657023543690a68f1d6b8b59\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\e8d49a75e10b6bcfe31ee4c7cc2ff75f\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\e8d49a75e10b6bcfe31ee4c7cc2ff75f\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\99f903913f39ad6b5cac85518da12bff\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\99f903913f39ad6b5cac85518da12bff\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\0dca2a7f2f7148ab3865ce2efa8a2847\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\0dca2a7f2f7148ab3865ce2efa8a2847\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\a417fe362de0e925cb47e84f5c1c974a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\a417fe362de0e925cb47e84f5c1c974a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\233ab1fe2302d7e18db89d4c775994a6\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\233ab1fe2302d7e18db89d4c775994a6\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6d3064f4a1a4abd8827ce2471a7c8072\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6d3064f4a1a4abd8827ce2471a7c8072\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.5.5] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\2ebd30886a47bdba1fccfaef63ef6f51\transformed\fragment-1.5.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.5] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\2ebd30886a47bdba1fccfaef63ef6f51\transformed\fragment-1.5.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\9b2e9856feec1ff9b37c24abda89150e\transformed\jetified-activity-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\9b2e9856feec1ff9b37c24abda89150e\transformed\jetified-activity-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\46e3817474d64a3d95428e734fce3141\transformed\jetified-activity-ktx-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\46e3817474d64a3d95428e734fce3141\transformed\jetified-activity-ktx-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\c7d7ea80b04a933cc85fbaca2cbf826f\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\c7d7ea80b04a933cc85fbaca2cbf826f\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5fc56a3d9ffc09af1ebc2fc06c4bc0ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5fc56a3d9ffc09af1ebc2fc06c4bc0ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8f3293d1fa987f39fc948e94bc1752a8\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8f3293d1fa987f39fc948e94bc1752a8\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\58a2c4c2ca3a7d263bdcbaa7e61ce15d\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\58a2c4c2ca3a7d263bdcbaa7e61ce15d\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\b0521d7ce10a94d941f8d46dafac123f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\b0521d7ce10a94d941f8d46dafac123f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ad8c3eeb04a31ad7219a3d8cdfbb5f2c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ad8c3eeb04a31ad7219a3d8cdfbb5f2c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8209575ae54ffb165f23b8c6b53b0634\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8209575ae54ffb165f23b8c6b53b0634\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\fed32d4a0d9ab256538be16828077b79\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\fed32d4a0d9ab256538be16828077b79\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\608819c56355905a54d291c5804d83dd\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\608819c56355905a54d291c5804d83dd\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ba168e3fba658e1d58e62914688460d7\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ba168e3fba658e1d58e62914688460d7\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\76c81a4c07c22bbddf6726cda068fcf3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\76c81a4c07c22bbddf6726cda068fcf3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\647479888b699788d2f1e6e097af393d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\647479888b699788d2f1e6e097af393d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\7122ae506ac0cf62ef0b9714b562c165\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\7122ae506ac0cf62ef0b9714b562c165\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\bf50942fdf94d302c5fd1712461bbd2a\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\bf50942fdf94d302c5fd1712461bbd2a\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8d05c1278e5edefc172d4ac36094ebe7\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8d05c1278e5edefc172d4ac36094ebe7\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\fe034a08d3d8ef7abb6ebb8995791cc4\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\fe034a08d3d8ef7abb6ebb8995791cc4\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\dbe82f28299537602ed0d6540ba627a2\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\dbe82f28299537602ed0d6540ba627a2\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5e1540cc97314a18f448fbd4480c2a2d\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5e1540cc97314a18f448fbd4480c2a2d\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\3a6713f75a9eadbec71838fbaf5a9d45\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\3a6713f75a9eadbec71838fbaf5a9d45\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f0e36fd82ee1cda346b5e8df1e7a1990\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f0e36fd82ee1cda346b5e8df1e7a1990\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\58b99d0ac4a5b898e8f275d98bf745ed\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\58b99d0ac4a5b898e8f275d98bf745ed\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\9202621f4e6fa52cf2fb33f075837862\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\9202621f4e6fa52cf2fb33f075837862\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\2279f15b69f664600363b5682ea1a9f0\transformed\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\2279f15b69f664600363b5682ea1a9f0\transformed\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [io.insert-koin:koin-android:2.1.6] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\722aefcbb5d1981dd59343c9c2a513aa\transformed\jetified-koin-android-2.1.6\AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:2.1.6] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\722aefcbb5d1981dd59343c9c2a513aa\transformed\jetified-koin-android-2.1.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8cba755589fd25ed4e5b7bcc34f8fae3\transformed\jetified-savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8cba755589fd25ed4e5b7bcc34f8fae3\transformed\jetified-savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4e8b38a0e800bb80a0d1feed7891db7b\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4e8b38a0e800bb80a0d1feed7891db7b\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\18fa10503ae6f535bcc2da0d8f0e8b03\transformed\jetified-lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\18fa10503ae6f535bcc2da0d8f0e8b03\transformed\jetified-lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\deb88efcc4b50cb892a116781bb7afff\transformed\jetified-lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\deb88efcc4b50cb892a116781bb7afff\transformed\jetified-lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\bb26e350595fef73ec771dbdd0dee5eb\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\bb26e350595fef73ec771dbdd0dee5eb\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\e6d55d4bf61d3dbd667a5bce806f9faf\transformed\jetified-security-crypto-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.security:security-crypto:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\e6d55d4bf61d3dbd667a5bce806f9faf\transformed\jetified-security-crypto-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\69d2384ebeae9f64112b36d3dc42362e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\69d2384ebeae9f64112b36d3dc42362e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\10f52715a8f9e959626b272fbe5991c1\transformed\jetified-viewbinding-7.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\10f52715a8f9e959626b272fbe5991c1\transformed\jetified-viewbinding-7.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.4.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6b3b7fe9523e05c862e6fe124c36009b\transformed\jetified-lifecycle-service-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.4.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6b3b7fe9523e05c862e6fe124c36009b\transformed\jetified-lifecycle-service-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\155db8bf934597e9901f3a9ba2e23691\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\155db8bf934597e9901f3a9ba2e23691\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\aaac630c9c66bb57610e1a30fed7b5be\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\aaac630c9c66bb57610e1a30fed7b5be\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\624cd2f932d15155a23a25e96e41433e\transformed\lifecycle-livedata-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\624cd2f932d15155a23a25e96e41433e\transformed\lifecycle-livedata-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\cafbfe7935d9976a9271aa67230cdd83\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\cafbfe7935d9976a9271aa67230cdd83\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\0724ff8163dce4056b47a6a0b6ae54d1\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\0724ff8163dce4056b47a6a0b6ae54d1\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\40522c52ca0bd5fde0d29912b3c7d338\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\40522c52ca0bd5fde0d29912b3c7d338\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5ef3fd374fca21dc6ee8325d416b7dfa\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5ef3fd374fca21dc6ee8325d416b7dfa\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5748a0b6fa34612463949083f18163fe\transformed\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5748a0b6fa34612463949083f18163fe\transformed\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\225c0e4682952775429d84a1fa150642\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\225c0e4682952775429d84a1fa150642\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ec8c16697e989bc4bf7b21beb10242d0\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\ec8c16697e989bc4bf7b21beb10242d0\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\86ecdbbd359ccff8dd4a367509adb10a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\86ecdbbd359ccff8dd4a367509adb10a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\9673d025b739c22fb3f6f6c7312d55f3\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\9673d025b739c22fb3f6f6c7312d55f3\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\9237f0e193e2399b95579866e6133ef9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\9237f0e193e2399b95579866e6133ef9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\75358bf84255906b04ea0b8a8ece8436\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\75358bf84255906b04ea0b8a8ece8436\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\c0a99b23044c05526ef371c651a062a1\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\c0a99b23044c05526ef371c651a062a1\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\c659cc778e1a4fc97ac7ba406aad2082\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\c659cc778e1a4fc97ac7ba406aad2082\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8207590f0c838deb74ad39e646b0eb46\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\8207590f0c838deb74ad39e646b0eb46\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5cfa149c301e154b899fb74fa0324179\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5cfa149c301e154b899fb74fa0324179\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\app\src\main\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore-ktx:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\23c708643dfa1bdd42c9887a28ff979a\transformed\jetified-firebase-firestore-ktx-23.0.3\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4979e2da815c906d88e8125218783953\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4979e2da815c906d88e8125218783953\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\323524c3657023543690a68f1d6b8b59\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\323524c3657023543690a68f1d6b8b59\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\99f903913f39ad6b5cac85518da12bff\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\99f903913f39ad6b5cac85518da12bff\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore-ktx:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\23c708643dfa1bdd42c9887a28ff979a\transformed\jetified-firebase-firestore-ktx-23.0.3\AndroidManifest.xml:14:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\99f903913f39ad6b5cac85518da12bff\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\99f903913f39ad6b5cac85518da12bff\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\23c708643dfa1bdd42c9887a28ff979a\transformed\jetified-firebase-firestore-ktx-23.0.3\AndroidManifest.xml:13:13-84
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\23c708643dfa1bdd42c9887a28ff979a\transformed\jetified-firebase-firestore-ktx-23.0.3\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\23c708643dfa1bdd42c9887a28ff979a\transformed\jetified-firebase-firestore-ktx-23.0.3\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\23c708643dfa1bdd42c9887a28ff979a\transformed\jetified-firebase-firestore-ktx-23.0.3\AndroidManifest.xml:16:17-126
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4979e2da815c906d88e8125218783953\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4979e2da815c906d88e8125218783953\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\4979e2da815c906d88e8125218783953\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:16:17-113
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\323524c3657023543690a68f1d6b8b59\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\323524c3657023543690a68f1d6b8b59\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:23.0.3] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\323524c3657023543690a68f1d6b8b59\transformed\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:21:17-111
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\99f903913f39ad6b5cac85518da12bff\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\99f903913f39ad6b5cac85518da12bff\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\99f903913f39ad6b5cac85518da12bff\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\99f903913f39ad6b5cac85518da12bff\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\99f903913f39ad6b5cac85518da12bff\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\99f903913f39ad6b5cac85518da12bff\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\a417fe362de0e925cb47e84f5c1c974a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\a417fe362de0e925cb47e84f5c1c974a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\a417fe362de0e925cb47e84f5c1c974a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\a417fe362de0e925cb47e84f5c1c974a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6d3064f4a1a4abd8827ce2471a7c8072\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6d3064f4a1a4abd8827ce2471a7c8072\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\6d3064f4a1a4abd8827ce2471a7c8072\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5fc56a3d9ffc09af1ebc2fc06c4bc0ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\155db8bf934597e9901f3a9ba2e23691\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\155db8bf934597e9901f3a9ba2e23691\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\86ecdbbd359ccff8dd4a367509adb10a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\86ecdbbd359ccff8dd4a367509adb10a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5fc56a3d9ffc09af1ebc2fc06c4bc0ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5fc56a3d9ffc09af1ebc2fc06c4bc0ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5fc56a3d9ffc09af1ebc2fc06c4bc0ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5fc56a3d9ffc09af1ebc2fc06c4bc0ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5fc56a3d9ffc09af1ebc2fc06c4bc0ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5fc56a3d9ffc09af1ebc2fc06c4bc0ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\5fc56a3d9ffc09af1ebc2fc06c4bc0ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.front_end.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.front_end.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\f88fa8c18135e671898103459c53ece4\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\155db8bf934597e9901f3a9ba2e23691\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\155db8bf934597e9901f3a9ba2e23691\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Erwin\Desktop\CET4-SD-Caloriesify-main\Android-Notes-App-With-Firebase-main\caches\transforms-3\155db8bf934597e9901f3a9ba2e23691\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78

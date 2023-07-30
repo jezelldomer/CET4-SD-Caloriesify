@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.front_end.app-mergeDebugResources-44:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\Android-Notes-App-With-Firebase-main\\caches\\transforms-3\\5b3b7f37a8252fd52d63c47c420486b7\\transformed\\appcompat-1.5.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

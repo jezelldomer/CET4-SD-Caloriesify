@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.CNCoderX:WheelView:1.2.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3d2a781d3820f1da9ccb85e502b7ec97/transformed/jetified-WheelView-1.2.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3d2a781d3820f1da9ccb85e502b7ec97/transformed/jetified-WheelView-1.2.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3d2a781d3820f1da9ccb85e502b7ec97/transformed/jetified-WheelView-1.2.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.CNCoderX/WheelView/1.2.6/2782b4d490cef23194b2def22afdf4497377a099/WheelView-1.2.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.CNCoderX/WheelView/1.2.6/f0934afb7847b848f782a29122d0269da3d45dac/WheelView-1.2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

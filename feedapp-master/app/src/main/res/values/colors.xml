@@ -5,9 +5,9 @@
 
 <resources>
 <!--    Theme colors -->
-    <color name="colorPrimary">#6bb5ff</color>
-    <color name="colorPrimaryDark">#2c86cb</color>
-    <color name="colorPrimaryLight">#a2e7ff</color>
+    <color name="colorPrimary">#71C49F</color>
+    <color name="colorPrimaryDark">#14c476</color>
+    <color name="colorPrimaryLight">#67f5b6</color>
     <color name="colorSecondary">#b7dbff</color>
     <color name="colorSecondaryDark">#86a9cc</color>
     <color name="colorSecondaryLight">#eaffff</color>

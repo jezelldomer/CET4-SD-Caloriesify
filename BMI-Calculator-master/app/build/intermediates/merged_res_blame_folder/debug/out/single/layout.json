@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-mergeDebugResources-37:/layout/activity_result.xml",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/layout/activity_result.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-mergeDebugResources-37:/layout/activity_main.xml",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/layout/activity_main.xml"
+    }
+]

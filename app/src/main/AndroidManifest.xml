@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.front_end.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.front_end.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.front_end.app.modules.macros.ui.MacrosActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.pass.ui.PassActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.normal.ui.NormalActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.neww.ui.NewwActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.work.ui.WorkActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.excer.ui.ExcerActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.breakfast.ui.BreakfastActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.front_end.app.modules.welcomescreen.ui.WelcomeScreenActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.front_end.app.modules.wasted.ui.WastedActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.tall.ui.TallActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.target.ui.TargetActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.dinner.ui.DinnerActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.age.ui.AgeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.obese.ui.ObeseActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.male.ui.MaleActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.weight.ui.WeightActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.asex.ui.AsexActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.timemanagement.ui.TimeManagementActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.journal.ui.JournalActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.saved.ui.SavedActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.signup.ui.SignUpActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.under.ui.UnderActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.water.ui.WaterActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.bmi.ui.BmiActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.details.ui.DetailsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.notes.ui.NotesActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.home.ui.HomeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.diet.ui.DietActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.carbs.ui.CarbsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.login.ui.LoginActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.sched.ui.SchedActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.lunch.ui.LunchActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.setting.ui.SettingActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.loadingpage.ui.LoadingPageActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.front_end.app.modules.own.ui.OwnActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

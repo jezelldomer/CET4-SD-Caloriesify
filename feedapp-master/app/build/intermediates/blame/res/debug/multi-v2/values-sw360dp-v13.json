@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\Android-Notes-App-With-Firebase-main\\caches\\transforms-2\\files-2.1\\54073b907fb84f7c7d88b57b295c3e7a\\preference-1.1.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\Android-Notes-App-With-Firebase-main\\caches\\transforms-2\\files-2.1\\43df511bcfb73fa29dd6279765e16d32\\jetified-firebase-ui-auth-6.2.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,186,247,302,356,414",
+                        "endColumns": "69,60,60,54,53,57,56",
+                        "endOffsets": "120,181,242,297,351,409,466"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "127,197,258,319,374,428,486",
+                        "endColumns": "69,60,60,54,53,57,56",
+                        "endOffsets": "192,253,314,369,423,481,538"
+                    }
+                }
+            ]
+        }
+    ]
+}

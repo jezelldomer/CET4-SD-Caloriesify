@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-xhdpi_ic_pacman.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-xhdpi/ic_pacman.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/font_larsseit.otf.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/font/larsseit.otf"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/xml_backup_rules.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable_ic_share.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/drawable/ic_share.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-xxxhdpi_ic_pacman.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-xxxhdpi/ic_pacman.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-xhdpi_ic_banner_foreground.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-xhdpi/ic_banner_foreground.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/font_larsseit_medium.otf.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/font/larsseit_medium.otf"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-xhdpi_ic_bmi.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-xhdpi/ic_bmi.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable_rounded_dash_main2.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/drawable/rounded_dash_main2.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-mdpi_ic_bmi.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-mdpi/ic_bmi.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable_rounded_dash.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/drawable/rounded_dash.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/xml_file_path.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/xml/file_path.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable_circular_white_background.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/drawable/circular_white_background.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-xxxhdpi_ic_bmi.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-xxxhdpi/ic_bmi.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-mdpi_ic_user.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-mdpi/ic_user.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-xxhdpi_ic_pacman.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-xxhdpi/ic_pacman.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-xxxhdpi_ic_user.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-xxxhdpi/ic_user.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable_ic_triangle.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/drawable/ic_triangle.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable_ic_launcher_background.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-xhdpi_ic_banner.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-xhdpi/ic_banner.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-hdpi_ic_pacman.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-hdpi/ic_pacman.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable_round_button_blue.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/drawable/round_button_blue.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-xxhdpi_ic_user.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-xxhdpi/ic_user.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-ldpi_ic_pacman.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-ldpi/ic_pacman.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/layout_activity_main.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/xml_data_extraction_rules.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-xxhdpi_ic_bmi.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-xxhdpi/ic_bmi.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/layout_activity_result.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/layout/activity_result.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/layout-land_activity_result.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/layout-land/activity_result.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-anydpi-v24_ic_bmi.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-anydpi-v24/ic_bmi.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable_ic_rotate.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/drawable/ic_rotate.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-ldpi_ic_user.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-ldpi/ic_user.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/layout_weight_picker_item_layout.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/layout/weight_picker_item_layout.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/layout-land_activity_main.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/layout-land/activity_main.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/font_larsseit_bold.otf.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/font/larsseit_bold.otf"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-anydpi-v26_ic_banner.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-anydpi-v26/ic_banner.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-hdpi_ic_bmi.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-hdpi/ic_bmi.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-mdpi_ic_pacman.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-mdpi/ic_pacman.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-xhdpi_ic_user.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-xhdpi/ic_user.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-hdpi_ic_user.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-hdpi/ic_user.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable_circular_black_background.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/drawable/circular_black_background.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable_shelf.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/drawable/shelf.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable_ic_delete.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-anydpi-v24_ic_user.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-anydpi-v24/ic_user.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-anydpi-v24_ic_pacman.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-anydpi-v24/ic_pacman.xml"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable-ldpi_ic_bmi.png.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-pngs-33:/drawable-ldpi/ic_bmi.png"
+    },
+    {
+        "merged": "dev.jahidhasanco.bmicalculator.app-merged_res-38:/drawable_rounded_dash_main.xml.flat",
+        "source": "dev.jahidhasanco.bmicalculator.app-main-40:/drawable/rounded_dash_main.xml"
+    }
+]

@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":app:unitTest" external.linked.project.path="$MODULE_DIR$/../../../app" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <additionalVisibleModuleNames>:app:main</additionalVisibleModuleNames>
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="noReflect" arg="true" />
+            <flagArg name="noStdlib" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="classpath">
+              <args>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/6238532d6e2deb15e39ff66d0618fcfd/databinding-adapters-4.0.0-rc01-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/13ef1b5087a402cd2c9d3c743b8c7622/databinding-runtime-4.0.0-rc01-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/androidx.databinding/databinding-common/4.0.0-rc01/779297e39cc8091f70731a456f8b856721338d34/databinding-common-4.0.0-rc01.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/f8fab132933536e4e04ed05da4df10b2/jetified-fragment-testing-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/68e86d165ad119c8b557a39870bb3875/jetified-viewbinding-4.0.0-rc01-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/878efb3064c94be25c33789656006a06/navigation-ui-ktx-2.2.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/6d41255f5601242e577f2559a45e4da1/navigation-ui-2.2.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/a84f87d2300d7d2c347e804a29f6afc3/jetified-speed-dial-3.1.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/7cdc75dafcc34867af9eb38fe1811337/material-1.2.0-alpha05-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/f5963ad6d675e3df7835f38b724d256e/core-testing-2.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/03ab37185d11ebfe873d0ade5f5a5ecd/preference-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/7e8529184410c7a481cb4db875e0bd64/jetified-AppIntro-4.2.3-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/eac6b95c29aeee78d91cd37ba279b8d2/jetified-dagger-android-support-2.17-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/a570e703016fe61410d46e8d6fe09602/jetified-taptargetview-1.13.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/ec27c41bebb5e0c656b62078313b01e5/jetified-lottie-3.0.3-support-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/582f30386f2ef63fec516f2076b51a86/jetified-facebook-login-5.15.3-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/1d7e33bc9c0b24aac743d50c1d057fd9/jetified-facebook-common-5.15.3-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/463747b9545380eb53fd1ad191a0724a/appcompat-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/ed236547108ac8c2443109c35fa953db/navigation-fragment-ktx-2.2.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/68a40aff19edf4b706aa35bb7119cd5a/jetified-fragment-ktx-1.2.4-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/c071b4f96a7ccf6e337c9f40e102435e/navigation-runtime-ktx-2.2.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/be91d1e52298d2819d2f00ec069a9337/jetified-activity-ktx-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/d3a2fedf90b2b671ee9e982b9329d37d/jetified-core-ktx-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/e6504d2765d3c3dc3f0ecadc55c4d071/jetified-appcompat-resources-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/38cc6c66fbaba4e7d5cf0e9ef5f5a93a/jetified-okhttp3-integration-4.5.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/c84b0e789cc4913122746731fb0cd401/jetified-glide-4.10.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/7d1f927b2510a1e853c9c309bc6c893e/vectordrawable-animated-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/436b48d4a222cc6fed3c0113cb2acd07/vectordrawable-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/d512d89e36d900a996fce81b0c5223b4/jetified-dagger-android-2.17-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/0b94e4c71dbc6ecd5f961197789a9e5e/lifecycle-reactivestreams-2.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/00a7c500205eb4725793b5a3210d4c5c/jetified-shimmer-0.5.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/eed2b14a7211ec0313cc3c59186a9d65/jetified-firebase-firestore-ktx-21.4.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/ec852471ebb51052890c2bca131a18cb/jetified-core-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/666ba2bee87dd8ef3317dffcf5d0231c/lifecycle-extensions-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/d21a4c8b91b87bc3af6db5c5bb68616f/legacy-support-v4-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/57903d7d14e8451a2d978c2de9b72fad/jetified-firebase-messaging-20.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/7dd0fd1c84d0a0d2c38600143f602cd5/browser-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/c9cf7dbb646dfc6ea6b7149f14ba92be/legacy-support-core-ui-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/0a3262ca41ee47c46c0a04775b5a74d8/coordinatorlayout-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/b0c11467268c1ea5c5cf239f110a2efb/navigation-fragment-2.2.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/19ea4d9cb5de616c89a119e0a5829fa7/jetified-firebase-ui-auth-6.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/6815bcf70dc53e4a27a834c0c386725d/jetified-firebase-auth-19.3.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/c6fe1ed05aed0b2f0cab893a47da1ea8/jetified-viewpager2-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/c9ca61de1380ba3f8b5df0fe8bb44e37/jetified-firebase-firestore-21.4.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/41fa2ec95efae9d28ddb88fd4be1e954/jetified-firebase-auth-interop-19.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/75991868e36e339003b60137fa2289fd/jetified-play-services-auth-17.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/b6d759411f0b3526a54465d40788c279/jetified-firebase-crashlytics-17.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/cf5cd3f1ba18e21d251ed9f1c7d31b6f/jetified-firebase-analytics-ktx-17.4.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/9bfa29b474fc7fc51152ef23dd3fca12/jetified-firebase-analytics-17.4.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/6d5b5dfbb1faf91683a35466169329d8/jetified-play-services-measurement-api-17.4.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/14534ec40c08791d0e7ecfc289eac2ee/jetified-firebase-iid-20.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/67ec0783a6572576647c8f5140905a1f/jetified-firebase-iid-interop-17.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/fc7acad6c4a1fa015bab282e506a78de/jetified-play-services-auth-api-phone-17.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/fca0f813729bfdbe59016b68776cf31f/jetified-play-services-auth-base-17.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/d0c0e4227013c6498b2dc866f6394cdf/jetified-firebase-database-collection-17.0.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/31345fb538c9312de3687ccff9b31c0f/jetified-play-services-base-17.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/586f6ff945152f06707ec292794cb7db/jetified-play-services-measurement-17.4.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/72223c14641b074e08516638d9eec97d/jetified-play-services-measurement-sdk-17.4.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/93938758271af45b3f7c3ed73840afa7/jetified-firebase-common-ktx-19.3.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/9a72bb4a2d0b4859278a9422e0af691f/jetified-firebase-datatransport-17.0.3-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/bbaac607ec2a067291ec6bbaf51239fc/jetified-firebase-installations-16.3.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/5cd9803b95cdcabce324f3cbb58927fa/jetified-firebase-common-19.3.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/03d0e0e89fbbbe27e0a27e3d49ade391/jetified-firebase-installations-interop-16.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/97ebb32f2a551d0f4d7a59b10dc782de/jetified-play-services-tasks-17.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/bbc165e4972b14cc20e81d5c3bcd9918/jetified-firebase-measurement-connector-18.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/56b9d6e0d079804a1f2075148e4bd79e/jetified-play-services-measurement-impl-17.4.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/cc424c3e1ea8eb82aac1f20076528156/jetified-play-services-stats-17.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/f10ccd0e92bd86fa57a7b667e970a2a2/jetified-play-services-measurement-sdk-api-17.4.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/f27fec93d31e4535ac7c846bad74d32e/jetified-play-services-measurement-base-17.4.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/f69b38cd527d887569448f9caa88e23a/jetified-play-services-ads-identifier-17.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/41f670c0b984a921688f271288cb3a73/jetified-play-services-basement-17.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/9b22c2515f115fa5c28f7315fb363b2c/fragment-1.2.4-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/5afe092d4d3e6535ad82768d032e54a0/recyclerview-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/b09b6aa25fed60a67f7583a6f46d26c0/transition-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/5566033798bcbc7617cf2962eec7277c/drawerlayout-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/33dc37342d66b9cb42d74713e2fbe4f1/media-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/5eaea8a14ec0252c29cb67fb3289597a/jetified-facebook-core-5.15.3-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/5ab9a2f5bc87684893812e74ee39844c/legacy-support-core-utils-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/4afbf9aa319b9a27dc50036a6c1102e0/viewpager-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/4e4aa5bb2093bc814dff2c406d67c59a/slidingpanelayout-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/7dd1595373dd085818051d1e8a99636f/customview-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/592147a3fa4841e200e93ee881dfb48c/loader-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/4e492617906ae18b77704462e430fe0f/navigation-runtime-2.2.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/d9fb803068a6a52a62bfc9ae3c09c351/jetified-activity-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/9f4f238190741aa1809de8751b4e7a77/navigation-common-ktx-2.2.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/27cd3c4f47d6a4d64acc3b064d900f03/navigation-common-2.2.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/7939ee372a970f0f1172abd83fdcddaf/swiperefreshlayout-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/8c1d915dc60a671ae42edd79a887f0d3/asynclayoutinflater-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/b86481431dcdc86f5781fdcba7ced76c/core-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/e154b0af6f7f8bd29ea602b0642393ee/jetified-lifecycle-process-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/cdae487f6b645e75fa23984ca1e93c0a/jetified-lifecycle-service-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/092804b88551d6e2f97a3a9130245b43/jetified-lifecycle-runtime-ktx-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/ed462071a98eecbcf1be39c7109aa97a/lifecycle-runtime-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/02e960d13be73c32db7bdecbab44433f/jetified-collection-ktx-1.1.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/a113c32b08b2292e3c6b527ac2637a87/versionedparcelable-1.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/35bb3ea2d214e0cdd1477bcede4389f9/cardview-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/f1328034e3e27dcf4354dfbf7387bc87/room-runtime-2.2.5-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/b6afd5be27a88609144735ff8841c3cf/jetified-lifecycle-livedata-ktx-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/4be93d274703b5704004ca287c226d8a/work-runtime-ktx-2.3.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/35bf9127caa8e59df1626c4d25ad7507/work-runtime-2.3.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/310469ac56a3cbef4a1493f34e2b4ef9/lifecycle-livedata-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/8b342b91dad1d741ba186e4df7afe64f/jetified-lifecycle-livedata-core-ktx-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/5d57f4a2bc5a5b1a9184e0bce226d7ca/jetified-lifecycle-viewmodel-savedstate-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/880e161990b51575cd99ba91b23d6c95/lifecycle-livedata-core-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/ca3a299f5bf4ee1cdac7e48706bce8f5/core-runtime-2.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/98d80bb747e85a27fe2de8e64c953501/cursoradapter-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/167fd577469d2a7b4be5bc5df6eeb7dd/jetified-savedstate-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0/4ef09a745007778eef83b92f8f23987a8ea59496/lifecycle-common-2.2.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/ab26b038a5a88138ebec22f6c53114c0/jetified-lifecycle-viewmodel-ktx-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/e2d0bb715e340d8c2f26c82f0dd922ac/lifecycle-viewmodel-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/955124fbc587ebe74468463b0811d896/jetified-gifdecoder-4.10.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/androidx.room/room-common/2.2.5/f5e3b73a0c2ab5e276e26868e4ce3542baede207/room-common-2.2.5.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/8897ac2950f2db9408453075c6b16f88/sqlite-framework-2.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/c20639bd1109f7e12667e4aeae105eaf/sqlite-2.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/14122b8154e5fae17e6013d989450c60/localbroadcastmanager-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/6eb2731a2137a0f84989f45bf3b67a09/jetified-firebase-components-16.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/93e55efc60ee6399d46c7573ff7e0c04/jetified-transport-backend-cct-2.2.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/9918bbf1e06196138df77c0a23684450/jetified-transport-runtime-2.2.1-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/97e6e85cab2ca39f3888f80e3e9fe825/jetified-firebase-encoders-json-16.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/1f2b0ba03ae5740064a661d10dd14837/jetified-robolectric-4.3.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/a4cce5d233ac5a5812a3cf5f6ef83678/jetified-shadows-framework-4.3.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/995b9eab4c24c48216e04e4af95ecdb6/rules-1.1.0-alpha3-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/88ec4ac5ba6652e62b439beb7fcfa23a/runner-1.1.0-alpha3-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/0db94c4728c6ba33d3f37aea0a0f8b9f/monitor-1.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/55cc984ec15daea7878a47dc9e5054a9/documentfile-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/de0af02cda433c265f49c5d2461eba96/print-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/a9eb4c8dfaa8a654bb3a479e076feba1/interpolator-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/6c9b91fedc77d55d4598bb113a24b3c0/jetified-kotlin-android-extensions-runtime-1.3.60.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/23258832da0e30099a8e6c5553a956fe/jetified-kotlin-stdlib-jdk7-1.3.61.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/82cd3b57cc0a02749a26fcd7b3abe03c/jetified-kotlinx-coroutines-android-1.3.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/89fb1fae92bf01f021ee1dfb2f1e106a/jetified-retrofit2-kotlin-coroutines-adapter-0.9.2.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/bf89e9711c33a8c6659608a1324ede37/jetified-kotlinx-coroutines-play-services-1.1.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/baf723c8b6b64bc7b14723b6b09cee85/jetified-kotlinx-coroutines-core-1.3.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/db2c8d6f0f1aec800399930590ff32cb/jetified-kotlin-stdlib-1.3.61.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/be2f97e417b6c0e404062d618be7bbb3/jetified-kotlin-stdlib-common-1.3.61.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/98f9f4aaf7181f0738d1adf0dae99668/jetified-annotations-13.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/b81e38250e5c8e3a041d25be0ec37b89/jetified-annotation-experimental-1.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/631d3c4e3fba6a6b1137e5ef983fc3f2/constraintlayout-1.1.3-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.3/54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e/constraintlayout-solver-1.1.3.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/d1e0273b4fcca2fec27d15e1f0f4c427/jetified-sqliteassethelper-2.0.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/a85459d43f278a7e0bbc671828e56391/jetified-disklrucache-4.10.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/33e34469cf0b9b41224a555958c6c49e/jetified-annotations-4.10.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/65256c833c062ffeba2177115b77c48d/jetified-converter-gson-2.1.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/5a54f0a3587bf98ad011c80472e7311d/jetified-adapter-rxjava2-2.5.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/6ed91dfc0a626ce3371c0610a26579c8/jetified-retrofit-2.5.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/3a0b3575b028ed2b894257db8a90aca2/jetified-logging-interceptor-3.4.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/59b05dfef666504a253c20b39109f5e2/jetified-okhttp-3.12.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/7eb017b20a59e0398afd9a65748059a3/jetified-grpc-okhttp-1.21.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/c68fe2e0af157d1ce7611ba7797708bc/jetified-okhttp-2.7.5.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/e6a8a0e93fe470c14d224af9af3a78f1/jetified-okio-1.15.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/57fbeb9527a4aaa5d1a8965dd80a375f/jetified-grpc-core-1.21.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/48795ec36399392be284b02a1f754da8/jetified-gson-2.8.6.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/21e979832450c0a0c9f9a18f6affe544/jetified-resources-4.3.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/ed7b3ad26e0417fd3c48af7cf2339c01/jetified-junit-4.3.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/4f97e42e5986e7bd537d81650aa431d3/jetified-sandbox-4.3.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/abc87aa682c0a9e9c540159545077bd6/jetified-grpc-protobuf-lite-1.21.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/6d605ccc6f3ce98f03e79b4f61dbe0f2/jetified-plugins-maven-dependency-resolver-4.3.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/f76a929d2ea01de56006ad290d9c50d2/jetified-utils-4.3.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/c9691a8c2695d745aa7284d8bf60777d/jetified-auto-service-1.0-rc4.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/26a644427d5ec8d270d1b53c2436ccdf/jetified-grpc-stub-1.21.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/c7b45aa3776718135d508f44e0882e73/jetified-grpc-api-1.21.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/41f5496e8dbaeec77e199d294a5abbb4/jetified-auto-common-0.8.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/c6249a9bfd524e28906ea07ff7bbfd44/jetified-guava-27.0.1-jre.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/b93b228d302a03a1fe579dcdb4b1c35f/jetified-listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/413da04619a5c4c079c9b718e3e8b450/jetified-javax.annotation-10.0-b28.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/9e7855380575055cd29eb7c7c2a8aab0/jetified-dagger-2.27.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/bcfa90a26d772f3097e75e73eb9f384e/jetified-javax.inject-1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/594548090c9c14edced86d40d887768b/jetified-reactive-streams-1.0.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/97355c6703d289fa1dce7485d0eb1907/jetified-rxjava-2.0.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/812536a847b540f0b81f4dbec921f5ec/jetified-MaterialSearchBar-0.8.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/680f7070694dfa05a36b2b9cdfdd2d5e/jetified-MPAndroidChart-v3.1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/7818bd129cded778256e3f4391921657/jetified-auto-value-annotations-1.6.5.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/a5f8260f946624dd5a0358415bc07256/jetified-protolite-well-known-types-17.0.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/48d4c9308a6fc5b3bf838caf5033b895/jetified-protobuf-lite-3.0.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/3cc2c20b54287172b912105c7de53242/jetified-grpc-android-1.21.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/906dd033dc6bd16c11683c18c632dec1/jetified-opencensus-contrib-grpc-metrics-0.21.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/7e5222f54312fc4395e77a7c3c48ee22/jetified-opencensus-api-0.21.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/47028b54bee10875cf5916d4a46f2859/jetified-grpc-context-1.21.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/c67f8ef1e84cea6180b7a937888c263c/jetified-error_prone_annotations-2.3.2.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/4e98829b0615c73e11bf7b024fbffa15/jetified-jsr305-3.0.2.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/f0dc43298ca55d6678cb45f771ed3e28/jetified-animal-sniffer-annotations-1.17.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/c1be0c42a1711e30b0ef93b057379ff0/jetified-failureaccess-1.0.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/b7e96d7e08c925856af919d82b1630b0/jetified-checker-qual-2.5.2.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/f2df562c7a915b3703c4a5aa2614ab2e/jetified-j2objc-annotations-1.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/9ef4ebca30430e19b9407ffe9353f79e/jetified-annotations-4.1.1.4.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/89aba1ed3fe4a512e223117faae0f5b6/jetified-bolts-android-1.4.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/86c67f5e90f0d9170abc44d079b208ac/jetified-bolts-applinks-1.4.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/454e03836b55f2e3a19ffa6318999d19/jetified-bolts-tasks-1.4.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/9b0c012c19bb94b925bc5b783a211c7b/jetified-installreferrer-1.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/f32c1324a5dec7c70bee9bb6c30f0387/jetified-core-3.3.3.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/10ace6dae1f943ca3a393513a2f3d2c0/jetified-transport-api-2.2.0-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/d06baa56688a4faccce0e93f3aabede9/jetified-pluginapi-4.3.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/322a3c8caefd7d082a84e10969009186/jetified-shadowapi-4.3.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/9dc0e6f1f68d1758f14a35d0fe75824c/jetified-annotations-4.3.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/a8ef176703871179a88ac201f9402fa9/jetified-maven-ant-tasks-2.1.3.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/39d60994055b2506ed457bfb7906d42a/jetified-ant-1.8.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/09d8774d8023f8a270ff2bb3860487da/jetified-ant-launcher-1.8.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/f752896ed16fe34f2b2e7e55ded1cc9e/jetified-maven-project-2.2.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/9e6357db1877137b6134f30696a4a5a1/jetified-maven-artifact-manager-2.2.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/0417b2e2fe535ffe25f05e7833a3862d/jetified-maven-error-diagnostics-2.2.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/6820307a3525487de275185f3a381512/jetified-maven-settings-2.2.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/ed1311307a48fb0d8fab8ab31f6f0696/jetified-maven-profile-2.2.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/aeac19d66d7ef96675881f3f53b1daa9/jetified-maven-plugin-registry-2.2.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/9068b171c5c1a65f8d2f18c8767ea3de/jetified-plexus-container-default-1.0-alpha-9-stable-1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/77fecdb76f8e813b1eb26074b9be9b7b/jetified-classworlds-1.1-alpha-2.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/4c68eccc914ec7e88a6582a01dec6a79/jetified-maven-artifact-2.2.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/b5a23a410246785bc9b62b0ca7d959e7/jetified-maven-model-2.2.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/99159053c6d742a736712936de76cb86/jetified-wagon-file-1.0-beta-6.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/c9a54519f65391886358e5f9b71a2a4a/jetified-wagon-http-lightweight-1.0-beta-6.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/14e8747122f7fd6968b01436018b1eb1/jetified-wagon-http-shared-1.0-beta-6.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/e26b29b760217050e13723a0a9e4f3df/jetified-wagon-provider-api-1.0-beta-6.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/ed408a5634b96d68fa9cd41849568c23/jetified-maven-repository-metadata-2.2.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/af60bcad1bb447e6876b9238ed8eae39/jetified-plexus-utils-1.5.15.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/36224d768f20a72b12839537d472b4b2/jetified-plexus-interpolation-1.11.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/b4c21c20476cd9ed3307104c0e097d67/jetified-backport-util-concurrent-3.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/77c6a98b42ebf25e0be7864c164f10b8/jetified-xercesMinimal-1.9.6.2.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/d709736460c114e7e84ae09a5159ace8/jetified-nekohtml-1.9.6.2.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/c6cd9320b5a3a54dd3682eb35d50dc3d/jetified-utils-reflector-4.3.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/acc40db5cd7cd0d1753c7603dd40d08a/jetified-asm-commons-7.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/db9d3f49416300ae3c07da8a3429824e/jetified-asm-util-7.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/c1e1f6638fddef6123fc1b7cdac096d8/jetified-asm-analysis-7.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/7559bb9c9994b832bef1091c231f9da3/jetified-asm-tree-7.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/1f8c28ebc8f13ab744643750ea685d18/jetified-asm-7.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/e762f736e20d6f1d10e96c734fe35d3b/jetified-javax.annotation-api-1.3.2.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/cc1eb1fb868ef33dbfa79054d2d5956f/jetified-sqlite4java-0.282.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/b330f38a1a6bc0b9b9369095f3c845a5/jetified-icu4j-53.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/95e6ad60a6835b767576c01e55fc2ece/jetified-accessibility-test-framework-2.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/ca3ed473f3917032278ce743ae28c28f/jetified-junit-4.12.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/084410524e87b00ce0017dfa22f34ba7/jetified-hamcrest-library-1.3.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/37bdc17ae0337d0d7ea19db44e49ab00/jetified-hamcrest-core-1.3.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/333c3423ab8e3a363931392b0fd28f5e/jetified-protobuf-java-2.6.1.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/efa3059d388dbac022103d07481278ce/jetified-bcprov-jdk15on-1.52.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/423d05b18ed734df0f19b97aaa182ce3/jetified-powermock-api-mockito2-1.7.4.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/10d954cf8b864ed6496511588914bab0/jetified-powermock-api-mockito-common-1.7.4.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/bf1e8a7826718cfa602e07e685400a0c/jetified-powermock-api-support-1.7.4.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/779bc87638ec7867379fc4bc6b6f7651/jetified-powermock-core-1.7.4.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/3bd09b4a043458f9118fdd5e77a6e1a8/jetified-mockito-core-2.19.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/90d74da409017bf57df4774959531e24/jetified-byte-buddy-1.8.10.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/ac68437c9560262d36b64114465f1be2/jetified-byte-buddy-agent-1.8.10.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/b71679d02dd7dee5733d5daed667afa4/jetified-powermock-reflect-1.7.4.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/298ac55f111e132efbf9a77044ebd46c/jetified-objenesis-2.6.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/dbf37a45fb891b84be854cc800ec3fcd/jetified-kxml2-2.3.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/2341e907203fc9092e631035a18dca2c/jetified-junit-jupiter-params-5.5.2.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/760cfbbbdeb4f7aef1898b20fe62e451/jetified-junit-jupiter-api-5.5.2.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/a7bc79e5985909d3ea544d84f2f73e9b/jetified-junit-platform-commons-1.5.2.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/9ec983f20e39f3972185250705f94987/jetified-apiguardian-api-1.1.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/50c9284dbd21fd78e1b5e6b6f97c6a77/jetified-opentest4j-1.2.0.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/787658f225793d360f378619c9ca0a79/jetified-javassist-3.21.0-GA.jar</arg>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes</arg>
+                <arg>$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug</arg>
+                <arg>$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debug</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-29/android.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/29.0.2/core-lambda-stubs.jar</arg>
+              </args>
+            </stringArg>
+            <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debugUnitTest" />
+            <stringArg name="jvmTarget" arg="1.8" />
+            <stringArg name="moduleName" arg="app_debug" />
+            <stringArg name="apiVersion" arg="1.3" />
+            <stringArg name="languageVersion" arg="1.3" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="friendPaths">
+              <args>
+                <arg>$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug</arg>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes</arg>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes</arg>
+                <arg>$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug</arg>
+                <arg>$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debug</arg>
+              </args>
+            </arrayArg>
+            <arrayArg name="pluginClasspaths">
+              <args>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.60/fcfe45dc0cdfeda2beb2808b78797f8dee4cc9fa/kotlin-android-extensions-1.3.60.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.3.60/311cbfb1c09cae8e88fac9d0efde12a791a9f134/kotlin-compiler-embeddable-1.3.60.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.3.60/e6e6c13f0253a82398e0d902e6e89747300f478f/kotlin-daemon-embeddable-1.3.60.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.60/56dc1da0b87932ae08941153c917bd19947e08bc/kotlin-reflect-1.3.60.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.60/eb1f56fb1b58a8dc481a6e5beeb73931d80d08be/kotlin-script-runtime-1.3.60.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.60/538bd29b2d5a7d278a7188f89c3b84183fa37f75/kotlin-stdlib-common-1.3.60.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.60/984644b61450add3bcef8cf20f948fec458b420d/kotlin-stdlib-1.3.60.jar</arg>
+                <arg>$MODULE_DIR$/../../../../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
+              </args>
+            </arrayArg>
+            <arrayArg name="pluginOptions">
+              <args>
+                <arg>plugin:org.jetbrains.kotlin.android:experimental=false</arg>
+                <arg>plugin:org.jetbrains.kotlin.android:enabled=true</arg>
+                <arg>plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap</arg>
+              </args>
+            </arrayArg>
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/debugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debugUnitTest/out" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../app/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/test/java" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../app/src/testDebug" />
+    <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:databinding-common:4.0.0-rc01" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: kaptGeneratedClasses">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debugUnitTest" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection-ktx:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-common:2.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.room:room-common:2.2.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:robolectric:4.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:shadows-framework:4.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.60" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.61" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.61" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.constraintlayout:constraintlayout-solver:1.1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:disklrucache:4.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:annotations:4.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:converter-gson:2.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:adapter-rxjava2:2.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:retrofit:2.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:logging-interceptor:3.4.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:okhttp:3.12.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-okhttp:1.21.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp:okhttp:2.7.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okio:okio:1.15.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-core:1.21.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.gson:gson:2.8.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:resources:4.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:junit:4.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:sandbox:4.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-protobuf-lite:1.21.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:plugins-maven-dependency-resolver:4.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:utils:4.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.auto.service:auto-service:1.0-rc4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-stub:1.21.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-api:1.21.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.auto:auto-common:0.8" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.guava:guava:27.0.1-jre" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.glassfish:javax.annotation:10.0-b28" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.dagger:dagger:2.27" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.reactivestreams:reactive-streams:1.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.reactivex.rxjava2:rxjava:2.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.auto.value:auto-value-annotations:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.protobuf:protobuf-lite:3.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.opencensus:opencensus-contrib-grpc-metrics:0.21.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.opencensus:opencensus-api:0.21.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-context:1.21.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.errorprone:error_prone_annotations:2.3.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.checkerframework:checker-qual:2.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.j2objc:j2objc-annotations:1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android:annotations:4.1.1.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.parse.bolts:bolts-android:1.4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.parse.bolts:bolts-applinks:1.4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.parse.bolts:bolts-tasks:1.4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.zxing:core:3.3.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:pluginapi:4.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:shadowapi:4.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:annotations:4.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-ant-tasks:2.1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.ant:ant:1.8.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.ant:ant-launcher:1.8.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-project:2.2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-artifact-manager:2.2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-error-diagnostics:2.2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-settings:2.2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-profile:2.2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-plugin-registry:2.2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: classworlds:classworlds:1.1-alpha-2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-artifact:2.2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-model:2.2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven.wagon:wagon-file:1.0-beta-6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven.wagon:wagon-http-lightweight:1.0-beta-6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven.wagon:wagon-http-shared:1.0-beta-6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven.wagon:wagon-provider-api:1.0-beta-6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.maven:maven-repository-metadata:2.2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.codehaus.plexus:plexus-utils:1.5.15" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.codehaus.plexus:plexus-interpolation:1.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: backport-util-concurrent:backport-util-concurrent:3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: nekohtml:xercesMinimal:1.9.6.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: nekohtml:nekohtml:1.9.6.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.robolectric:utils-reflector:4.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.ow2.asm:asm-commons:7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.ow2.asm:asm-util:7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.ow2.asm:asm-analysis:7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.ow2.asm:asm-tree:7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.ow2.asm:asm:7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: javax.annotation:javax.annotation-api:1.3.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.almworks.sqlite4java:sqlite4java:0.282" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.ibm.icu:icu4j:53.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-library:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.protobuf:protobuf-java:2.6.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.bouncycastle:bcprov-jdk15on:1.52" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.powermock:powermock-api-mockito2:1.7.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.powermock:powermock-api-mockito-common:1.7.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.powermock:powermock-api-support:1.7.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.powermock:powermock-core:1.7.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.mockito:mockito-core:2.19.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.bytebuddy:byte-buddy:1.8.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.bytebuddy:byte-buddy-agent:1.8.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.powermock:powermock-reflect:1.7.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.objenesis:objenesis:2.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.sf.kxml:kxml2:2.3.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.junit.jupiter:junit-jupiter-params:5.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.junit.platform:junit-platform-commons:1.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.javassist:javassist:3.21.0-GA" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:databinding-adapters:4.0.0-rc01@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:databinding-runtime:4.0.0-rc01@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.fragment:fragment-testing:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:viewbinding:4.0.0-rc01@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-ui-ktx:2.2.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-ui:2.2.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.leinardi.android:speed-dial:3.1.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.material:material:1.2.0-alpha05@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-testing:2.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.preference:preference:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.AppIntro:AppIntro:4.2.3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.dagger:dagger-android-support:2.17@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.getkeepsafe.taptargetview:taptargetview:1.13.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.airbnb.android:lottie:3.0.3-support@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.android:facebook-login:5.15.3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.android:facebook-common:5.15.3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.appcompat:appcompat:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-fragment-ktx:2.2.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.fragment:fragment-ktx:1.2.4@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-runtime-ktx:2.2.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.activity:activity-ktx:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core-ktx:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.appcompat:appcompat-resources:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:okhttp3-integration:4.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:glide:4.10.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.dagger:dagger-android:2.17@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-reactivestreams:2.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.shimmer:shimmer:0.5.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-firestore-ktx:21.4.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:core:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-extensions:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-v4:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-messaging:20.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.browser:browser:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-fragment:2.2.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.firebaseui:firebase-ui-auth:6.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-auth:19.3.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-firestore:21.4.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-auth-interop:19.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-auth:17.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-crashlytics:17.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-analytics-ktx:17.4.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-analytics:17.4.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-measurement-api:17.4.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-iid:20.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-iid-interop:17.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-auth-api-phone:17.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-auth-base:17.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-database-collection:17.0.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-base:17.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-measurement:17.4.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-measurement-sdk:17.4.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-common-ktx:19.3.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-datatransport:17.0.3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-installations:16.3.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-common:19.3.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-installations-interop:16.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-tasks:17.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-measurement-connector:18.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-measurement-impl:17.4.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-stats:17.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-measurement-sdk-api:17.4.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-measurement-base:17.4.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-ads-identifier:17.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-basement:17.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.fragment:fragment:1.2.4@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.recyclerview:recyclerview:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.transition:transition:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.media:media:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.facebook.android:facebook-core:5.15.3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-runtime:2.2.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.activity:activity:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-common-ktx:2.2.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-common:2.2.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-process:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-service:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.cardview:cardview:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.room:room-runtime:2.2.5@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-ktx:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.work:work-runtime-ktx:2.3.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.work:work-runtime:2.3.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.savedstate:savedstate:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:gifdecoder:4.10.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.sqlite:sqlite-framework:2.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.sqlite:sqlite:2.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-components:16.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.datatransport:transport-backend-cct:2.2.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.datatransport:transport-runtime:2.2.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-encoders-json:16.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:rules:1.1.0-alpha3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:runner:1.1.0-alpha3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:monitor:1.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation-experimental:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.constraintlayout:constraintlayout:1.1.3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.mancj:MaterialSearchBar:0.8.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.PhilJay:MPAndroidChart:v3.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:protolite-well-known-types:17.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.grpc:grpc-android:1.21.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.android.installreferrer:installreferrer:1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.datatransport:transport-api:2.2.0@aar" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="feedapp.app.main" />
+</module>

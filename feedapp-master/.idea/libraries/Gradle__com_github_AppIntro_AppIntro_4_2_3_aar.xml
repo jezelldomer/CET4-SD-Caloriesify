@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.AppIntro:AppIntro:4.2.3@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/de304b277d728e5a8402de415c4e4b96/jetified-AppIntro-4.2.3/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/de304b277d728e5a8402de415c4e4b96/jetified-AppIntro-4.2.3/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/de304b277d728e5a8402de415c4e4b96/jetified-AppIntro-4.2.3/res" />
+      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/0006c63f52e374049f09310bf24ef773/jetified-AppIntro-4.2.3/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/0006c63f52e374049f09310bf24ef773/jetified-AppIntro-4.2.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/0006c63f52e374049f09310bf24ef773/jetified-AppIntro-4.2.3/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

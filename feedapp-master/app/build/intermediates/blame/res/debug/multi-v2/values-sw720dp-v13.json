@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\Android-Notes-App-With-Firebase-main\\caches\\transforms-2\\files-2.1\\0006c63f52e374049f09310bf24ef773\\jetified-AppIntro-4.2.3\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,58",
+                        "endOffsets": "108,167"
+                    }
+                }
+            ]
+        }
+    ]
+}

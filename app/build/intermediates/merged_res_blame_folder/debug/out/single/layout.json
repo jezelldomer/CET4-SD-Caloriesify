@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_sign_up.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_diet.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_diet.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_setting.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_setting.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_pass.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_pass.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_wasted.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_wasted.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_male.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_male.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_target.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_target.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_under.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_under.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_water.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_water.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/row_excer.xml",
+        "source": "com.front_end.app-main-48:/layout/row_excer.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_neww.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_neww.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_age.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_age.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_home.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/row_work.xml",
+        "source": "com.front_end.app-main-48:/layout/row_work.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/row_lunch.xml",
+        "source": "com.front_end.app-main-48:/layout/row_lunch.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/row_listuntitleddesign.xml",
+        "source": "com.front_end.app-main-48:/layout/row_listuntitleddesign.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_bmi.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_bmi.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_carbs.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_carbs.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_details.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_details.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_work.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_work.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/row_carbs.xml",
+        "source": "com.front_end.app-main-48:/layout/row_carbs.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_obese.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_obese.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_excer.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_excer.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_tall.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_tall.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/row_setting.xml",
+        "source": "com.front_end.app-main-48:/layout/row_setting.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/row_bmi.xml",
+        "source": "com.front_end.app-main-48:/layout/row_bmi.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_breakfast.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_breakfast.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/row_home.xml",
+        "source": "com.front_end.app-main-48:/layout/row_home.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_welcome_screen.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_welcome_screen.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/row_listegg.xml",
+        "source": "com.front_end.app-main-48:/layout/row_listegg.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_weight.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_weight.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_normal.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_normal.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_saved.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_saved.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_own.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_own.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/row_water.xml",
+        "source": "com.front_end.app-main-48:/layout/row_water.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_loading_page.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_loading_page.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_asex.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_asex.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_notes.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_notes.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_macros.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_macros.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/row_dinner.xml",
+        "source": "com.front_end.app-main-48:/layout/row_dinner.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_sched.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_sched.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_lunch.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_lunch.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_journal.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_journal.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_login.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/layout_progress_dialog.xml",
+        "source": "com.front_end.app-main-48:/layout/layout_progress_dialog.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_dinner.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_dinner.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/row_macros.xml",
+        "source": "com.front_end.app-main-48:/layout/row_macros.xml"
+    },
+    {
+        "merged": "com.front_end.app-mergeDebugResources-45:/layout/activity_time_management.xml",
+        "source": "com.front_end.app-main-48:/layout/activity_time_management.xml"
+    }
+]

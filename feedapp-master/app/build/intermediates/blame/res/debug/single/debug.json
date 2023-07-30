@@ -1,0 +1,450 @@
+[
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_search_menu.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\menu\\search_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_water_view.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\water_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_vh_recipes_search.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\vh_recipes_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_vh_recipes_ingredient.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\vh_recipes_ingredient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home_down_menu.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\fragment_home_down_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v28_vh_home_day.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout-v28\\vh_home_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search_24.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_list.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_save_pdf.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\dialog_save_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_about.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_white_rounded.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\bg_white_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_my_meals.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\fragment_my_meals.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat.ttf.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\font\\montserrat.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_vh_day_item.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\vh_day_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v28_fragment_day.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout-v28\\fragment_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_intro_third.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\fragment_intro_third.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_check_24.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_check_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_vh_about_info.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\vh_about_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bullet_8dp.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\bullet_8dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detailed_food.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\activity_detailed_food.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_vh_recipes_step.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\vh_recipes_step.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_custom_product.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\activity_add_custom_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_vh_recent_product.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\vh_recent_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_info_black_24dp.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_info_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_vh_recipes_card.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\vh_recipes_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_vh_home_day.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\vh_home_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_timer_black_24dp.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_timer_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_create_white_24dp.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_create_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_measure_dialog.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\preference_measure_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat_bold.ttf.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\font\\montserrat_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_help.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_border.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\spinner_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ring_24dp.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ring_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_vh_meal_api.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\vh_meal_api.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baguette.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\baguette.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_intro_sec.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\fragment_intro_sec.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_introduction.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\activity_introduction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_statistics.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\activity_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_meals_search.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\activity_my_meals_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_track_recipe.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\dialog_track_recipe.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_black_24dp.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_add_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_recipes.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\fragment_recipes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_color_cursor.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\color_cursor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_diet_dialog.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\preference_diet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_left.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_arrow_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_croissant.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\croissant.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_vh_statistics_product.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\vh_statistics_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fish.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\fish.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circleprogressbar.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\circleprogressbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_database_dialog.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\preference_database_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_remove_circle_outline_24dp.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_remove_circle_outline_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_vh_my_meals.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\vh_my_meals.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_recipes.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_recipes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_right.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_intolerance_dialog.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\preference_intolerance_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detailed_recipe.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\activity_detailed_recipe.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_vh_search_bar.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\vh_search_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_account_circle_black_24dp.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_account_circle_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progressbar.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\progressbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_statistics_month.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\fragment_statistics_month.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_amount_dialog.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\preference_amount_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_vh_my_meals_search.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\vh_my_meals_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_apple.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\apple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete_32dp.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_delete_32dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\xml_root_preferences.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\xml\\root_preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_water_container.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\water_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundcorner.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\roundcorner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bowl.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_bowl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_download_db.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\dialog_download_db.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_default.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\spinner_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_background.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\white_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\raw_glass.json.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\raw\\glass.json"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_intro_first.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\fragment_intro_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_circle.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\white_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home_up_menu.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\fragment_home_up_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_statistics_day.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\fragment_statistics_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_day.xml.flat",
+        "source": "C:\\Users\\Erwin\\Desktop\\CET4-SD-Caloriesify-main\\feedapp-master\\app\\src\\main\\res\\layout\\fragment_day.xml"
+    }
+]

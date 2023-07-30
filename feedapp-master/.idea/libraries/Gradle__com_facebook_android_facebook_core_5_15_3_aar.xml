@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.android:facebook-core:5.15.3@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/9f3f1ac96497688f70ad8f23a323c0a4/jetified-facebook-core-5.15.3/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/9f3f1ac96497688f70ad8f23a323c0a4/jetified-facebook-core-5.15.3/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/dfd062ab30032ae085c06d0220ba9c8b/jetified-facebook-core-5.15.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/transforms-2/files-2.1/dfd062ab30032ae085c06d0220ba9c8b/jetified-facebook-core-5.15.3/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../Android-Notes-App-With-Firebase-main/caches/modules-2/files-2.1/com.facebook.android/facebook-core/5.15.3/51166b910aa6ba589236b41d84624722b96a69ab/facebook-core-5.15.3-javadoc.jar!/" />

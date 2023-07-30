@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="excerRowModel" type="com.front_end.app.modules.excer.data.model.ExcerRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowuntitleddesign"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylebluegray_101cornerRadius">
+        <ImageView android:id="@+id/imageUntitleddesign"
+            android:layout_height="@dimen/_68pxh"
+            android:layout_marginStart="@dimen/_9pxh"
+            android:layout_marginTop="@dimen/_7pxv"
+            android:layout_width="@dimen/_73pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_untitleddesign}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_untitleddesign"/>
+        <LinearLayout android:id="@+id/linearRowlunch"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_14pxv"
+            android:layout_marginEnd="@dimen/_12pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_20pxv"
+            android:layout_weight="0.77" android:layout_width="0dp" android:orientation="horizontal">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearColumnlunch"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_weight="0.85" android:layout_width="0dp" android:orientation="vertical">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtLunch"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{excerRowModel.txtLunch}"
+                    style="@style/txtSFCompactDisplaysemibold16" tools:text="@string/lbl_lunch"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtRecommended535"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginStart="@dimen/_1pxh"
+                    android:layout_marginTop="@dimen/_2pxv"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{excerRowModel.txtRecommended535}"
+                    style="@style/txtSFCompactDisplaylight11" tools:text="@string/msg_recommended_535"/>
+            </LinearLayout>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtGroupFortyOneOne"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5pxv"
+                android:layout_weight="0.15" android:layout_width="0dp"
+                android:paddingBottom="@dimen/_2pxv"
+                android:paddingStart="@dimen/_10pxh"
+                android:paddingTop="@dimen/_3pxv"
+                android:singleLine="true"
+                android:text="@{excerRowModel.txtGroupFortyOneOne}"
+                style="@style/txtSolidRounded_2" tools:text="@string/lbl8"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
